@@ -1,0 +1,46 @@
+# services:
+#   api:
+#     image: ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_BACKEND}:${IMAGE_TAG}
+#     container_name: api
+#     env_file:
+#       - .env
+#     ports:
+#       - "8082:8082"
+#     networks:
+#       - appnet
+#     restart: always
+
+#   front:
+#     image: ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_FRONTEND}:${IMAGE_TAG}
+#     container_name: front
+#     environment:
+#       - VITE_SERVER_URL=${VITE_SERVER_URL}
+
+#     # env_file:
+#     #   - .env
+#     ports:
+#       - "5177:80"
+#     networks:
+#       - appnet
+#     restart: always
+
+# networks:
+#   appnet:
+#     driver: bridge
+
+services:
+  api:
+    image: ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_BACKEND}:${IMAGE_TAG}
+    container_name: api
+    env_file:
+      - .env
+    ports:
+      - "8082:8082"
+    restart: always
+
+  front:
+    image: ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_FRONTEND}:${IMAGE_TAG}
+    container_name: front
+    ports:
+      - "5177:80"
+    restart: always

@@ -1,0 +1,1444 @@
+{
+  "app": "App",
+  "job": "Jobb",
+  "role": "Roll",
+  "user": "Användare",
+  "travel": "Resa",
+  "invoice": "Faktura",
+  "blog": {
+    "title": "Blogg",
+    "caption": "Anpassade kortkommandon."
+  },
+  "subheader": "Underrubrik",
+  "sidebar": {
+    "overview": "Översikt",
+    "home": "Hem",
+    "management": "Hantering",
+    "companies": "Företag",
+    "categories": "Kategorier",
+    "reportingLinks": "Rapporteringslänkar",
+    "invoices": "Fakturor",
+    "cases": "Ärenden",
+    "caseManagers": "Ärendehänvisare",
+    "questions": "Frågor",
+    "news": "Nyheter",
+    "settings": "Inställningar",
+    "managementTitle": "Hantering",
+    "department": "Avdelning",
+    "state": "Tillstånd",
+    "severity": "Allvarlighetsgrad",
+    "pages": "Sidor",
+    "pagesTitle": "Sidor",
+    "privacyPolicy": "Integritetspolicy",
+    "aboutUs": "Om oss",
+    "loginPage": "Inloggningssida",
+    "paymentPage": "Betalningssida",
+    "termsConditions": "Villkor",
+    "support": "Support",
+    "preferences": "Preferenser",
+    "themeConfiguration": "Temakonfiguration",
+    "miscelaneous": "Övrigt",
+    "settingsTitle": "Inställningar",
+    "emailTemplates": "E-postmallar",
+    "stripeConfiguration": "Stripe-konfiguration",
+    "bankDetails": "Bankuppgifter",
+    "basicConfiguration": "Grundläggande konfiguration",
+    "language": "Språk"
+  },
+  "dashboard": {
+    "company": {
+      "heading": "Företag",
+      "list": "Lista",
+      "createNewCompany": "Skapa ett nytt företag",
+      "create": "Skapa",
+      "editCompany": "Redigera företag",
+      "edit": "Redigera",
+      "companyNotFound": "Företag hittades inte",
+      "companyNotFoundMessage": "Företaget du söker efter finns inte.",
+      "companyName": "Företagsnamn",
+      "emailAddress": "E-postadress",
+      "password": "Lösenord",
+      "passwordPlaceholder": "Ange lösenord",
+      "passwordPlaceholderEdit": "Lämna tomt för att behålla nuvarande lösenord",
+      "passwordHelperText": "Fyll bara i detta om du vill ändra lösenordet",
+      "phoneNumber": "Telefonnummer",
+      "address": "Adress",
+      "status": "Status",
+      "selectStatus": "Välj status",
+      "createCompany": "Skapa företag",
+      "saveChanges": "Spara ändringar",
+      "companyUpdated": "Företag uppdaterat framgångsrikt!",
+      "companyCreated": "Företag skapat framgångsrikt!",
+      "failedToSave": "Misslyckades med att spara företag",
+      "companyDeleted": "Företag raderat framgångsrikt!",
+      "companiesDeleted": "Företag raderade framgångsrikt!",
+      "failedToDelete": "Misslyckades med att radera företag",
+      "failedToDeletePlural": "Misslyckades med att radera företag",
+      "delete": "Radera",
+      "deleteConfirmTitle": "Radera",
+      "deleteConfirmMessage": "Är du säker på att du vill radera detta företag?",
+      "deleteConfirmMessagePlural": "Är du säker på att du vill radera",
+      "companies": "företag",
+      "accessAccount": "Få åtkomst till konto",
+      "searchCompanies": "Sök företag...",
+      "all": "Alla",
+      "print": "Skriv ut",
+      "import": "Importera",
+      "export": "Exportera",
+      "errorLoadingCompanies": "Fel vid laddning av företag",
+      "retry": "Försök igen",
+      "successfullyLoggedIn": "Inloggad som företag. Sidan kommer att laddas om...",
+      "failedToAccessAccount": "Misslyckades med att få åtkomst till kontot. Försök igen.",
+      "tableHeaders": {
+        "companyName": "Företagsnamn",
+        "phoneNumber": "Telefonnummer",
+        "address": "Adress",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "pending": "Väntande",
+        "banned": "Bannlyst"
+      }
+    },
+    "category": {
+      "heading": "Kategorier",
+      "list": "Lista",
+      "createNewCategory": "Skapa en ny kategori",
+      "create": "Skapa",
+      "editCategory": "Redigera kategori",
+      "edit": "Redigera",
+      "categoryNotFound": "Kategori hittades inte",
+      "categoryNotFoundMessage": "Kategorin du söker efter finns inte.",
+      "categoryName": "Kategorinamn",
+      "status": "Status",
+      "selectStatus": "Välj status",
+      "createCategory": "Skapa kategori",
+      "saveChanges": "Spara ändringar",
+      "categoryUpdated": "Kategori uppdaterad framgångsrikt!",
+      "categoryCreated": "Kategori skapad framgångsrikt!",
+      "failedToSave": "Misslyckades med att spara kategori. Försök igen.",
+      "categoryDeleted": "Kategori raderad framgångsrikt!",
+      "categoriesDeleted": "Kategorier raderade framgångsrikt!",
+      "failedToDelete": "Misslyckades med att radera kategori",
+      "failedToDeletePlural": "Misslyckades med att radera kategorier",
+      "delete": "Radera",
+      "deleteConfirmTitle": "Radera",
+      "deleteConfirmMessage": "Är du säker på att du vill radera?",
+      "deleteConfirmMessagePlural": "Är du säker på att du vill radera",
+      "categories": "kategorier",
+      "items": "objekt",
+      "searchCategories": "Sök kategori...",
+      "all": "Alla",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "addCategory": "Lägg till kategori",
+      "tableHeaders": {
+        "categoryName": "Kategorinamn",
+        "status": "Status",
+        "createdAt": "Skapad den"
+      }
+    },
+    "reportingLink": {
+      "heading": "Rapporteringslänkar",
+      "breadcrumb": "Rapporteringslänkar",
+      "customizeChannel": "Anpassa din rapporteringskanal",
+      "customizeDescription": "Från denna sida och flikarna nedan kan du justera inställningarna för varje rapporteringskanal.",
+      "openPage": "Öppna sida",
+      "reportingLink": "Rapporteringslänk",
+      "copy": "Kopiera",
+      "loading": "Laddar...",
+      "tabs": {
+        "setting": "Inställning",
+        "page": "Sida",
+        "question": "Fråga",
+        "department": "Avdelning",
+        "state": "Stat",
+        "severity": "Allvarlighetsgrad"
+      },
+      "pageContent": {
+        "title": "Rapporteringssidans innehåll",
+        "description": "Uppdatera rapporteringssidans titel och innehåll",
+        "titleLabel": "Titel",
+        "content": "Innehåll",
+        "tip": "💡 Tips: Klicka på bildikonen i verktygsfältet för att ladda upp bilder eller lägga till bild-URL:er",
+        "preview": "Förhandsgranska",
+        "saveChanges": "Spara ändringar",
+        "updatedSuccessfully": "Rapporteringssida uppdaterad framgångsrikt!",
+        "updateFailed": "Misslyckades med att uppdatera rapporteringssidan. Försök igen.",
+        "titleMinLength": "Titel måste vara minst 5 tecken",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken"
+      },
+      "page1": {
+        "updatedSuccessfully": "Sida 1 uppdaterad framgångsrikt!"
+      },
+      "page2": {
+        "updatedSuccessfully": "Sida 2 uppdaterad framgångsrikt!"
+      },
+      "page3": {
+        "updatedSuccessfully": "Sida 3 uppdaterad framgångsrikt!"
+      }
+    },
+    "invoice": {
+      "heading": "Fakturor",
+      "list": "Lista",
+      "createNewInvoice": "Skapa en ny faktura",
+      "create": "Skapa",
+      "invoiceNotFound": "Faktura hittades inte",
+      "addInvoice": "Lägg till faktura",
+      "loading": "Laddar...",
+      "deleteSuccess": "Radering lyckades!",
+      "failedToLoad": "Misslyckades med att ladda fakturor",
+      "delete": "Radera",
+      "deleteConfirmTitle": "Radera",
+      "deleteConfirmMessage": "Är du säker på att du vill radera?",
+      "deleteConfirmMessagePlural": "Är du säker på att du vill radera",
+      "items": "objekt",
+      "view": "Visa",
+      "edit": "Redigera",
+      "print": "Skriv ut",
+      "download": "Ladda ner",
+      "sent": "Skickad",
+      "close": "Stäng",
+      "status": "Status",
+      "viewPaymentAttachment": "Visa betalningsbilaga",
+      "tabs": {
+        "all": "Alla",
+        "paid": "Betald",
+        "pending": "Väntande",
+        "overdue": "Försenad",
+        "draft": "Utkast"
+      },
+      "analytics": {
+        "total": "Totalt",
+        "paid": "Betald",
+        "pending": "Väntande",
+        "overdue": "Försenad",
+        "draft": "Utkast"
+      },
+      "tableHeaders": {
+        "customer": "Kund",
+        "create": "Skapad",
+        "due": "Förfaller",
+        "amount": "Belopp",
+        "sent": "Skickad",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "paid": "Betald",
+        "pending": "Väntande",
+        "overdue": "Försenad",
+        "draft": "Utkast"
+      },
+      "details": {
+        "invoiceFrom": "Faktura från",
+        "invoiceTo": "Faktura till",
+        "dateCreate": "Skapad datum",
+        "dueDate": "Förfallodatum",
+        "description": "Beskrivning",
+        "qty": "Antal",
+        "unitPrice": "Styckpris",
+        "total": "Totalt",
+        "subtotal": "Delsumma",
+        "taxes": "Moms",
+        "vat": "Moms",
+        "phone": "Telefon",
+        "notes": "ANTECKNINGAR",
+        "bankDetails": "BANKDETALJER",
+        "iban": "IBAN",
+        "bicSwift": "BIC/SWIFT",
+        "bankgiro": "Bankgiro",
+        "haveQuestion": "Har du en fråga?",
+        "companyNumber": "Organisationsnummer"
+      }
+    },
+    "case": {
+      "heading": "Ärenden",
+      "list": "Lista",
+      "caseDetails": "Ärendedetaljer",
+      "addCase": "Lägg till ärende",
+      "deleteSuccess": "Radering lyckades!",
+      "delete": "Radera",
+      "deleteConfirmTitle": "Radera",
+      "deleteConfirmMessage": "Är du säker på att du vill radera?",
+      "deleteConfirmMessagePlural": "Är du säker på att du vill radera",
+      "items": "objekt",
+      "view": "Visa",
+      "edit": "Redigera",
+      "unassigned": "Ej tilldelad",
+      "tabs": {
+        "all": "Alla",
+        "new": "Ny",
+        "inProgress": "Pågående",
+        "open": "Öppen",
+        "closed": "Stängd"
+      },
+      "analytics": {
+        "total": "Totalt",
+        "new": "Ny",
+        "inProgress": "Pågående",
+        "open": "Öppen",
+        "closed": "Stängd"
+      },
+      "tableHeaders": {
+        "caseId": "Ärende-ID",
+        "company": "Företag",
+        "subject": "Ämne",
+        "category": "Kategori",
+        "caseManager": "Ärendehänvisare",
+        "status": "Status",
+        "createdDate": "Skapad datum"
+      },
+      "detailsTabs": {
+        "caseDetails": "Ärendedetaljer",
+        "reportSetting": "Rapporteringsinställning",
+        "logs": "Loggar",
+        "documents": "Dokument",
+        "notes": "Anteckningar",
+      "chat": "Chatt",
+      "legalSupport": "Legal Support"
+      },
+      "statusOptions": {
+        "new": "Ny",
+        "inProgress": "Pågående",
+        "open": "Öppen",
+        "closed": "Stängd"
+      },
+      "caseDetailsTab": {
+        "loading": "Laddar...",
+        "failedToLoad": "Kunde inte ladda ärendedetaljer",
+        "caseId": "Ärende-ID",
+        "dateTime": "Datum & Tid",
+        "subject": "Titel",
+        "description": "Beskrivning",
+        "files": "Filer",
+        "reportingChannel": "Rapporteringskanal",
+        "category": "Kategori",
+        "assignedTo": "Tilldelad till",
+        "reportingMedium": "Rapporteringsmedium",
+        "department": "Avdelning",
+        "severity": "Allvarlighetsgrad",
+        "state": "Tillstånd",
+        "select": "Välj...",
+        "notAssigned": "Ej tilldelad",
+        "written": "Skriftlig & Muntlig",
+        "oral": "Muntlig",
+        "phoneCall": "Telefonsamtal",
+        "physicalMeeting": "Fysiskt möte",
+        "noData": "N/A",
+        "reportType": "Rapporttyp",
+        "reportAnnonymously": "Rapportera anonymt",
+        "reportWithPersonalDetails": "Rapportera med personuppgifter",
+        "email": "E-post"
+      },
+      "reportSettingTab": {
+        "heading": "Rapporteringsinställningar",
+        "loading": "Laddar...",
+        "failedToLoad": "Kunde inte ladda rapporteringsinställningar",
+        "assignTo": "Tilldela till",
+        "selectCaseManager": "Välj ärendehänvisare",
+        "loadingCaseManagers": "Laddar ärendehänvisare...",
+        "assignStatus": "Tilldela status",
+        "selectStatus": "Välj status",
+        "nextOpenStateDeadline": "Nästa öppna tillståndsdeadline",
+        "nextOpenStateDeadlineHelper": "Välj datum och tid för nästa öppna tillståndsdeadline",
+        "nextCloseStateDeadline": "Nästa stängda tillståndsdeadline",
+        "nextCloseStateDeadlineHelper": "Välj datum och tid för nästa stängda tillståndsdeadline",
+        "linkWithOtherReport": "Länka med en annan rapport",
+        "linkWithOtherReportPlaceholder": "Ange rapport-ID eller länk",
+        "autoDeleteAfter30Days": "Radera automatiskt efter 30 dagar",
+        "selectOption": "Välj alternativ",
+        "yes": "Ja",
+        "no": "Nej",
+        "cancel": "Avbryt",
+        "saveChanges": "Spara ändringar",
+        "saving": "Sparar...",
+        "updatedSuccessfully": "Rapporteringsinställningar uppdaterades framgångsrikt",
+        "failedToUpdate": "Kunde inte uppdatera rapporteringsinställningar",
+        "fixFormErrors": "Vänligen åtgärda formulärfelen innan du skickar",
+        "pleaseFixErrors": "Vänligen åtgärda följande fel:",
+        "invalidValue": "Ogiltigt värde",
+        "assignStatusRequired": "Tilldela status krävs",
+        "new": "Ny",
+        "open": "Öppen",
+        "inProgress": "Pågående",
+        "closed": "Stängd",
+        "pending": "Väntande",
+        "resolved": "Löst",
+        "rejected": "Avvisad",
+        "cancelled": "Inställd",
+        "spam": "Skräppost",
+        "other": "Annat"
+      },
+      "logsTab": {
+        "heading": "Åtgärdsloggar",
+        "searchPlaceholder": "Sök loggar...",
+        "noLogsFound": "Inga loggar hittades",
+        "noLogsMatchSearch": "Inga loggar matchar din sökning",
+        "actionPerformed": "Åtgärd utförd",
+        "actionValue": "Åtgärdvärde",
+        "dateTime": "Datum & Tid"
+      },
+      "documentsTab": {
+        "heading": "Dokument",
+        "searchPlaceholder": "Sök dokument...",
+        "newDocument": "Nytt dokument",
+        "noDocumentsFound": "Inga dokument hittades",
+        "noDocumentsMatchSearch": "Inga dokument matchar din sökning",
+        "title": "Titel",
+        "document": "Dokument",
+        "uploadedAt": "Uppladdat vid",
+        "actions": "Åtgärder",
+        "file": "Fil",
+        "uploadNewDocument": "Ladda upp nytt dokument",
+        "documentTitle": "Dokumenttitel",
+        "documentTitleRequired": "Dokumentnamn krävs",
+        "selectFile": "Välj fil",
+        "fileRequired": "Fil krävs",
+        "fileSizeExceeded": "Filstorleken får inte överstiga 10MB",
+        "invalidFileType": "Ogiltig filtyp. Tillåtna typer: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, JPG, JPEG, PNG, GIF",
+        "uploading": "Laddar upp...",
+        "upload": "Ladda upp",
+        "close": "Stäng",
+        "uploadedSuccessfully": "Dokument laddades upp framgångsrikt",
+        "failedToUpload": "Kunde inte ladda upp dokument",
+        "pleaseEnterDocumentName": "Vänligen ange ett dokumentnamn",
+        "pleaseSelectFile": "Vänligen välj en fil att ladda upp",
+        "fileSizeMaxExceeded": "Filstorleken får inte överstiga 10MB",
+        "invalidFileTypeError": "Ogiltig filtyp",
+        "failedToLoad": "Kunde inte ladda dokument",
+        "deletedSuccessfully": "Dokument raderades framgångsrikt",
+        "failedToDelete": "Kunde inte radera dokument",
+        "deleteConfirmTitle": "Radera dokument",
+        "deleteConfirmMessage": "Är du säker på att du vill radera detta dokument?",
+        "delete": "Radera",
+        "selectMultipleFiles": "Välj en eller flera filer att ladda upp. Filnamn kommer att användas som dokumenttitlar."
+      },
+      "notesTab": {
+        "heading": "Anteckningar",
+        "searchPlaceholder": "Sök anteckningar...",
+        "addNote": "Lägg till anteckning",
+        "noNotesFound": "Inga anteckningar hittades",
+        "noNotesMatchSearch": "Inga anteckningar matchar din sökning",
+        "title": "Titel",
+        "description": "Beskrivning",
+        "date": "Datum",
+        "addedBy": "Tillagd av",
+        "actions": "Åtgärder",
+        "unknownUser": "Okänd användare",
+        "editNote": "Redigera anteckning",
+        "addNewNote": "Lägg till ny anteckning",
+        "noteTitle": "Anteckningstitel",
+        "noteTitleRequired": "Anteckningstitel krävs",
+        "descriptionRequired": "Anteckningsbeskrivning krävs",
+        "pleaseEnterNoteTitle": "Vänligen ange en anteckningstitel",
+        "pleaseEnterNoteDescription": "Vänligen ange en anteckningsbeskrivning",
+        "save": "Spara",
+        "saving": "Sparar...",
+        "updatedSuccessfully": "Anteckning uppdaterades framgångsrikt",
+        "addedSuccessfully": "Anteckning lades till framgångsrikt",
+        "failedToSave": "Kunde inte spara anteckning",
+        "deletedSuccessfully": "Anteckning raderades framgångsrikt",
+        "failedToDelete": "Kunde inte radera anteckning",
+        "deleteConfirmTitle": "Radera anteckning",
+        "deleteConfirmMessage": "Är du säker på att du vill radera denna anteckning?",
+        "delete": "Radera",
+        "cancel": "Avbryt",
+        "failedToLoad": "Kunde inte ladda anteckningar"
+      },
+      "chatTab": {
+        "heading": "Ärendechatt",
+        "typeMessage": "Skriv ditt meddelande...",
+        "typeMessagePlaceholder": "Skriv ditt meddelande... (Tryck Enter för att skicka, Shift+Enter för ny rad)",
+        "send": "Skicka",
+        "audioMessage": "Ljudmeddelande",
+        "imageMessage": "Bild",
+        "voice": "Röst",
+        "text": "Text",
+        "recording": "Spelar in...",
+        "stopRecording": "Stoppa inspelning",
+        "startRecording": "Starta röstinspelning",
+        "processingAudio": "Bearbetar ljud...",
+        "uploadImage": "Ladda upp bild",
+        "removeImage": "Ta bort bild",
+        "attachImage": "Bifoga bild",
+        "loading": "Laddar chatt...",
+        "loadingMessages": "Laddar meddelanden...",
+        "noMessages": "Inga meddelanden ännu. Starta en konversation!",
+        "sendMessage": "Skicka meddelande",
+        "you": "Du",
+        "cancel": "Avbryt",
+        "messageCannotBeEmpty": "Meddelandet kan inte vara tomt",
+        "messageTooLong": "Meddelandet får inte överstiga 10 000 tecken",
+        "startVoiceRecording": "Starta röstinspelning",
+        "imagePreview": "Bildförhandsvisning"
+      },
+      "legalSupportTab": {
+        "heading": "Legal Support",
+        "typeMessage": "Skriv ditt meddelande...",
+        "typeMessagePlaceholder": "Skriv ditt meddelande... (Tryck Enter för att skicka, Shift+Enter för ny rad)",
+        "send": "Skicka",
+        "audioMessage": "Ljudmeddelande",
+        "imageMessage": "Bild",
+        "voice": "Röst",
+        "text": "Text",
+        "recording": "Spelar in...",
+        "stopRecording": "Stoppa inspelning",
+        "startRecording": "Starta röstinspelning",
+        "processingAudio": "Bearbetar ljud...",
+        "uploadImage": "Ladda upp bild",
+        "removeImage": "Ta bort bild",
+        "attachImage": "Bifoga bild",
+        "loading": "Laddar chatt...",
+        "loadingMessages": "Laddar meddelanden...",
+        "noMessages": "Inga meddelanden ännu. Starta en konversation!",
+        "sendMessage": "Skicka meddelande",
+        "you": "Du",
+        "partner": "Partner",
+        "cancel": "Avbryt",
+        "messageCannotBeEmpty": "Meddelandet kan inte vara tomt",
+        "messageTooLong": "Meddelandet får inte överstiga 10 000 tecken",
+        "startRecording": "Starta röstinspelning",
+        "imagePreview": "Bildförhandsvisning"
+      }
+    },
+    "caseManager": {
+      "heading": "Ärendehänsynstagare",
+      "list": "Lista",
+      "createNewCaseManager": "Skapa en ny ärendehänsynstagare",
+      "create": "Skapa",
+      "editCaseManager": "Redigera ärendehänsynstagare",
+      "edit": "Redigera",
+      "caseManagerNotFound": "Ärendehänsynstagare hittades inte",
+      "addCaseManager": "Lägg till ärendehänsynstagare",
+      "back": "Tillbaka",
+      "fullName": "Fullständigt namn",
+      "emailAddress": "E-postadress",
+      "password": "Lösenord",
+      "passwordPlaceholder": "Lämna tomt för att behålla nuvarande lösenord",
+      "passwordHelperText": "Lösenordet måste vara minst 8 tecken",
+      "phoneNumber": "Telefonnummer",
+      "reset": "Återställ",
+      "saving": "Sparar...",
+      "save": "Spara",
+      "nameMinLength": "Namnet måste vara minst 2 tecken",
+      "invalidEmail": "Ogiltig e-postadress",
+      "passwordMinLength": "Lösenordet måste vara minst 8 tecken",
+      "phoneMinLength": "Telefonnumret måste vara minst 10 siffror",
+      "caseManagerUpdated": "Ärendehänsynstagare uppdaterad!",
+      "caseManagerCreated": "Ärendehänsynstagare skapad!",
+      "failedToSave": "Kunde inte spara ärendehänsynstagare. Försök igen.",
+      "delete": "Radera",
+      "deleteConfirmTitle": "Radera",
+      "deleteConfirmMessage": "Är du säker på att du vill radera?",
+      "deleteConfirmMessagePlural": "Är du säker på att du vill radera",
+      "items": "objekt",
+      "caseManagers": "Ärendehänsynstagare",
+      "accessAccount": "Öppna konto",
+      "searchCaseManager": "Sök ärendehänsynstagare...",
+      "searchEmail": "Sök e-post...",
+      "status": "Status",
+      "all": "Alla",
+      "errorLoading": "Fel vid laddning av ärendehänsynstagare",
+      "retry": "Försök igen",
+      "caseManagerDeleted": "Ärendehänsynstagare raderad!",
+      "caseManagersDeleted": "Ärendehänsynstagare raderade!",
+      "failedToDelete": "Kunde inte radera ärendehänsynstagare",
+      "failedToDeletePlural": "Kunde inte radera ärendehänsynstagare",
+      "successfullyLoggedIn": "Inloggad som ärendehänsynstagare. Sidan laddas om...",
+      "failedToAccessAccount": "Kunde inte öppna kontot. Försök igen.",
+      "tableHeaders": {
+        "name": "Namn",
+        "email": "E-post",
+        "phone": "Telefon",
+        "verified": "Verifierad",
+        "active": "Aktiv",
+        "status": "Status",
+        "created": "Skapad"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "suspended": "Avstängd"
+      }
+    },
+    "question": {
+      "heading": "Frågor",
+      "list": "Lista",
+      "addQuestion": "Lägg till fråga",
+      "editQuestion": "Redigera fråga",
+      "newQuestion": "Ny fråga",
+      "questionName": "Frågenamn",
+      "questionNamePlaceholder": "Ange frågenamn",
+      "isRequired": "Obligatorisk",
+      "yes": "Ja",
+      "no": "Nej",
+      "required": "Obligatorisk",
+      "optional": "Valfritt",
+      "inputType": "Indatatyp",
+      "inputTypePlaceholder": "Välj indatatyp",
+      "options": "Alternativ",
+      "addOption": "Lägg till alternativ",
+      "addNewOption": "Lägg till nytt alternativ",
+      "option": "Alternativ",
+      "cancel": "Avbryt",
+      "updateQuestion": "Uppdatera fråga",
+      "createQuestion": "Skapa fråga",
+      "questionUpdated": "Fråga uppdaterad!",
+      "questionCreated": "Fråga skapad!",
+      "failedToSave": "Kunde inte spara fråga. Försök igen.",
+      "delete": "Radera",
+      "deleteConfirmTitle": "Varning: Obligatoriska frågor",
+      "deleteConfirmMessage": "Frågorna du försöker ta bort krävs för efterlevnad och korrekt ärendehantering. Att ta bort dem kan leda till ofullständiga rapporter och minskad juridisk och processuell tillförlitlighet.\n\nWisling är inte ansvarig för eventuella problem som uppstår på grund av borttagningen av obligatoriska frågor.\n\nVill du fortsätta?",
+      "deleteConfirmMessageSingle": "Frågorna du försöker ta bort krävs för efterlevnad och korrekt ärendehantering. Att ta bort dem kan leda till ofullständiga rapporter och minskad juridisk och processuell tillförlitlighet.\n\nWisling är inte ansvarig för eventuella problem som uppstår på grund av borttagningen av obligatoriska frågor.\n\nVill du fortsätta?",
+      "questions": "frågor",
+      "questionDeleted": "Fråga raderad!",
+      "questionsDeleted": "Frågor raderade!",
+      "failedToDelete": "Kunde inte radera fråga",
+      "failedToDeletePlural": "Kunde inte radera frågor",
+      "questionsReordered": "Frågor omordnade!",
+      "failedToReorder": "Kunde inte spara frågeordning",
+      "errorLoading": "Fel vid laddning av frågor",
+      "retry": "Försök igen",
+      "searchQuestions": "Sök frågor...",
+      "print": "Skriv ut",
+      "import": "Importera",
+      "export": "Exportera",
+      "nameRequired": "Namn krävs",
+      "inputTypeRequired": "Indatatyp krävs",
+      "tableHeaders": {
+        "questionName": "Frågenamn",
+        "isRequired": "Obligatorisk",
+        "inputType": "Indatatyp"
+      },
+      "inputTypes": {
+        "text": "Text",
+        "select": "Välj",
+        "password": "Lösenord",
+        "email": "E-post",
+        "url": "URL",
+        "tel": "Telefon",
+        "search": "Sök",
+        "number": "Nummer",
+        "range": "Intervall",
+        "date": "Datum",
+        "datetime-local": "Datum och tid",
+        "month": "Månad",
+        "week": "Vecka",
+        "time": "Tid",
+        "checkbox": "Kryssruta",
+        "radio": "Radio",
+        "file": "Fil",
+        "color": "Färg"
+      },
+      "preview": {
+        "preview": "Förhandsvisning:",
+        "textInput": "Detta kommer att skapa ett textfält med name=\"{{name}}\" och type=\"text\"",
+        "input": "Detta kommer att skapa ett fält med name=\"{{name}}\" och type=\"{{type}}\"",
+        "inputWithOptions": "Detta kommer att skapa ett {{type}}-fält med {{count}} alternativ: {{options}}"
+      }
+    },
+    "news": {
+      "heading": "Nyheter",
+      "list": "Lista",
+      "createNewNews": "Skapa ny nyhet",
+      "create": "Skapa",
+      "edit": "Redigera",
+      "editNews": "Redigera nyhet",
+      "newsNotFound": "Nyhet hittades inte",
+      "newsNotFoundMessage": "Nyhetsartikeln du letar efter finns inte.",
+      "backToList": "Tillbaka till lista",
+      "addNews": "Lägg till nyhet",
+      "tabs": {
+        "all": "Alla",
+        "published": "Publicerad",
+        "draft": "Utkast"
+      },
+      "tableHeaders": {
+        "title": "Titel",
+        "status": "Status",
+        "createdAt": "Skapad"
+      },
+      "details": {
+        "heading": "Detaljer",
+        "subheader": "Titel, kort beskrivning, bild...",
+        "newsTitle": "Nyhetstitel",
+        "description": "Beskrivning",
+        "content": "Innehåll",
+        "coverImage": "Omslagsbild",
+        "coverImageHelper": "Max filstorlek: 5MB. Tillåtna: JPG, PNG, WEBP"
+      },
+      "properties": {
+        "heading": "Egenskaper",
+        "subheader": "Ytterligare funktioner och attribut...",
+        "tags": "Taggar",
+        "tagsPlaceholder": "+ Taggar",
+        "metaTitle": "Meta-titel",
+        "metaDescription": "Meta-beskrivning",
+        "metaKeywords": "Meta-nyckelord",
+        "metaKeywordsPlaceholder": "+ Nyckelord"
+      },
+      "actions": {
+        "publish": "Publicera",
+        "preview": "Förhandsgranska",
+        "createNews": "Skapa nyhet",
+        "saveChanges": "Spara ändringar"
+      },
+      "toolbar": {
+        "back": "Tillbaka",
+        "goLive": "Gå live",
+        "edit": "Redigera",
+        "loading": "Laddar…"
+      },
+      "menu": {
+        "view": "Visa",
+        "edit": "Redigera",
+        "delete": "Radera"
+      },
+      "search": {
+        "placeholder": "Sök..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Nyhet raderades framgångsrikt!",
+        "deleteFailed": "Kunde inte radera nyhet",
+        "updatedSuccessfully": "Nyhet uppdaterades framgångsrikt!",
+        "createdSuccessfully": "Nyhet skapades framgångsrikt!",
+        "coverUploadedSuccessfully": "Omslagsbild laddades upp framgångsrikt!",
+        "coverUploadFailed": "Nyhet sparades men omslagsbild kunde inte laddas upp",
+        "saveFailed": "Kunde inte spara nyhet. Försök igen."
+      },
+      "errors": {
+        "titleRequired": "Titel krävs!",
+        "descriptionRequired": "Beskrivning krävs!",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken",
+        "tagsMinLength": "Måste ha minst 2 objekt!",
+        "metaKeywordsRequired": "Meta-nyckelord krävs!"
+      },
+      "status": {
+        "published": "Publicerad",
+        "draft": "Utkast"
+      },
+      "emptyState": {
+        "notFound": "Nyhet hittades inte!",
+        "backToList": "Tillbaka till lista"
+      }
+    },
+    "department": {
+      "heading": "Avdelningar",
+      "list": "Lista",
+      "createNewDepartment": "Skapa ny avdelning",
+      "create": "Skapa",
+      "edit": "Redigera",
+      "editDepartment": "Redigera avdelning",
+      "departmentNotFound": "Avdelning hittades inte",
+      "addDepartment": "Lägg till avdelning",
+      "tabs": {
+        "all": "Alla",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "departmentName": "Avdelningsnamn",
+        "status": "Status",
+        "createdAt": "Skapad"
+      },
+      "form": {
+        "departmentName": "Avdelningsnamn",
+        "status": "Status",
+        "selectStatus": "Välj status"
+      },
+      "actions": {
+        "createDepartment": "Skapa avdelning",
+        "saveChanges": "Spara ändringar"
+      },
+      "menu": {
+        "edit": "Redigera",
+        "delete": "Radera"
+      },
+      "search": {
+        "placeholder": "Sök avdelning..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Avdelning raderades framgångsrikt!",
+        "deleteFailed": "Kunde inte radera avdelning",
+        "deletedMultipleSuccessfully": "Avdelningar raderades framgångsrikt!",
+        "deleteMultipleFailed": "Kunde inte radera avdelningar",
+        "updatedSuccessfully": "Avdelning uppdaterades framgångsrikt!",
+        "createdSuccessfully": "Avdelning skapades framgångsrikt!",
+        "saveFailed": "Kunde inte spara avdelning. Försök igen."
+      },
+      "errors": {
+        "nameRequired": "Avdelningsnamn krävs!",
+        "statusRequired": "Status krävs!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Radera",
+        "deleteConfirm": "Är du säker på att du vill radera?",
+        "deleteMultipleConfirm": "Är du säker på att du vill radera {{count}} objekt?"
+      },
+      "tooltip": {
+        "delete": "Radera"
+      }
+    },
+    "state": {
+      "heading": "Tillstånd",
+      "list": "Lista",
+      "createNewState": "Skapa nytt tillstånd",
+      "create": "Skapa",
+      "edit": "Redigera",
+      "editState": "Redigera tillstånd",
+      "stateNotFound": "Tillstånd hittades inte",
+      "addState": "Lägg till tillstånd",
+      "tabs": {
+        "all": "Alla",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "stateName": "Tillståndsnamn",
+        "status": "Status",
+        "createdAt": "Skapad"
+      },
+      "form": {
+        "stateName": "Tillståndsnamn",
+        "status": "Status",
+        "selectStatus": "Välj status"
+      },
+      "actions": {
+        "createState": "Skapa tillstånd",
+        "saveChanges": "Spara ändringar"
+      },
+      "menu": {
+        "edit": "Redigera",
+        "delete": "Radera"
+      },
+      "search": {
+        "placeholder": "Sök tillstånd..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Tillstånd raderades framgångsrikt!",
+        "deleteFailed": "Kunde inte radera tillstånd",
+        "deletedMultipleSuccessfully": "Tillstånd raderades framgångsrikt!",
+        "deleteMultipleFailed": "Kunde inte radera tillstånd",
+        "updatedSuccessfully": "Tillstånd uppdaterades framgångsrikt!",
+        "createdSuccessfully": "Tillstånd skapades framgångsrikt!",
+        "saveFailed": "Kunde inte spara tillstånd. Försök igen."
+      },
+      "errors": {
+        "nameRequired": "Tillståndsnamn krävs!",
+        "statusRequired": "Status krävs!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Radera",
+        "deleteConfirm": "Är du säker på att du vill radera?",
+        "deleteMultipleConfirm": "Är du säker på att du vill radera {{count}} objekt?"
+      },
+      "tooltip": {
+        "delete": "Radera"
+      }
+    },
+    "severity": {
+      "heading": "Allvarlighetsgrader",
+      "list": "Lista",
+      "createNewSeverity": "Skapa ny allvarlighetsgrad",
+      "create": "Skapa",
+      "edit": "Redigera",
+      "editSeverity": "Redigera allvarlighetsgrad",
+      "severityNotFound": "Allvarlighetsgrad hittades inte",
+      "addSeverity": "Lägg till allvarlighetsgrad",
+      "tabs": {
+        "all": "Alla",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "severityName": "Allvarlighetsgradsnamn",
+        "status": "Status",
+        "createdAt": "Skapad"
+      },
+      "form": {
+        "severityName": "Allvarlighetsgradsnamn",
+        "status": "Status",
+        "selectStatus": "Välj status"
+      },
+      "actions": {
+        "createSeverity": "Skapa allvarlighetsgrad",
+        "saveChanges": "Spara ändringar"
+      },
+      "menu": {
+        "edit": "Redigera",
+        "delete": "Radera"
+      },
+      "search": {
+        "placeholder": "Sök allvarlighetsgrad..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Allvarlighetsgrad raderades framgångsrikt!",
+        "deleteFailed": "Kunde inte radera allvarlighetsgrad",
+        "deletedMultipleSuccessfully": "Allvarlighetsgrader raderades framgångsrikt!",
+        "deleteMultipleFailed": "Kunde inte radera allvarlighetsgrader",
+        "updatedSuccessfully": "Allvarlighetsgrad uppdaterades framgångsrikt!",
+        "createdSuccessfully": "Allvarlighetsgrad skapades framgångsrikt!",
+        "saveFailed": "Kunde inte spara allvarlighetsgrad. Försök igen."
+      },
+      "errors": {
+        "nameRequired": "Allvarlighetsgradsnamn krävs!",
+        "statusRequired": "Status krävs!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Radera",
+        "deleteConfirm": "Är du säker på att du vill radera?",
+        "deleteMultipleConfirm": "Är du säker på att du vill radera {{count}} objekt?"
+      },
+      "tooltip": {
+        "delete": "Radera"
+      }
+    },
+    "privacyPolicy": {
+      "heading": "Integritetspolicy",
+      "edit": "Redigera",
+      "editPrivacyPolicy": "Redigera integritetspolicy",
+      "editPrivacyPolicyButton": "Redigera integritetspolicy",
+      "lastUpdated": "Senast uppdaterad",
+      "unknown": "Okänd",
+      "form": {
+        "title": "Integritetspolicydetaljer",
+        "subheader": "Uppdatera innehållet och metadata för integritetspolicyn",
+        "titleLabel": "Titel",
+        "content": "Innehåll",
+        "tip": "💡 Tips: Klicka på bildikonen i verktygsfältet för att ladda upp bilder eller lägga till bild-URL:er"
+      },
+      "actions": {
+        "preview": "Förhandsgranska",
+        "cancel": "Avbryt",
+        "saveChanges": "Spara ändringar"
+      },
+      "toast": {
+        "updatedSuccessfully": "Integritetspolicy uppdaterades framgångsrikt!",
+        "updateFailed": "Kunde inte uppdatera integritetspolicy. Försök igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel måste vara minst 5 tecken",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken"
+      },
+      "loading": "Laddar...",
+      "error": {
+        "title": "Fel vid laddning av integritetspolicy",
+        "description": "Det uppstod ett fel vid laddning av integritetspolicyn. Försök igen.",
+        "retry": "Försök igen"
+      }
+    },
+    "aboutUs": {
+      "heading": "Om oss",
+      "edit": "Redigera",
+      "editAboutUs": "Redigera om oss",
+      "editAboutUsButton": "Redigera om oss",
+      "lastUpdated": "Senast uppdaterad",
+      "unknown": "Okänd",
+      "form": {
+        "title": "Om oss-detaljer",
+        "subheader": "Uppdatera innehållet och metadata för om oss-sidan",
+        "titleLabel": "Titel",
+        "content": "Innehåll",
+        "tip": "💡 Tips: Klicka på bildikonen i verktygsfältet för att ladda upp bilder eller lägga till bild-URL:er"
+      },
+      "actions": {
+        "preview": "Förhandsgranska",
+        "cancel": "Avbryt",
+        "saveChanges": "Spara ändringar"
+      },
+      "toast": {
+        "updatedSuccessfully": "Om oss-sidan uppdaterades framgångsrikt!",
+        "updateFailed": "Kunde inte uppdatera om oss-sidan. Försök igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel måste vara minst 5 tecken",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken"
+      },
+      "loading": "Laddar...",
+      "error": {
+        "title": "Fel vid laddning av om oss-sidan",
+        "description": "Det uppstod ett fel vid laddning av om oss-sidan. Försök igen.",
+        "retry": "Försök igen"
+      }
+    },
+    "loginPage": {
+      "heading": "Inloggningssida",
+      "edit": "Redigera",
+      "editLoginPage": "Redigera inloggningssida",
+      "editLoginPageButton": "Redigera inloggningssida",
+      "lastUpdated": "Senast uppdaterad",
+      "unknown": "Okänd",
+      "form": {
+        "title": "Inloggningssida-detaljer",
+        "subheader": "Uppdatera innehållet och metadata för inloggningssidan",
+        "titleLabel": "Titel",
+        "content": "Innehåll",
+        "tip": "💡 Tips: Klicka på bildikonen i verktygsfältet för att ladda upp bilder eller lägga till bild-URL:er"
+      },
+      "actions": {
+        "preview": "Förhandsgranska",
+        "cancel": "Avbryt",
+        "saveChanges": "Spara ändringar"
+      },
+      "toast": {
+        "updatedSuccessfully": "Inloggningssidan uppdaterades framgångsrikt!",
+        "updateFailed": "Kunde inte uppdatera inloggningssidan. Försök igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel måste vara minst 5 tecken",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken"
+      },
+      "loading": "Laddar...",
+      "error": {
+        "title": "Fel vid laddning av inloggningssidan",
+        "description": "Det uppstod ett fel vid laddning av inloggningssidan. Försök igen.",
+        "retry": "Försök igen"
+      }
+    },
+    "paymentPage": {
+      "heading": "Betalningssida",
+      "edit": "Redigera",
+      "editPaymentPage": "Redigera betalningssida",
+      "editPaymentPageButton": "Redigera betalningssida",
+      "lastUpdated": "Senast uppdaterad",
+      "unknown": "Okänd",
+      "form": {
+        "title": "Betalningssida-detaljer",
+        "subheader": "Uppdatera innehållet och metadata för betalningssidan",
+        "titleLabel": "Titel",
+        "content": "Innehåll",
+        "tip": "💡 Tips: Klicka på bildikonen i verktygsfältet för att ladda upp bilder eller lägga till bild-URL:er"
+      },
+      "actions": {
+        "preview": "Förhandsgranska",
+        "cancel": "Avbryt",
+        "saveChanges": "Spara ändringar"
+      },
+      "toast": {
+        "updatedSuccessfully": "Betalningssidan uppdaterades framgångsrikt!",
+        "updateFailed": "Kunde inte uppdatera betalningssidan. Försök igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel måste vara minst 5 tecken",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken"
+      },
+      "loading": "Laddar...",
+      "error": {
+        "title": "Fel vid laddning av betalningssidan",
+        "description": "Det uppstod ett fel vid laddning av betalningssidan. Försök igen.",
+        "retry": "Försök igen"
+      }
+    },
+    "termsConditions": {
+      "heading": "Användarvillkor",
+      "edit": "Redigera",
+      "editTermsConditions": "Redigera användarvillkor",
+      "editTermsConditionsButton": "Redigera användarvillkor",
+      "lastUpdated": "Senast uppdaterad",
+      "unknown": "Okänd",
+      "form": {
+        "title": "Detaljer för användarvillkor",
+        "subheader": "Uppdatera innehållet och metadata för användarvillkoren",
+        "titleLabel": "Titel",
+        "content": "Innehåll",
+        "tip": "💡 Tips: Klicka på bildikonen i verktygsfältet för att ladda upp bilder eller lägga till bild-URL:er"
+      },
+      "actions": {
+        "preview": "Förhandsgranska",
+        "cancel": "Avbryt",
+        "saveChanges": "Spara ändringar"
+      },
+      "toast": {
+        "updatedSuccessfully": "Användarvillkor uppdaterades framgångsrikt!",
+        "updateFailed": "Kunde inte uppdatera användarvillkor. Försök igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel måste vara minst 5 tecken",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken"
+      },
+      "loading": "Laddar...",
+      "error": {
+        "title": "Fel vid laddning av användarvillkor",
+        "description": "Det uppstod ett fel vid laddning av användarvillkoren. Försök igen.",
+        "retry": "Försök igen"
+      }
+    },
+    "support": {
+      "heading": "Support",
+      "edit": "Redigera",
+      "editSupport": "Redigera support",
+      "editSupportButton": "Redigera support",
+      "lastUpdated": "Senast uppdaterad",
+      "unknown": "Okänd",
+      "form": {
+        "title": "Supportdetaljer",
+        "subheader": "Uppdatera supportinnehållet och metadata",
+        "titleLabel": "Titel",
+        "content": "Innehåll",
+        "tip": "💡 Tips: Klicka på bildikonen i verktygsfältet för att ladda upp bilder eller lägga till bild-URL:er"
+      },
+      "actions": {
+        "preview": "Förhandsgranska",
+        "cancel": "Avbryt",
+        "saveChanges": "Spara ändringar"
+      },
+      "toast": {
+        "updatedSuccessfully": "Support uppdaterades framgångsrikt!",
+        "updateFailed": "Kunde inte uppdatera support. Försök igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel måste vara minst 5 tecken",
+        "contentMinLength": "Innehåll måste vara minst 20 tecken"
+      },
+      "loading": "Laddar...",
+      "error": {
+        "title": "Fel vid laddning av support",
+        "description": "Det uppstod ett fel vid laddning av supportinnehållet. Försök igen.",
+        "retry": "Försök igen"
+      }
+    },
+    "themeConfiguration": {
+      "heading": "Temakonfiguration",
+      "resetAll": "Återställ alla",
+      "basicSettings": {
+        "title": "Grundinställningar",
+        "description": "Konfigurera grundläggande temainställningar",
+        "mode": "Läge",
+        "contrast": "Kontrast",
+        "rightToLeft": "Höger till vänster",
+        "compact": "Kompakt",
+        "compactTooltip": "Endast dashboard och tillgänglig vid stora upplösningar > 1600px (xl)",
+        "system": "System"
+      },
+      "colorSettings": {
+        "title": "Färginställningar",
+        "description": "Anpassa ditt programs färgschema",
+        "colorPresets": "Färgförinställningar"
+      },
+      "layoutSettings": {
+        "title": "Layoutinställningar",
+        "description": "Konfigurera navigations- och layoutinställningar",
+        "navigationLayout": {
+          "title": "Navigationslayout",
+          "description": "Välj hur navigationsmenyn ska visas"
+        },
+        "navigationColor": {
+          "title": "Navigationsfärg",
+          "description": "Välj navigationsfärgschemat",
+          "integrate": "Integrera",
+          "apparent": "Tydlig"
+        }
+      },
+      "typographySettings": {
+        "title": "Typografiinställningar",
+        "description": "Anpassa typsnitt och textinställningar",
+        "typography": "Typografi",
+        "family": "Familj",
+        "size": "Storlek"
+      }
+    },
+    "emailTemplate": {
+      "heading": "E-postmallar",
+      "list": "Lista",
+      "createNewEmailTemplate": "Skapa e-postmall",
+      "editEmailTemplate": "Redigera e-postmall",
+      "addEmailTemplate": "Lägg till e-postmall",
+      "tableHead": {
+        "templateName": "Mallnamn",
+        "subject": "Ämne",
+        "language": "Språk",
+        "status": "Status",
+        "createdAt": "Skapad"
+      },
+      "tabs": {
+        "all": "Alla",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "toolbar": {
+        "status": "Status",
+        "searchPlaceholder": "Sök e-postmallar..."
+      },
+      "menuActions": {
+        "print": "Skriv ut",
+        "import": "Importera",
+        "export": "Exportera",
+        "edit": "Redigera",
+        "delete": "Radera"
+      },
+      "confirmDialog": {
+        "deleteTitle": "Radera",
+        "deleteContent": "Är du säker på att du vill radera <strong> {count} </strong> e-postmallar?",
+        "deleteSingleContent": "Är du säker på att du vill radera denna e-postmall?"
+      },
+      "toast": {
+        "deleteSuccess": "E-postmall raderad!",
+        "deleteMultipleSuccess": "E-postmallar raderade!",
+        "createSuccess": "E-postmall skapad!",
+        "updateSuccess": "E-postmall uppdaterad!",
+        "deleteError": "Kunde inte radera e-postmall",
+        "deleteMultipleError": "Kunde inte radera e-postmallar",
+        "createError": "Kunde inte skapa e-postmall",
+        "updateError": "Kunde inte uppdatera e-postmall"
+      },
+      "form": {
+        "templateName": "Mallnamn",
+        "subject": "Ämne",
+        "language": "Språk",
+        "status": "Status",
+        "selectStatus": "Välj status",
+        "content": "Innehåll",
+        "placeholderVariables": "Platshållarvariabler",
+        "placeholderExample": "t.ex. {{name}}, {{email}}, {{date}}",
+        "placeholderHelperText": "Ange platshållarvariabler som kan användas i e-postmallen",
+        "cancel": "Avbryt",
+        "save": "Spara",
+        "loading": "Laddar..."
+      },
+      "languageOptions": {
+        "en": "Engelska",
+        "sv": "Svenska",
+        "no": "Norska",
+        "da": "Danska",
+        "fi": "Finska",
+        "fr": "Franska",
+        "de": "Tyska"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "validation": {
+        "templateNameRequired": "Mallnamn krävs",
+        "subjectRequired": "Ämne krävs",
+        "contentRequired": "Innehåll krävs",
+        "languageRequired": "Språk krävs",
+        "statusRequired": "Status krävs"
+      }
+    },
+    "stripeConfiguration": {
+      "heading": "Stripe-konfiguration",
+      "breadcrumb": "Stripe-konfiguration",
+      "form": {
+        "clientId": "Stripe Client ID (Publicerbar nyckel)",
+        "clientIdPlaceholder": "Ange ditt Stripe Client ID",
+        "clientIdHelperText": "Din Stripe publicerbara nyckel (t.ex. pk_test_...)",
+        "secretKey": "Stripe Secret Key",
+        "secretKeyPlaceholder": "Ange din Stripe Secret Key",
+        "secretKeyHelperText": "Din Stripe-hemliga nyckel (t.ex. sk_test_...)",
+        "webhookSecret": "Stripe Webhook Secret",
+        "webhookSecretPlaceholder": "Ange din Stripe Webhook Secret",
+        "webhookSecretHelperText": "Din Stripe webhook-hemlighet (t.ex. whsec_...)",
+        "saveConfiguration": "Spara konfiguration",
+        "cancel": "Avbryt",
+        "testConnection": "Testa anslutning",
+        "securityNote": "Säkerhetsnotis:",
+        "securityNoteText": "Dina Stripe-uppgifter lagras säkert i databasen. Se till att använda testnycklar (pk_test_ och sk_test_) för utveckling och live-nycklar (pk_live_ och sk_live_) endast för produktionsmiljöer."
+      },
+      "toast": {
+        "saveSuccess": "Stripe-konfiguration sparad!",
+        "saveError": "Kunde inte spara konfiguration",
+        "testSuccess": "Stripe-anslutningstest lyckades!",
+        "testError": "Stripe-anslutningstest misslyckades. Kontrollera dina uppgifter.",
+        "testConnectionError": "Kunde inte testa anslutning"
+      },
+      "alert": {
+        "testSuccess": "Stripe-anslutningstest lyckades! Dina uppgifter är giltiga.",
+        "testError": "Stripe-anslutningstest misslyckades. Kontrollera dina uppgifter och försök igen."
+      },
+      "validation": {
+        "clientIdRequired": "Client ID krävs",
+        "secretKeyRequired": "Secret Key krävs",
+        "webhookSecretRequired": "Webhook Secret krävs"
+      }
+    },
+    "bankDetails": {
+      "heading": "Bankuppgifter",
+      "breadcrumb": "Bankuppgifter",
+      "form": {
+        "iban": "IBAN",
+        "ibanPlaceholder": "Ange ditt IBAN",
+        "ibanHelperText": "Internationalt bankkontonummer",
+        "bic": "BIC (Bank Identifier Code)",
+        "bicPlaceholder": "Ange din BIC",
+        "bicHelperText": "Bank Identifier Code (SWIFT-kod)",
+        "bankAccount": "Bankkontonummer",
+        "bankAccountPlaceholder": "Ange ditt bankkontonummer",
+        "bankAccountHelperText": "Ditt bankkontonummer",
+        "saveBankDetails": "Spara bankuppgifter",
+        "cancel": "Avbryt",
+        "securityNote": "Säkerhetsnotis:",
+        "securityNoteText": "Dina bankuppgifter lagras säkert i din webbläsares lokala lagring. Se till att använda testdata för utveckling och verkliga data endast för produktionsmiljöer."
+      },
+      "toast": {
+        "saveSuccess": "Bankuppgifter sparade!",
+        "saveError": "Kunde inte spara bankuppgifter"
+      },
+      "validation": {
+        "ibanRequired": "IBAN krävs",
+        "ibanInvalid": "Ogiltigt IBAN-format",
+        "bicRequired": "BIC krävs",
+        "bicInvalid": "Ogiltigt BIC-format",
+        "bankAccountRequired": "Bankkonto krävs",
+        "bankAccountInvalid": "Bankkonto kan innehålla bokstäver, siffror, mellanslag och bindestreck"
+      }
+    },
+    "basicConfiguration": {
+      "heading": "Grundkonfiguration",
+      "breadcrumb": "Grundkonfiguration",
+      "form": {
+        "companyLogo": "Företagslogotyp",
+        "smallCompanyLogo": "Liten företagslogotyp",
+        "uploadLogo": "Ladda upp logotyp",
+        "changeLogo": "Ändra logotyp",
+        "remove": "Ta bort",
+        "defaultOpenStateDeadline": "Standard öppet tillstånd deadline (dagar)",
+        "defaultClosedStateDeadline": "Standard stängt tillstånd deadline (dagar)",
+        "vat": "Moms (%)",
+        "defaultPrice": "Standardpris",
+        "phoneHoursFrom": "Telefontid från",
+        "phoneHoursTo": "Telefontid till",
+        "invoiceNote": "Fakturaanteckning",
+        "invoiceNoteHelperText": "Valfri anteckning att inkludera på fakturor",
+        "deleteClosedCases": "Radera stängda ärenden",
+        "deleteClosedCasesHelperText": "Aktivera automatisk radering av stängda ärenden efter en viss period",
+        "saveConfiguration": "Spara konfiguration",
+        "cancel": "Avbryt",
+        "note": "Notis:",
+        "noteText": "Konfigurationsändringar kommer att påverka alla nya ärenden och systembeteende. Se till att granska alla inställningar innan du sparar."
+      },
+      "toast": {
+        "saveSuccess": "Grundkonfiguration sparad!",
+        "saveError": "Kunde inte spara konfiguration"
+      },
+      "validation": {
+        "fileSizeError": "Filstorleken måste vara mindre än 5MB",
+        "fileTypeError": "Filen måste vara en bild",
+        "deadlineMin": "Måste vara minst 1 dag",
+        "deadlineMax": "Får inte överstiga 365 dagar",
+        "vatMin": "Moms måste vara minst 0%",
+        "vatMax": "Moms får inte överstiga 100%",
+        "priceMin": "Priset måste vara minst 0",
+        "timeFormatError": "Ogiltigt tidsformat (HH:MM)",
+        "invoiceNoteMax": "Fakturaanteckning får inte överstiga 500 tecken"
+      }
+    },
+    "user": {
+      "heading": "Användare",
+      "editUser": "Redigera användare",
+      "edit": "Redigera",
+      "userNotFound": "Användare hittades inte",
+      "loading": "Laddar...",
+      "form": {
+        "fullName": "Fullständigt namn",
+        "emailAddress": "E-postadress",
+        "phoneNumber": "Telefonnummer",
+        "country": "Land",
+        "chooseCountry": "Välj ett land",
+        "stateRegion": "Stat/region",
+        "city": "Stad",
+        "address": "Adress",
+        "physicalAddress": "Fysisk adress",
+        "phoneHoursFrom": "Telefontider från",
+        "phoneHoursTo": "Telefontider till",
+        "zipCode": "Postnummer",
+        "company": "Företag",
+        "companyNumber": "Organisationsnummer",
+        "role": "Roll",
+        "avatarAllowed": "Tillåtna *.jpeg, *.jpg, *.png, *.gif",
+        "avatarMaxSize": "max storlek av",
+        "companyLogo": "Företagslogotyp",
+        "createUser": "Skapa användare",
+        "saveChanges": "Spara ändringar"
+      },
+      "validation": {
+        "nameRequired": "Namn krävs!",
+        "emailRequired": "E-post krävs!",
+        "countryRequired": "Land krävs!",
+        "addressRequired": "Adress krävs!",
+        "stateRequired": "Stat krävs!",
+        "cityRequired": "Stad krävs!",
+        "zipCodeRequired": "Postnummer krävs!",
+        "companyRequired": "Företag krävs!",
+        "roleRequired": "Roll krävs!"
+      },
+      "toast": {
+        "updateSuccess": "Användare uppdaterad",
+        "createSuccess": "Skapande lyckades!",
+        "saveError": "Kunde inte spara"
+      }
+    },
+    "analytics": {
+      "heading": "Hem",
+      "subtitle": "Ett system för hantering av visselblåsning. Efterlevande och konfidentiellt.",
+      "filters": {
+        "fromDate": "Från datum",
+        "toDate": "Till datum",
+        "selectDate": "Välj datum",
+        "filter": "Filtrera",
+        "search": "Sök",
+        "selectCompany": "Välj företagsnamn för sökrapport",
+        "all": "Alla"
+      },
+      "timePeriod": {
+        "daily": "Dagligen",
+        "weekly": "Veckovis",
+        "monthly": "Månadsvis",
+        "yearly": "Årligen",
+        "allTime": "Hela tiden"
+      },
+      "metrics": {
+        "totalCases": "Totalt antal ärenden",
+        "avgDaysUntilReceived": "Genomsnittliga dagar tills mottagen",
+        "avgDaysUntilClosed": "Genomsnittliga dagar tills stängd",
+        "totalMessageTemplates": "Totalt antal meddelandemallar",
+        "totalDocuments": "Totalt antal dokument",
+        "totalCompanies": "Totalt antal företag",
+        "totalLogs": "Totalt antal loggar",
+        "totalCaseManagers": "Totalt antal ärendehänvisare",
+        "totalNews": "Totalt antal nyheter"
+      },
+      "charts": {
+        "companiesRegistered": "Registrerade företag",
+        "caseRegistered": "Registrerat ärende",
+        "categoryBreakdown": "Kategorifördelning",
+        "timeOfReporting": "Rapporteringstid",
+        "userActivity": "Användaraktivitet",
+        "latestCompanies": "Senaste företag",
+        "labels": {
+          "numberOfCompanies": "Antal företag",
+          "numberOfCases": "Antal ärenden",
+          "companiesJoined": "Företag som gått med",
+          "casesRegistered": "Registrerade ärenden",
+          "companies": "företag",
+          "cases": "ärenden"
+        },
+        "tableHeaders": {
+          "name": "Namn",
+          "phone": "Telefon",
+          "address": "Adress",
+          "date": "Datum"
+        }
+      },
+      "errors": {
+        "failedToLoad": "Kunde inte ladda översikt över instrumentpanelen.",
+        "dateRangeInvalid": "Från-datum kan inte vara efter Till-datum."
+      },
+      "periodText": "jämfört med föregående period"
+    }
+  }
+}
+

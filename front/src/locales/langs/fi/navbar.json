@@ -1,0 +1,1386 @@
+{
+  "app": "App",
+  "job": "Työ",
+  "role": "Rooli",
+  "user": "Käyttäjä",
+  "travel": "Matka",
+  "invoice": "Lasku",
+  "blog": {
+    "title": "Blogi",
+    "caption": "Mukautetut pikanäppäimet."
+  },
+  "subheader": "Alaotsikko",
+  "sidebar": {
+    "overview": "Yleiskatsaus",
+    "home": "Koti",
+    "management": "Hallinta",
+    "companies": "Yritykset",
+    "categories": "Kategoriat",
+    "reportingLinks": "Raportointilinkit",
+    "invoices": "Laskut",
+    "cases": "Tapaukset",
+    "caseManagers": "Tapausvastaavat",
+    "questions": "Kysymykset",
+    "news": "Uutiset",
+    "settings": "Asetukset",
+    "managementTitle": "Hallinta",
+    "department": "Osasto",
+    "state": "Tila",
+    "severity": "Vakavuus",
+    "pages": "Sivut",
+    "pagesTitle": "Sivut",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "aboutUs": "Tietoja meistä",
+    "loginPage": "Kirjautumissivu",
+    "paymentPage": "Maksusivu",
+    "termsConditions": "Käyttöehdot",
+    "support": "Tuki",
+    "preferences": "Asetukset",
+    "themeConfiguration": "Teeman konfigurointi",
+    "miscelaneous": "Sekalaiset",
+    "settingsTitle": "Asetukset",
+    "emailTemplates": "Sähköpostimallit",
+    "stripeConfiguration": "Stripe-konfiguraatio",
+    "bankDetails": "Pankkitiedot",
+    "basicConfiguration": "Peruskonfiguraatio",
+    "language": "Kieli"
+  },
+  "dashboard": {
+    "company": {
+      "heading": "Yritykset",
+      "list": "Lista",
+      "createNewCompany": "Luo uusi yritys",
+      "create": "Luo",
+      "editCompany": "Muokkaa yritystä",
+      "edit": "Muokkaa",
+      "companyNotFound": "Yritystä ei löydy",
+      "companyNotFoundMessage": "Etsimääsi yritystä ei ole olemassa.",
+      "companyName": "Yrityksen nimi",
+      "emailAddress": "Sähköpostiosoite",
+      "password": "Salasana",
+      "passwordPlaceholder": "Syötä salasana",
+      "passwordPlaceholderEdit": "Jätä tyhjäksi säilyttääksesi nykyinen salasana",
+      "passwordHelperText": "Täytä tämä vain, jos haluat vaihtaa salasanan",
+      "phoneNumber": "Puhelinnumero",
+      "address": "Osoite",
+      "status": "Tila",
+      "selectStatus": "Valitse tila",
+      "createCompany": "Luo yritys",
+      "saveChanges": "Tallenna muutokset",
+      "companyUpdated": "Yritys päivitetty onnistuneesti!",
+      "companyCreated": "Yritys luotu onnistuneesti!",
+      "failedToSave": "Yrityksen tallennus epäonnistui",
+      "companyDeleted": "Yritys poistettu onnistuneesti!",
+      "companiesDeleted": "Yritykset poistettu onnistuneesti!",
+      "failedToDelete": "Yrityksen poisto epäonnistui",
+      "failedToDeletePlural": "Yritysten poisto epäonnistui",
+      "delete": "Poista",
+      "deleteConfirmTitle": "Poista",
+      "deleteConfirmMessage": "Haluatko varmasti poistaa tämän yrityksen?",
+      "deleteConfirmMessagePlural": "Haluatko varmasti poistaa",
+      "companies": "yritykset",
+      "edit": "Muokkaa",
+      "accessAccount": "Käyttää tiliä",
+      "searchCompanies": "Etsi yrityksiä...",
+      "all": "Kaikki",
+      "print": "Tulosta",
+      "import": "Tuo",
+      "export": "Vie",
+      "errorLoadingCompanies": "Virhe yritysten lataamisessa",
+      "retry": "Yritä uudelleen",
+      "successfullyLoggedIn": "Kirjauduttu yrityksenä. Sivu päivittyy...",
+      "failedToAccessAccount": "Tilin käyttö epäonnistui. Yritä uudelleen.",
+      "tableHeaders": {
+        "companyName": "Yrityksen nimi",
+        "phoneNumber": "Puhelinnumero",
+        "address": "Osoite",
+        "status": "Tila"
+      },
+      "statusOptions": {
+        "active": "Aktiivinen",
+        "pending": "Odottaa",
+        "banned": "Estetty"
+      }
+    },
+    "category": {
+      "heading": "Kategoriat",
+      "list": "Lista",
+      "createNewCategory": "Luo uusi kategoria",
+      "create": "Luo",
+      "editCategory": "Muokkaa kategoriaa",
+      "edit": "Muokkaa",
+      "categoryNotFound": "Kategoriaa ei löydy",
+      "categoryNotFoundMessage": "Etsimääsi kategoriaa ei ole olemassa.",
+      "categoryName": "Kategorian nimi",
+      "status": "Tila",
+      "selectStatus": "Valitse tila",
+      "createCategory": "Luo kategoria",
+      "saveChanges": "Tallenna muutokset",
+      "categoryUpdated": "Kategoria päivitetty onnistuneesti!",
+      "categoryCreated": "Kategoria luotu onnistuneesti!",
+      "failedToSave": "Kategorian tallennus epäonnistui. Yritä uudelleen.",
+      "categoryDeleted": "Kategoria poistettu onnistuneesti!",
+      "categoriesDeleted": "Kategoriat poistettu onnistuneesti!",
+      "failedToDelete": "Kategorian poisto epäonnistui",
+      "failedToDeletePlural": "Kategorioiden poisto epäonnistui",
+      "delete": "Poista",
+      "deleteConfirmTitle": "Poista",
+      "deleteConfirmMessage": "Haluatko varmasti poistaa?",
+      "deleteConfirmMessagePlural": "Haluatko varmasti poistaa",
+      "categories": "kategoriat",
+      "items": "kohdetta",
+      "searchCategories": "Etsi kategoriaa...",
+      "all": "Kaikki",
+      "active": "Aktiivinen",
+      "inactive": "Epäaktiivinen",
+      "addCategory": "Lisää kategoria",
+      "tableHeaders": {
+        "categoryName": "Kategorian nimi",
+        "status": "Tila",
+        "createdAt": "Luotu"
+      }
+    },
+    "reportingLink": {
+      "heading": "Raportointilinkit",
+      "breadcrumb": "Raportointilinkit",
+      "customizeChannel": "Mukauta raportointikanavasi",
+      "customizeDescription": "Tältä sivulta ja alla olevista välilehdistä voit säätää jokaisen raportointikanavan asetuksia.",
+      "openPage": "Avaa sivu",
+      "reportingLink": "Raportointilinkki",
+      "copy": "Kopioi",
+      "loading": "Ladataan...",
+      "tabs": {
+        "setting": "Asetus",
+        "page": "Sivu",
+        "question": "Kysymys",
+        "department": "Osasto",
+        "state": "Osavaltio",
+        "severity": "Vakavuus"
+      },
+      "pageContent": {
+        "title": "Raportointisivun sisältö",
+        "description": "Päivitä raportointisivun otsikko ja sisältö",
+        "titleLabel": "Otsikko",
+        "content": "Sisältö",
+        "tip": "💡 Vinkki: Klikkaa työkalupalkin kuvakkuetta ladataksesi kuvia tai lisätäksesi kuvien URL-osoitteita",
+        "preview": "Esikatselu",
+        "saveChanges": "Tallenna muutokset",
+        "updatedSuccessfully": "Raportointisivu päivitetty onnistuneesti!",
+        "updateFailed": "Raportointisivun päivitys epäonnistui. Yritä uudelleen.",
+        "titleMinLength": "Otsikon on oltava vähintään 5 merkkiä",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä"
+      },
+      "page1": {
+        "updatedSuccessfully": "Sivu 1 päivitetty onnistuneesti!"
+      },
+      "page2": {
+        "updatedSuccessfully": "Sivu 2 päivitetty onnistuneesti!"
+      },
+      "page3": {
+        "updatedSuccessfully": "Sivu 3 päivitetty onnistuneesti!"
+      }
+    },
+    "invoice": {
+      "heading": "Laskut",
+      "list": "Lista",
+      "createNewInvoice": "Luo uusi lasku",
+      "create": "Luo",
+      "invoiceNotFound": "Laskua ei löydy",
+      "addInvoice": "Lisää lasku",
+      "loading": "Ladataan...",
+      "deleteSuccess": "Poisto onnistui!",
+      "failedToLoad": "Laskujen lataaminen epäonnistui",
+      "delete": "Poista",
+      "deleteConfirmTitle": "Poista",
+      "deleteConfirmMessage": "Haluatko varmasti poistaa?",
+      "deleteConfirmMessagePlural": "Haluatko varmasti poistaa",
+      "items": "kohdetta",
+      "view": "Näytä",
+      "edit": "Muokkaa",
+      "print": "Tulosta",
+      "download": "Lataa",
+      "sent": "Lähetetty",
+      "close": "Sulje",
+      "status": "Tila",
+      "viewPaymentAttachment": "Näytä maksuliite",
+      "tabs": {
+        "all": "Kaikki",
+        "paid": "Maksettu",
+        "pending": "Odottaa",
+        "overdue": "Myöhässä",
+        "draft": "Luonnos"
+      },
+      "analytics": {
+        "total": "Yhteensä",
+        "paid": "Maksettu",
+        "pending": "Odottaa",
+        "overdue": "Myöhässä",
+        "draft": "Luonnos"
+      },
+      "tableHeaders": {
+        "customer": "Asiakas",
+        "create": "Luotu",
+        "due": "Erääntyy",
+        "amount": "Summa",
+        "sent": "Lähetetty",
+        "status": "Tila"
+      },
+      "statusOptions": {
+        "paid": "Maksettu",
+        "pending": "Odottaa",
+        "overdue": "Myöhässä",
+        "draft": "Luonnos"
+      },
+      "details": {
+        "invoiceFrom": "Lasku lähettäjä",
+        "invoiceTo": "Lasku vastaanottaja",
+        "dateCreate": "Luotu päivämäärä",
+        "dueDate": "Eräpäivä",
+        "description": "Kuvaus",
+        "qty": "Määrä",
+        "unitPrice": "Yksikköhinta",
+        "total": "Yhteensä",
+        "subtotal": "Välisumma",
+        "taxes": "ALV",
+        "vat": "ALV",
+        "phone": "Puhelin",
+        "notes": "HUOMAUTUKSET",
+        "bankDetails": "PANKKITIEDOT",
+        "iban": "IBAN",
+        "bicSwift": "BIC/SWIFT",
+        "bankgiro": "Bankgiro",
+        "haveQuestion": "Onko sinulla kysymys?",
+        "companyNumber": "Yritysnumero"
+      }
+    },
+    "case": {
+      "heading": "Tapaukset",
+      "list": "Lista",
+      "caseDetails": "Tapauksen yksityiskohdat",
+      "addCase": "Lisää tapaus",
+      "deleteSuccess": "Poisto onnistui!",
+      "delete": "Poista",
+      "deleteConfirmTitle": "Poista",
+      "deleteConfirmMessage": "Haluatko varmasti poistaa?",
+      "deleteConfirmMessagePlural": "Haluatko varmasti poistaa",
+      "items": "kohdetta",
+      "view": "Näytä",
+      "edit": "Muokkaa",
+      "unassigned": "Ei määritelty",
+      "tabs": {
+        "all": "Kaikki",
+        "new": "Uusi",
+        "inProgress": "Käsittelyssä",
+        "open": "Avoin",
+        "closed": "Suljettu"
+      },
+      "analytics": {
+        "total": "Yhteensä",
+        "new": "Uusi",
+        "inProgress": "Käsittelyssä",
+        "open": "Avoin",
+        "closed": "Suljettu"
+      },
+      "tableHeaders": {
+        "caseId": "Tapaus-ID",
+        "company": "Yritys",
+        "subject": "Aihe",
+        "category": "Kategoria",
+        "caseManager": "Tapausvastaava",
+        "status": "Tila",
+        "createdDate": "Luotu päivämäärä"
+      },
+      "detailsTabs": {
+        "caseDetails": "Tapauksen yksityiskohdat",
+        "reportSetting": "Raportointiasetus",
+        "logs": "Lokit",
+        "documents": "Asiakirjat",
+        "notes": "Muistiinpanot",
+      "chat": "Chat",
+      "legalSupport": "Legal Support"
+      },
+      "statusOptions": {
+        "new": "Uusi",
+        "inProgress": "Käsittelyssä",
+        "open": "Avoin",
+        "closed": "Suljettu"
+      },
+      "caseDetailsTab": {
+        "loading": "Ladataan...",
+        "failedToLoad": "Tapauksen tietojen lataaminen epäonnistui",
+        "caseId": "Tapaus-ID",
+        "dateTime": "Päivämäärä ja aika",
+        "subject": "Otsikko",
+        "description": "Kuvaus",
+        "files": "Tiedostot",
+        "reportingChannel": "Ilmoituskanava",
+        "category": "Kategoria",
+        "assignedTo": "Määritetty",
+        "reportingMedium": "Ilmoitusväline",
+        "department": "Osasto",
+        "severity": "Vakavuus",
+        "state": "Tila",
+        "select": "Valitse...",
+        "notAssigned": "Ei määritetty",
+        "written": "Kirjallinen & Suullinen",
+        "oral": "Suullinen",
+        "phoneCall": "Puhelu",
+        "physicalMeeting": "Henkilökohtainen tapaaminen",
+        "noData": "N/A",
+        "reportType": "Ilmoitustyyppi",
+        "reportAnnonymously": "Ilmoita anonyymisti",
+        "reportWithPersonalDetails": "Ilmoita henkilötiedoilla",
+        "email": "Sähköposti"
+      },
+      "reportSettingTab": {
+        "heading": "Raportointiasetukset",
+        "loading": "Ladataan...",
+        "failedToLoad": "Raportointiasetusten lataaminen epäonnistui",
+        "assignTo": "Määritä",
+        "selectCaseManager": "Valitse tapausvastaava",
+        "loadingCaseManagers": "Ladataan tapausvastaavia...",
+        "assignStatus": "Määritä tila",
+        "selectStatus": "Valitse tila",
+        "nextOpenStateDeadline": "Seuraavan avoimen tilan määräaika",
+        "nextOpenStateDeadlineHelper": "Valitse päivämäärä ja kellonaika seuraavan avoimen tilan määräajalle",
+        "nextCloseStateDeadline": "Seuraavan suljetun tilan määräaika",
+        "nextCloseStateDeadlineHelper": "Valitse päivämäärä ja kellonaika seuraavan suljetun tilan määräajalle",
+        "linkWithOtherReport": "Linkitä toiseen raporttiin",
+        "linkWithOtherReportPlaceholder": "Syötä raportin ID tai linkki",
+        "autoDeleteAfter30Days": "Poista automaattisesti 30 päivän jälkeen",
+        "selectOption": "Valitse vaihtoehto",
+        "yes": "Kyllä",
+        "no": "Ei",
+        "cancel": "Peruuta",
+        "saveChanges": "Tallenna muutokset",
+        "saving": "Tallennetaan...",
+        "updatedSuccessfully": "Raportointiasetukset päivitetty onnistuneesti",
+        "failedToUpdate": "Raportointiasetusten päivitys epäonnistui",
+        "fixFormErrors": "Korjaa lomakkeen virheet ennen lähettämistä",
+        "pleaseFixErrors": "Korjaa seuraavat virheet:",
+        "invalidValue": "Virheellinen arvo",
+        "assignStatusRequired": "Määritä tila on pakollinen",
+        "new": "Uusi",
+        "open": "Avoin",
+        "inProgress": "Käsittelyssä",
+        "closed": "Suljettu",
+        "pending": "Odottaa",
+        "resolved": "Ratkaistu",
+        "rejected": "Hylätty",
+        "cancelled": "Peruutettu",
+        "spam": "Roskaposti",
+        "other": "Muu"
+      },
+      "logsTab": {
+        "heading": "Toimintolokit",
+        "searchPlaceholder": "Hae lokeja...",
+        "noLogsFound": "Lokeja ei löytynyt",
+        "noLogsMatchSearch": "Hakuasi vastaavia lokeja ei löytynyt",
+        "actionPerformed": "Suoritettu toiminto",
+        "actionValue": "Toiminnon arvo",
+        "dateTime": "Päivämäärä ja aika"
+      },
+      "documentsTab": {
+        "heading": "Asiakirjat",
+        "searchPlaceholder": "Hae asiakirjoja...",
+        "newDocument": "Uusi asiakirja",
+        "noDocumentsFound": "Asiakirjoja ei löytynyt",
+        "noDocumentsMatchSearch": "Asiakirjoja ei löytynyt haun perusteella",
+        "title": "Otsikko",
+        "document": "Asiakirja",
+        "uploadedAt": "Ladattu",
+        "actions": "Toiminnot",
+        "file": "Tiedosto",
+        "uploadNewDocument": "Lataa uusi asiakirja",
+        "documentTitle": "Asiakirjan otsikko",
+        "documentTitleRequired": "Asiakirjan nimi vaaditaan",
+        "selectFile": "Valitse tiedosto",
+        "fileRequired": "Tiedosto vaaditaan",
+        "fileSizeExceeded": "Tiedostokoko ei saa ylittää 10MB",
+        "invalidFileType": "Virheellinen tiedostotyyppi. Sallitut tyypit: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, JPG, JPEG, PNG, GIF",
+        "uploading": "Ladataan...",
+        "upload": "Lataa",
+        "close": "Sulje",
+        "uploadedSuccessfully": "Asiakirja ladattu onnistuneesti",
+        "failedToUpload": "Asiakirjan lataus epäonnistui",
+        "pleaseEnterDocumentName": "Anna asiakirjan nimi",
+        "pleaseSelectFile": "Valitse tiedosto ladattavaksi",
+        "fileSizeMaxExceeded": "Tiedostokoko ei saa ylittää 10MB",
+        "invalidFileTypeError": "Virheellinen tiedostotyyppi",
+        "failedToLoad": "Asiakirjojen lataus epäonnistui",
+        "deletedSuccessfully": "Asiakirja poistettu onnistuneesti",
+        "failedToDelete": "Asiakirjan poisto epäonnistui",
+        "deleteConfirmTitle": "Poista asiakirja",
+        "deleteConfirmMessage": "Haluatko varmasti poistaa tämän asiakirjan?",
+        "delete": "Poista"
+      },
+      "notesTab": {
+        "heading": "Muistiinpanot",
+        "searchPlaceholder": "Hae muistiinpanoja...",
+        "addNote": "Lisää muistiinpano",
+        "noNotesFound": "Muistiinpanoja ei löytynyt",
+        "noNotesMatchSearch": "Muistiinpanoja ei löytynyt haun perusteella",
+        "title": "Otsikko",
+        "description": "Kuvaus",
+        "date": "Päivämäärä",
+        "addedBy": "Lisännyt",
+        "actions": "Toiminnot",
+        "unknownUser": "Tuntematon käyttäjä",
+        "editNote": "Muokkaa muistiinpanoa",
+        "addNewNote": "Lisää uusi muistiinpano",
+        "noteTitle": "Muistiinpanon otsikko",
+        "noteTitleRequired": "Muistiinpanon otsikko vaaditaan",
+        "descriptionRequired": "Muistiinpanon kuvaus vaaditaan",
+        "pleaseEnterNoteTitle": "Anna muistiinpanon otsikko",
+        "pleaseEnterNoteDescription": "Anna muistiinpanon kuvaus",
+        "save": "Tallenna",
+        "saving": "Tallennetaan...",
+        "updatedSuccessfully": "Muistiinpano päivitetty onnistuneesti",
+        "addedSuccessfully": "Muistiinpano lisätty onnistuneesti",
+        "failedToSave": "Muistiinpanon tallennus epäonnistui",
+        "deletedSuccessfully": "Muistiinpano poistettu onnistuneesti",
+        "failedToDelete": "Muistiinpanon poisto epäonnistui",
+        "deleteConfirmTitle": "Poista muistiinpano",
+        "deleteConfirmMessage": "Haluatko varmasti poistaa tämän muistiinpanon?",
+        "delete": "Poista",
+        "cancel": "Peruuta",
+        "failedToLoad": "Muistiinpanojen lataus epäonnistui"
+      },
+      "chatTab": {
+        "heading": "Tapauschat",
+        "typeMessage": "Kirjoita viestisi...",
+        "typeMessagePlaceholder": "Kirjoita viestisi... (Paina Enter lähettääksesi, Shift+Enter uudelle riville)",
+        "send": "Lähetä",
+        "audioMessage": "Ääniviesti",
+        "imageMessage": "Kuva",
+        "voice": "Ääni",
+        "text": "Teksti",
+        "recording": "Nauhoitetaan...",
+        "stopRecording": "Lopeta nauhoitus",
+        "startRecording": "Aloita ääninauhoitus",
+        "processingAudio": "Käsitellään ääntä...",
+        "uploadImage": "Lataa kuva",
+        "removeImage": "Poista kuva",
+        "attachImage": "Liitä kuva",
+        "loading": "Ladataan chattia...",
+        "loadingMessages": "Ladataan viestejä...",
+        "noMessages": "Ei viestejä vielä. Aloita keskustelu!",
+        "sendMessage": "Lähetä viesti",
+        "you": "Sinä",
+        "cancel": "Peruuta",
+        "messageCannotBeEmpty": "Viesti ei voi olla tyhjä",
+        "messageTooLong": "Viesti ei saa ylittää 10 000 merkkiä",
+        "startVoiceRecording": "Aloita ääninauhoitus",
+        "imagePreview": "Kuvan esikatselu"
+      },
+      "legalSupportTab": {
+        "heading": "Legal Support",
+        "typeMessage": "Kirjoita viestisi...",
+        "typeMessagePlaceholder": "Kirjoita viestisi... (Paina Enter lähettääksesi, Shift+Enter uudelle riville)",
+        "send": "Lähetä",
+        "audioMessage": "Ääniviesti",
+        "imageMessage": "Kuva",
+        "voice": "Ääni",
+        "text": "Teksti",
+        "recording": "Nauhoitetaan...",
+        "stopRecording": "Lopeta nauhoitus",
+        "startRecording": "Aloita ääninauhoitus",
+        "processingAudio": "Käsitellään ääntä...",
+        "uploadImage": "Lataa kuva",
+        "removeImage": "Poista kuva",
+        "attachImage": "Liitä kuva",
+        "loading": "Ladataan chattia...",
+        "loadingMessages": "Ladataan viestejä...",
+        "noMessages": "Ei viestejä vielä. Aloita keskustelu!",
+        "sendMessage": "Lähetä viesti",
+        "you": "Sinä",
+        "partner": "Kumppani",
+        "cancel": "Peruuta",
+        "messageCannotBeEmpty": "Viesti ei voi olla tyhjä",
+        "messageTooLong": "Viesti ei saa ylittää 10 000 merkkiä",
+        "startRecording": "Aloita ääninauhoitus",
+        "imagePreview": "Kuvan esikatselu"
+      }
+    },
+    "caseManager": {
+      "heading": "Tapausvastaavat",
+      "list": "Lista",
+      "createNewCaseManager": "Luo uusi tapausvastaava",
+      "create": "Luo",
+      "editCaseManager": "Muokkaa tapausvastaavaa",
+      "edit": "Muokkaa",
+      "caseManagerNotFound": "Tapausvastaavaa ei löytynyt",
+      "addCaseManager": "Lisää tapausvastaava",
+      "back": "Takaisin",
+      "fullName": "Koko nimi",
+      "emailAddress": "Sähköpostiosoite",
+      "password": "Salasana",
+      "passwordPlaceholder": "Jätä tyhjäksi säilyttääksesi nykyinen salasana",
+      "passwordHelperText": "Salasanan on oltava vähintään 8 merkkiä",
+      "phoneNumber": "Puhelinnumero",
+      "reset": "Palauta",
+      "saving": "Tallennetaan...",
+      "save": "Tallenna",
+      "nameMinLength": "Nimen on oltava vähintään 2 merkkiä",
+      "invalidEmail": "Virheellinen sähköpostiosoite",
+      "passwordMinLength": "Salasanan on oltava vähintään 8 merkkiä",
+      "phoneMinLength": "Puhelinnumeron on oltava vähintään 10 numeroa",
+      "caseManagerUpdated": "Tapausvastaava päivitetty onnistuneesti!",
+      "caseManagerCreated": "Tapausvastaava luotu onnistuneesti!",
+      "failedToSave": "Tapausvastaavan tallennus epäonnistui. Yritä uudelleen.",
+      "delete": "Poista",
+      "deleteConfirmTitle": "Poista",
+      "deleteConfirmMessage": "Haluatko varmasti poistaa?",
+      "deleteConfirmMessagePlural": "Haluatko varmasti poistaa",
+      "items": "kohdetta",
+      "caseManagers": "Tapausvastaavat",
+      "accessAccount": "Avaa tili",
+      "searchCaseManager": "Hae tapausvastaavaa...",
+      "searchEmail": "Hae sähköpostia...",
+      "status": "Tila",
+      "all": "Kaikki",
+      "errorLoading": "Virhe tapausvastaavien latauksessa",
+      "retry": "Yritä uudelleen",
+      "caseManagerDeleted": "Tapausvastaava poistettu onnistuneesti!",
+      "caseManagersDeleted": "Tapausvastaavat poistettu onnistuneesti!",
+      "failedToDelete": "Tapausvastaavan poisto epäonnistui",
+      "failedToDeletePlural": "Tapausvastaavien poisto epäonnistui",
+      "successfullyLoggedIn": "Kirjauduttu sisään tapausvastaavana. Sivu päivittyy...",
+      "failedToAccessAccount": "Tilin avaaminen epäonnistui. Yritä uudelleen.",
+      "tableHeaders": {
+        "name": "Nimi",
+        "email": "Sähköposti",
+        "phone": "Puhelin",
+        "verified": "Vahvistettu",
+        "active": "Aktiivinen",
+        "status": "Tila",
+        "created": "Luotu"
+      },
+      "statusOptions": {
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen",
+        "suspended": "Keskeytetty"
+      }
+    },
+    "question": {
+      "heading": "Kysymykset",
+      "list": "Lista",
+      "addQuestion": "Lisää kysymys",
+      "editQuestion": "Muokkaa kysymystä",
+      "newQuestion": "Uusi kysymys",
+      "questionName": "Kysymyksen nimi",
+      "questionNamePlaceholder": "Anna kysymyksen nimi",
+      "isRequired": "Pakollinen",
+      "yes": "Kyllä",
+      "no": "Ei",
+      "required": "Pakollinen",
+      "optional": "Valinnainen",
+      "inputType": "Syötetyyppi",
+      "inputTypePlaceholder": "Valitse syötetyyppi",
+      "options": "Vaihtoehdot",
+      "addOption": "Lisää vaihtoehto",
+      "addNewOption": "Lisää uusi vaihtoehto",
+      "option": "Vaihtoehto",
+      "cancel": "Peruuta",
+      "updateQuestion": "Päivitä kysymys",
+      "createQuestion": "Luo kysymys",
+      "questionUpdated": "Kysymys päivitetty onnistuneesti!",
+      "questionCreated": "Kysymys luotu onnistuneesti!",
+      "failedToSave": "Kysymyksen tallennus epäonnistui. Yritä uudelleen.",
+      "delete": "Poista",
+      "deleteConfirmTitle": "Varoitus: Pakolliset kysymykset",
+      "deleteConfirmMessage": "Kysymykset, joita yrität poistaa, ovat pakollisia vaatimustenmukaisuuden ja asianmukaisen tapauskäsittelyn kannalta. Niiden poistaminen voi johtaa epätäydellisiin raportteihin ja vähentynyttä oikeudellista ja proseduraalista luotettavuutta.\n\nWisling ei ole vastuussa ongelmista, jotka johtuvat pakollisten kysymysten poistamisesta.\n\nHaluatko jatkaa?",
+      "deleteConfirmMessageSingle": "Kysymykset, joita yrität poistaa, ovat pakollisia vaatimustenmukaisuuden ja asianmukaisen tapauskäsittelyn kannalta. Niiden poistaminen voi johtaa epätäydellisiin raportteihin ja vähentynyttä oikeudellista ja proseduraalista luotettavuutta.\n\nWisling ei ole vastuussa ongelmista, jotka johtuvat pakollisten kysymysten poistamisesta.\n\nHaluatko jatkaa?",
+      "questions": "kysymystä",
+      "questionDeleted": "Kysymys poistettu onnistuneesti!",
+      "questionsDeleted": "Kysymykset poistettu onnistuneesti!",
+      "failedToDelete": "Kysymyksen poisto epäonnistui",
+      "failedToDeletePlural": "Kysymysten poisto epäonnistui",
+      "questionsReordered": "Kysymykset järjestetty onnistuneesti!",
+      "failedToReorder": "Kysymysten järjestyksen tallennus epäonnistui",
+      "errorLoading": "Virhe kysymysten latauksessa",
+      "retry": "Yritä uudelleen",
+      "searchQuestions": "Hae kysymyksiä...",
+      "print": "Tulosta",
+      "import": "Tuo",
+      "export": "Vie",
+      "nameRequired": "Nimi vaaditaan",
+      "inputTypeRequired": "Syötetyyppi vaaditaan",
+      "tableHeaders": {
+        "questionName": "Kysymyksen nimi",
+        "isRequired": "Pakollinen",
+        "inputType": "Syötetyyppi"
+      },
+      "inputTypes": {
+        "text": "Teksti",
+        "select": "Valitse",
+        "password": "Salasana",
+        "email": "Sähköposti",
+        "url": "URL",
+        "tel": "Puhelin",
+        "search": "Haku",
+        "number": "Numero",
+        "range": "Alue",
+        "date": "Päivämäärä",
+        "datetime-local": "Päivämäärä ja aika",
+        "month": "Kuukausi",
+        "week": "Viikko",
+        "time": "Aika",
+        "checkbox": "Valintaruutu",
+        "radio": "Radio",
+        "file": "Tiedosto",
+        "color": "Väri"
+      },
+      "preview": {
+        "preview": "Esikatselu:",
+        "textInput": "Tämä luo tekstikentän, jossa name=\"{{name}}\" ja type=\"text\"",
+        "input": "Tämä luo kentän, jossa name=\"{{name}}\" ja type=\"{{type}}\"",
+        "inputWithOptions": "Tämä luo {{type}}-kentän, jossa on {{count}} vaihtoehto(a): {{options}}"
+      }
+    },
+    "news": {
+      "heading": "Uutiset",
+      "list": "Lista",
+      "createNewNews": "Luo uusi uutinen",
+      "create": "Luo",
+      "edit": "Muokkaa",
+      "editNews": "Muokkaa uutista",
+      "newsNotFound": "Uutista ei löydy",
+      "newsNotFoundMessage": "Etsimäsi uutinen ei ole olemassa.",
+      "backToList": "Takaisin listaan",
+      "addNews": "Lisää uutinen",
+      "tabs": {
+        "all": "Kaikki",
+        "published": "Julkaistu",
+        "draft": "Luonnos"
+      },
+      "tableHeaders": {
+        "title": "Otsikko",
+        "status": "Tila",
+        "createdAt": "Luotu"
+      },
+      "details": {
+        "heading": "Yksityiskohdat",
+        "subheader": "Otsikko, lyhyt kuvaus, kuva...",
+        "newsTitle": "Uutisen otsikko",
+        "description": "Kuvaus",
+        "content": "Sisältö",
+        "coverImage": "Kansikuva",
+        "coverImageHelper": "Maks. tiedostokoko: 5MB. Sallitut: JPG, PNG, WEBP"
+      },
+      "properties": {
+        "heading": "Ominaisuudet",
+        "subheader": "Lisätoiminnot ja attribuutit...",
+        "tags": "Tagit",
+        "tagsPlaceholder": "+ Tagit",
+        "metaTitle": "Meta-otsikko",
+        "metaDescription": "Meta-kuvaus",
+        "metaKeywords": "Meta-avainsanat",
+        "metaKeywordsPlaceholder": "+ Avainsanat"
+      },
+      "actions": {
+        "publish": "Julkaise",
+        "preview": "Esikatselu",
+        "createNews": "Luo uutinen",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "toolbar": {
+        "back": "Takaisin",
+        "goLive": "Siirry live",
+        "edit": "Muokkaa",
+        "loading": "Ladataan…"
+      },
+      "menu": {
+        "view": "Näytä",
+        "edit": "Muokkaa",
+        "delete": "Poista"
+      },
+      "search": {
+        "placeholder": "Hae..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Uutinen poistettu!",
+        "deleteFailed": "Uutista ei voitu poistaa",
+        "updatedSuccessfully": "Uutinen päivitetty!",
+        "createdSuccessfully": "Uutinen luotu!",
+        "coverUploadedSuccessfully": "Kansikuva lähetetty!",
+        "coverUploadFailed": "Uutinen tallennettu, mutta kansikuvaa ei voitu lähettää",
+        "saveFailed": "Uutista ei voitu tallentaa. Yritä uudelleen."
+      },
+      "errors": {
+        "titleRequired": "Otsikko on pakollinen!",
+        "descriptionRequired": "Kuvaus on pakollinen!",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä",
+        "tagsMinLength": "Täytyy olla vähintään 2 kohdetta!",
+        "metaKeywordsRequired": "Meta-avainsanat ovat pakollisia!"
+      },
+      "status": {
+        "published": "Julkaistu",
+        "draft": "Luonnos"
+      },
+      "emptyState": {
+        "notFound": "Uutista ei löydy!",
+        "backToList": "Takaisin listaan"
+      }
+    },
+    "department": {
+      "heading": "Osastot",
+      "list": "Lista",
+      "createNewDepartment": "Luo uusi osasto",
+      "create": "Luo",
+      "edit": "Muokkaa",
+      "editDepartment": "Muokkaa osastoa",
+      "departmentNotFound": "Osastoa ei löydy",
+      "addDepartment": "Lisää osasto",
+      "tabs": {
+        "all": "Kaikki",
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "tableHeaders": {
+        "departmentName": "Osaston nimi",
+        "status": "Tila",
+        "createdAt": "Luotu"
+      },
+      "form": {
+        "departmentName": "Osaston nimi",
+        "status": "Tila",
+        "selectStatus": "Valitse tila"
+      },
+      "actions": {
+        "createDepartment": "Luo osasto",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "menu": {
+        "edit": "Muokkaa",
+        "delete": "Poista"
+      },
+      "search": {
+        "placeholder": "Hae osastoa..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Osasto poistettu!",
+        "deleteFailed": "Osastoa ei voitu poistaa",
+        "deletedMultipleSuccessfully": "Osastot poistettu!",
+        "deleteMultipleFailed": "Osastoja ei voitu poistaa",
+        "updatedSuccessfully": "Osasto päivitetty!",
+        "createdSuccessfully": "Osasto luotu!",
+        "saveFailed": "Osastoa ei voitu tallentaa. Yritä uudelleen."
+      },
+      "errors": {
+        "nameRequired": "Osaston nimi on pakollinen!",
+        "statusRequired": "Tila on pakollinen!"
+      },
+      "status": {
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "confirmDialog": {
+        "delete": "Poista",
+        "deleteConfirm": "Haluatko varmasti poistaa?",
+        "deleteMultipleConfirm": "Haluatko varmasti poistaa {{count}} kohdetta?"
+      },
+      "tooltip": {
+        "delete": "Poista"
+      }
+    },
+    "state": {
+      "heading": "Tilat",
+      "list": "Lista",
+      "createNewState": "Luo uusi tila",
+      "create": "Luo",
+      "edit": "Muokkaa",
+      "editState": "Muokkaa tilaa",
+      "stateNotFound": "Tilaa ei löydy",
+      "addState": "Lisää tila",
+      "tabs": {
+        "all": "Kaikki",
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "tableHeaders": {
+        "stateName": "Tilan nimi",
+        "status": "Tila",
+        "createdAt": "Luotu"
+      },
+      "form": {
+        "stateName": "Tilan nimi",
+        "status": "Tila",
+        "selectStatus": "Valitse tila"
+      },
+      "actions": {
+        "createState": "Luo tila",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "menu": {
+        "edit": "Muokkaa",
+        "delete": "Poista"
+      },
+      "search": {
+        "placeholder": "Hae tilaa..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Tila poistettu!",
+        "deleteFailed": "Tilaa ei voitu poistaa",
+        "deletedMultipleSuccessfully": "Tilat poistettu!",
+        "deleteMultipleFailed": "Tiloja ei voitu poistaa",
+        "updatedSuccessfully": "Tila päivitetty!",
+        "createdSuccessfully": "Tila luotu!",
+        "saveFailed": "Tilaa ei voitu tallentaa. Yritä uudelleen."
+      },
+      "errors": {
+        "nameRequired": "Tilan nimi on pakollinen!",
+        "statusRequired": "Tila on pakollinen!"
+      },
+      "status": {
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "confirmDialog": {
+        "delete": "Poista",
+        "deleteConfirm": "Haluatko varmasti poistaa?",
+        "deleteMultipleConfirm": "Haluatko varmasti poistaa {{count}} kohdetta?"
+      },
+      "tooltip": {
+        "delete": "Poista"
+      }
+    },
+    "severity": {
+      "heading": "Vakavuusasteet",
+      "list": "Lista",
+      "createNewSeverity": "Luo uusi vakavuusaste",
+      "create": "Luo",
+      "edit": "Muokkaa",
+      "editSeverity": "Muokkaa vakavuusastetta",
+      "severityNotFound": "Vakavuusastetta ei löydy",
+      "addSeverity": "Lisää vakavuusaste",
+      "tabs": {
+        "all": "Kaikki",
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "tableHeaders": {
+        "severityName": "Vakavuusasteen nimi",
+        "status": "Tila",
+        "createdAt": "Luotu"
+      },
+      "form": {
+        "severityName": "Vakavuusasteen nimi",
+        "status": "Tila",
+        "selectStatus": "Valitse tila"
+      },
+      "actions": {
+        "createSeverity": "Luo vakavuusaste",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "menu": {
+        "edit": "Muokkaa",
+        "delete": "Poista"
+      },
+      "search": {
+        "placeholder": "Hae vakavuusastetta..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Vakavuusaste poistettu!",
+        "deleteFailed": "Vakavuusastetta ei voitu poistaa",
+        "deletedMultipleSuccessfully": "Vakavuusasteet poistettu!",
+        "deleteMultipleFailed": "Vakavuusasteita ei voitu poistaa",
+        "updatedSuccessfully": "Vakavuusaste päivitetty!",
+        "createdSuccessfully": "Vakavuusaste luotu!",
+        "saveFailed": "Vakavuusastetta ei voitu tallentaa. Yritä uudelleen."
+      },
+      "errors": {
+        "nameRequired": "Vakavuusasteen nimi on pakollinen!",
+        "statusRequired": "Tila on pakollinen!"
+      },
+      "status": {
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "confirmDialog": {
+        "delete": "Poista",
+        "deleteConfirm": "Haluatko varmasti poistaa?",
+        "deleteMultipleConfirm": "Haluatko varmasti poistaa {{count}} kohdetta?"
+      },
+      "tooltip": {
+        "delete": "Poista"
+      }
+    },
+    "privacyPolicy": {
+      "heading": "Tietosuojakäytäntö",
+      "edit": "Muokkaa",
+      "editPrivacyPolicy": "Muokkaa tietosuojakäytäntöä",
+      "editPrivacyPolicyButton": "Muokkaa tietosuojakäytäntöä",
+      "lastUpdated": "Viimeksi päivitetty",
+      "unknown": "Tuntematon",
+      "form": {
+        "title": "Tietosuojakäytännön yksityiskohdat",
+        "subheader": "Päivitä tietosuojakäytännön sisältö ja metadata",
+        "titleLabel": "Otsikko",
+        "content": "Sisältö",
+        "tip": "💡 Vinkki: Klikkaa kuvaketta työkalupalkissa ladataksesi kuvia tai lisätäksesi kuvan URL-osoitteita"
+      },
+      "actions": {
+        "preview": "Esikatselu",
+        "cancel": "Peruuta",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "toast": {
+        "updatedSuccessfully": "Tietosuojakäytäntö päivitetty!",
+        "updateFailed": "Tietosuojakäytäntöä ei voitu päivittää. Yritä uudelleen."
+      },
+      "errors": {
+        "titleMinLength": "Otsikon on oltava vähintään 5 merkkiä",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä"
+      },
+      "loading": "Ladataan...",
+      "error": {
+        "title": "Virhe tietosuojakäytännön lataamisessa",
+        "description": "Tietosuojakäytännön lataamisessa tapahtui virhe. Yritä uudelleen.",
+        "retry": "Yritä uudelleen"
+      }
+    },
+    "aboutUs": {
+      "heading": "Tietoja meistä",
+      "edit": "Muokkaa",
+      "editAboutUs": "Muokkaa tietoja meistä",
+      "editAboutUsButton": "Muokkaa tietoja meistä",
+      "lastUpdated": "Viimeksi päivitetty",
+      "unknown": "Tuntematon",
+      "form": {
+        "title": "Tietoja meistä -yksityiskohdat",
+        "subheader": "Päivitä tietoja meistä -sivun sisältö ja metadata",
+        "titleLabel": "Otsikko",
+        "content": "Sisältö",
+        "tip": "💡 Vinkki: Klikkaa kuvakuvaketta työkalupalkissa ladataksesi kuvia tai lisätäksesi kuvan URL-osoitteita"
+      },
+      "actions": {
+        "preview": "Esikatselu",
+        "cancel": "Peruuta",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "toast": {
+        "updatedSuccessfully": "Tietoja meistä -sivu päivitetty!",
+        "updateFailed": "Tietoja meistä -sivun päivitys epäonnistui. Yritä uudelleen."
+      },
+      "errors": {
+        "titleMinLength": "Otsikon on oltava vähintään 5 merkkiä",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä"
+      },
+      "loading": "Ladataan...",
+      "error": {
+        "title": "Virhe tietoja meistä -sivun lataamisessa",
+        "description": "Tietoja meistä -sivun lataamisessa tapahtui virhe. Yritä uudelleen.",
+        "retry": "Yritä uudelleen"
+      }
+    },
+    "loginPage": {
+      "heading": "Kirjautumissivu",
+      "edit": "Muokkaa",
+      "editLoginPage": "Muokkaa kirjautumissivua",
+      "editLoginPageButton": "Muokkaa kirjautumissivua",
+      "lastUpdated": "Viimeksi päivitetty",
+      "unknown": "Tuntematon",
+      "form": {
+        "title": "Kirjautumissivu-yksityiskohdat",
+        "subheader": "Päivitä kirjautumissivun sisältö ja metadata",
+        "titleLabel": "Otsikko",
+        "content": "Sisältö",
+        "tip": "💡 Vinkki: Klikkaa kuvakuvaketta työkalupalkissa ladataksesi kuvia tai lisätäksesi kuvan URL-osoitteita"
+      },
+      "actions": {
+        "preview": "Esikatselu",
+        "cancel": "Peruuta",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "toast": {
+        "updatedSuccessfully": "Kirjautumissivu päivitetty!",
+        "updateFailed": "Kirjautumissivun päivitys epäonnistui. Yritä uudelleen."
+      },
+      "errors": {
+        "titleMinLength": "Otsikon on oltava vähintään 5 merkkiä",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä"
+      },
+      "loading": "Ladataan...",
+      "error": {
+        "title": "Virhe kirjautumissivun lataamisessa",
+        "description": "Kirjautumissivun lataamisessa tapahtui virhe. Yritä uudelleen.",
+        "retry": "Yritä uudelleen"
+      }
+    },
+    "paymentPage": {
+      "heading": "Maksusivu",
+      "edit": "Muokkaa",
+      "editPaymentPage": "Muokkaa maksusivua",
+      "editPaymentPageButton": "Muokkaa maksusivua",
+      "lastUpdated": "Viimeksi päivitetty",
+      "unknown": "Tuntematon",
+      "form": {
+        "title": "Maksusivu-yksityiskohdat",
+        "subheader": "Päivitä maksusivun sisältö ja metadata",
+        "titleLabel": "Otsikko",
+        "content": "Sisältö",
+        "tip": "💡 Vinkki: Klikkaa kuvakuvaketta työkalupalkissa ladataksesi kuvia tai lisätäksesi kuvan URL-osoitteita"
+      },
+      "actions": {
+        "preview": "Esikatselu",
+        "cancel": "Peruuta",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "toast": {
+        "updatedSuccessfully": "Maksusivu päivitetty!",
+        "updateFailed": "Maksusivun päivitys epäonnistui. Yritä uudelleen."
+      },
+      "errors": {
+        "titleMinLength": "Otsikon on oltava vähintään 5 merkkiä",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä"
+      },
+      "loading": "Ladataan...",
+      "error": {
+        "title": "Virhe maksusivun lataamisessa",
+        "description": "Maksusivun lataamisessa tapahtui virhe. Yritä uudelleen.",
+        "retry": "Yritä uudelleen"
+      }
+    },
+    "termsConditions": {
+      "heading": "Käyttöehdot",
+      "edit": "Muokkaa",
+      "editTermsConditions": "Muokkaa käyttöehtoja",
+      "editTermsConditionsButton": "Muokkaa käyttöehtoja",
+      "lastUpdated": "Viimeksi päivitetty",
+      "unknown": "Tuntematon",
+      "form": {
+        "title": "Käyttöehtojen yksityiskohdat",
+        "subheader": "Päivitä käyttöehtojen sisältö ja metadata",
+        "titleLabel": "Otsikko",
+        "content": "Sisältö",
+        "tip": "💡 Vinkki: Klikkaa kuvaketta työkalupalkissa ladataksesi kuvia tai lisätäksesi kuvan URL-osoitteita"
+      },
+      "actions": {
+        "preview": "Esikatselu",
+        "cancel": "Peruuta",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "toast": {
+        "updatedSuccessfully": "Käyttöehdot päivitetty!",
+        "updateFailed": "Käyttöehtoja ei voitu päivittää. Yritä uudelleen."
+      },
+      "errors": {
+        "titleMinLength": "Otsikon on oltava vähintään 5 merkkiä",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä"
+      },
+      "loading": "Ladataan...",
+      "error": {
+        "title": "Virhe käyttöehtojen lataamisessa",
+        "description": "Käyttöehtojen lataamisessa tapahtui virhe. Yritä uudelleen.",
+        "retry": "Yritä uudelleen"
+      }
+    },
+    "support": {
+      "heading": "Tuki",
+      "edit": "Muokkaa",
+      "editSupport": "Muokkaa tukea",
+      "editSupportButton": "Muokkaa tukea",
+      "lastUpdated": "Viimeksi päivitetty",
+      "unknown": "Tuntematon",
+      "form": {
+        "title": "Tuen yksityiskohdat",
+        "subheader": "Päivitä tuen sisältö ja metadata",
+        "titleLabel": "Otsikko",
+        "content": "Sisältö",
+        "tip": "💡 Vinkki: Klikkaa kuvaketta työkalupalkissa ladataksesi kuvia tai lisätäksesi kuvan URL-osoitteita"
+      },
+      "actions": {
+        "preview": "Esikatselu",
+        "cancel": "Peruuta",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "toast": {
+        "updatedSuccessfully": "Tuki päivitetty!",
+        "updateFailed": "Tukea ei voitu päivittää. Yritä uudelleen."
+      },
+      "errors": {
+        "titleMinLength": "Otsikon on oltava vähintään 5 merkkiä",
+        "contentMinLength": "Sisällön on oltava vähintään 20 merkkiä"
+      },
+      "loading": "Ladataan...",
+      "error": {
+        "title": "Virhe tuen lataamisessa",
+        "description": "Tuen sisällön lataamisessa tapahtui virhe. Yritä uudelleen.",
+        "retry": "Yritä uudelleen"
+      }
+    },
+    "themeConfiguration": {
+      "heading": "Teeman konfigurointi",
+      "resetAll": "Nollaa kaikki",
+      "basicSettings": {
+        "title": "Perusasetukset",
+        "description": "Määritä perusteeman asetukset",
+        "mode": "Tila",
+        "contrast": "Kontrasti",
+        "rightToLeft": "Oikealta vasemmalle",
+        "compact": "Kompakti",
+        "compactTooltip": "Vain dashboard ja saatavilla suurilla resoluutioilla > 1600px (xl)",
+        "system": "Järjestelmä"
+      },
+      "colorSettings": {
+        "title": "Väriasetus",
+        "description": "Mukauta sovelluksesi väriteemaa",
+        "colorPresets": "Värien esiasetukset"
+      },
+      "layoutSettings": {
+        "title": "Layout-asetukset",
+        "description": "Määritä navigoinnin ja layoutin asetukset",
+        "navigationLayout": {
+          "title": "Navigoinnin layout",
+          "description": "Valitse, miten navigointivalikko näytetään"
+        },
+        "navigationColor": {
+          "title": "Navigoinnin väri",
+          "description": "Valitse navigoinnin väriteema",
+          "integrate": "Integroi",
+          "apparent": "Ilmeinen"
+        }
+      },
+      "typographySettings": {
+        "title": "Typografia-asetukset",
+        "description": "Mukauta fontteja ja tekstiasetuksia",
+        "typography": "Typografia",
+        "family": "Perhe",
+        "size": "Koko"
+      }
+    },
+    "emailTemplate": {
+      "heading": "Sähköpostimallit",
+      "list": "Luettelo",
+      "createNewEmailTemplate": "Luo sähköpostimalli",
+      "editEmailTemplate": "Muokkaa sähköpostimallia",
+      "addEmailTemplate": "Lisää sähköpostimalli",
+      "tableHead": {
+        "templateName": "Mallin nimi",
+        "subject": "Aihe",
+        "language": "Kieli",
+        "status": "Tila",
+        "createdAt": "Luotu"
+      },
+      "tabs": {
+        "all": "Kaikki",
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "toolbar": {
+        "status": "Tila",
+        "searchPlaceholder": "Hae sähköpostimalleja..."
+      },
+      "menuActions": {
+        "print": "Tulosta",
+        "import": "Tuo",
+        "export": "Vie",
+        "edit": "Muokkaa",
+        "delete": "Poista"
+      },
+      "confirmDialog": {
+        "deleteTitle": "Poista",
+        "deleteContent": "Haluatko varmasti poistaa <strong> {count} </strong> sähköpostimallia?",
+        "deleteSingleContent": "Haluatko varmasti poistaa tämän sähköpostimallin?"
+      },
+      "toast": {
+        "deleteSuccess": "Sähköpostimalli poistettu!",
+        "deleteMultipleSuccess": "Sähköpostimallit poistettu!",
+        "createSuccess": "Sähköpostimalli luotu!",
+        "updateSuccess": "Sähköpostimalli päivitetty!",
+        "deleteError": "Sähköpostimallin poistaminen epäonnistui",
+        "deleteMultipleError": "Sähköpostimallien poistaminen epäonnistui",
+        "createError": "Sähköpostimallin luominen epäonnistui",
+        "updateError": "Sähköpostimallin päivitys epäonnistui"
+      },
+      "form": {
+        "templateName": "Mallin nimi",
+        "subject": "Aihe",
+        "language": "Kieli",
+        "status": "Tila",
+        "selectStatus": "Valitse tila",
+        "content": "Sisältö",
+        "placeholderVariables": "Paikkamerkkiv muuttujat",
+        "placeholderExample": "esim. {{name}}, {{email}}, {{date}}",
+        "placeholderHelperText": "Syötä paikkamerkkiv muuttujat, joita voidaan käyttää sähköpostimallissa",
+        "cancel": "Peruuta",
+        "save": "Tallenna",
+        "loading": "Ladataan..."
+      },
+      "languageOptions": {
+        "en": "Englanti",
+        "sv": "Ruotsi",
+        "no": "Norja",
+        "da": "Tanska",
+        "fi": "Suomi",
+        "fr": "Ranska",
+        "de": "Saksa"
+      },
+      "statusOptions": {
+        "active": "Aktiivinen",
+        "inactive": "Epäaktiivinen"
+      },
+      "validation": {
+        "templateNameRequired": "Mallin nimi vaaditaan",
+        "subjectRequired": "Aihe vaaditaan",
+        "contentRequired": "Sisältö vaaditaan",
+        "languageRequired": "Kieli vaaditaan",
+        "statusRequired": "Tila vaaditaan"
+      }
+    },
+    "stripeConfiguration": {
+      "heading": "Stripe-konfigurointi",
+      "breadcrumb": "Stripe-konfigurointi",
+      "form": {
+        "clientId": "Stripe Client ID (Julkaistava avain)",
+        "clientIdPlaceholder": "Syötä Stripe Client ID",
+        "clientIdHelperText": "Stripe-julkaistava avain (esim. pk_test_...)",
+        "secretKey": "Stripe Secret Key",
+        "secretKeyPlaceholder": "Syötä Stripe Secret Key",
+        "secretKeyHelperText": "Stripe-salainen avain (esim. sk_test_...)",
+        "webhookSecret": "Stripe Webhook Secret",
+        "webhookSecretPlaceholder": "Syötä Stripe Webhook Secret",
+        "webhookSecretHelperText": "Stripe webhook-salaisuus (esim. whsec_...)",
+        "saveConfiguration": "Tallenna konfiguraatio",
+        "cancel": "Peruuta",
+        "testConnection": "Testaa yhteys",
+        "securityNote": "Turvallisuushuomio:",
+        "securityNoteText": "Stripe-tunnukset tallennetaan turvallisesti tietokantaan. Varmista, että käytät testiavaimia (pk_test_ ja sk_test_) kehityksessä ja live-avaimia (pk_live_ ja sk_live_) vain tuotantoympäristöissä."
+      },
+      "toast": {
+        "saveSuccess": "Stripe-konfiguraatio tallennettu!",
+        "saveError": "Konfiguraation tallentaminen epäonnistui",
+        "testSuccess": "Stripe-yhteydentestaus onnistui!",
+        "testError": "Stripe-yhteydentestaus epäonnistui. Tarkista tunnuksesi.",
+        "testConnectionError": "Yhteyden testaus epäonnistui"
+      },
+      "alert": {
+        "testSuccess": "Stripe-yhteydentestaus onnistui! Tunnuksesi ovat voimassa.",
+        "testError": "Stripe-yhteydentestaus epäonnistui. Tarkista tunnuksesi ja yritä uudelleen."
+      },
+      "validation": {
+        "clientIdRequired": "Client ID vaaditaan",
+        "secretKeyRequired": "Secret Key vaaditaan",
+        "webhookSecretRequired": "Webhook Secret vaaditaan"
+      }
+    },
+    "bankDetails": {
+      "heading": "Pankkitiedot",
+      "breadcrumb": "Pankkitiedot",
+      "form": {
+        "iban": "IBAN",
+        "ibanPlaceholder": "Syötä IBAN",
+        "ibanHelperText": "Kansainvälinen pankkitilinumero",
+        "bic": "BIC (Bank Identifier Code)",
+        "bicPlaceholder": "Syötä BIC",
+        "bicHelperText": "Bank Identifier Code (SWIFT-koodi)",
+        "bankAccount": "Pankkitilinumero",
+        "bankAccountPlaceholder": "Syötä pankkitilinumero",
+        "bankAccountHelperText": "Pankkitilinumero",
+        "saveBankDetails": "Tallenna pankkitiedot",
+        "cancel": "Peruuta",
+        "securityNote": "Turvallisuushuomio:",
+        "securityNoteText": "Pankkitiedot tallennetaan turvallisesti selaimen paikalliseen tallennustilaan. Varmista, että käytät testitietoja kehityksessä ja todellisia tietoja vain tuotantoympäristöissä."
+      },
+      "toast": {
+        "saveSuccess": "Pankkitiedot tallennettu!",
+        "saveError": "Pankkitietojen tallentaminen epäonnistui"
+      },
+      "validation": {
+        "ibanRequired": "IBAN vaaditaan",
+        "ibanInvalid": "Virheellinen IBAN-muoto",
+        "bicRequired": "BIC vaaditaan",
+        "bicInvalid": "Virheellinen BIC-muoto",
+        "bankAccountRequired": "Pankkitili vaaditaan",
+        "bankAccountInvalid": "Pankkitili voi sisältää kirjaimia, numeroita, välilyöntejä ja viivoja"
+      }
+    },
+    "basicConfiguration": {
+      "heading": "Peruskonfiguraatio",
+      "breadcrumb": "Peruskonfiguraatio",
+      "form": {
+        "companyLogo": "Yrityksen logo",
+        "smallCompanyLogo": "Pieni yrityksen logo",
+        "uploadLogo": "Lataa logo",
+        "changeLogo": "Vaihda logo",
+        "remove": "Poista",
+        "defaultOpenStateDeadline": "Oletusarvoinen avoin tilan deadline (päivää)",
+        "defaultClosedStateDeadline": "Oletusarvoinen suljettu tilan deadline (päivää)",
+        "vat": "ALV (%)",
+        "defaultPrice": "Oletushinta",
+        "phoneHoursFrom": "Puhelinaika alkaen",
+        "phoneHoursTo": "Puhelinaika asti",
+        "invoiceNote": "Laskun huomautus",
+        "invoiceNoteHelperText": "Valinnainen huomautus lisättäväksi laskuihin",
+        "deleteClosedCases": "Poista suljetut tapaukset",
+        "deleteClosedCasesHelperText": "Ota käyttöön automaattinen suljettujen tapausten poisto tietyn ajanjakson jälkeen",
+        "saveConfiguration": "Tallenna konfiguraatio",
+        "cancel": "Peruuta",
+        "note": "Huomio:",
+        "noteText": "Konfiguraatiomuutokset vaikuttavat kaikkiin uusiin tapauksiin ja järjestelmäkäyttäytymiseen. Varmista, että tarkistat kaikki asetukset ennen tallennusta."
+      },
+      "toast": {
+        "saveSuccess": "Peruskonfiguraatio tallennettu!",
+        "saveError": "Konfiguraation tallentaminen epäonnistui"
+      },
+      "validation": {
+        "fileSizeError": "Tiedoston koon on oltava alle 5MB",
+        "fileTypeError": "Tiedoston on oltava kuva",
+        "deadlineMin": "On oltava vähintään 1 päivä",
+        "deadlineMax": "Ei saa ylittää 365 päivää",
+        "vatMin": "ALV on oltava vähintään 0%",
+        "vatMax": "ALV ei saa ylittää 100%",
+        "priceMin": "Hinnan on oltava vähintään 0",
+        "timeFormatError": "Virheellinen aikaformaat (HH:MM)",
+        "invoiceNoteMax": "Laskun huomautus ei saa ylittää 500 merkkiä"
+      }
+    },
+    "user": {
+      "heading": "Käyttäjä",
+      "editUser": "Muokkaa käyttäjää",
+      "edit": "Muokkaa",
+      "userNotFound": "Käyttäjää ei löytynyt",
+      "loading": "Ladataan...",
+      "form": {
+        "fullName": "Koko nimi",
+        "emailAddress": "Sähköpostiosoite",
+        "phoneNumber": "Puhelinnumero",
+        "country": "Maa",
+        "chooseCountry": "Valitse maa",
+        "stateRegion": "Osavaltio/alue",
+        "city": "Kaupunki",
+        "address": "Osoite",
+        "physicalAddress": "Fyysinen osoite",
+        "phoneHoursFrom": "Puhelinaika alkaen",
+        "phoneHoursTo": "Puhelinaika päättyy",
+        "zipCode": "Postinumero",
+        "company": "Yritys",
+        "companyNumber": "Yritysnumero",
+        "role": "Rooli",
+        "avatarAllowed": "Sallitut *.jpeg, *.jpg, *.png, *.gif",
+        "avatarMaxSize": "maksimikoko",
+        "companyLogo": "Yrityksen logo",
+        "createUser": "Luo käyttäjä",
+        "saveChanges": "Tallenna muutokset"
+      },
+      "validation": {
+        "nameRequired": "Nimi vaaditaan!",
+        "emailRequired": "Sähköposti vaaditaan!",
+        "countryRequired": "Maa vaaditaan!",
+        "addressRequired": "Osoite vaaditaan!",
+        "stateRequired": "Osavaltio vaaditaan!",
+        "cityRequired": "Kaupunki vaaditaan!",
+        "zipCodeRequired": "Postinumero vaaditaan!",
+        "companyRequired": "Yritys vaaditaan!",
+        "roleRequired": "Rooli vaaditaan!"
+      },
+      "toast": {
+        "updateSuccess": "Käyttäjä päivitetty",
+        "createSuccess": "Luominen onnistui!",
+        "saveError": "Tallennus epäonnistui"
+      }
+    }
+  }
+}
+

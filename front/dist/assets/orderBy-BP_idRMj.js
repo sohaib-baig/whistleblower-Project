@@ -1,0 +1,1 @@
+function h(r,t,n){return r<t?n==="asc"?-1:1:r>t?n==="asc"?1:-1:0}function p(r,t,n){return r.slice().sort((c,s)=>{const u=n.length;for(let e=0;e<t.length;e++){const l=u>e?n[e]:n[u-1],o=t[e],i=typeof o=="function",a=i?o(c):c[o],g=i?o(s):s[o],f=h(a,g,l);if(f!==0)return f}return 0})}export{p as o};

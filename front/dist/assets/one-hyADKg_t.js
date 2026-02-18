@@ -1,0 +1,1 @@
+import{u as s,V as t,r as o,p as u}from"./index-BJkBHIXD.js";function c(){const a=s(),{user:r}=t();return o.useEffect(()=>{const e=r?.role?.toLowerCase();(e==="admin"||e==="company"||e==="case_manager")&&a.replace(u.dashboard.overview.analytics)},[r,a]),null}export{c as default};

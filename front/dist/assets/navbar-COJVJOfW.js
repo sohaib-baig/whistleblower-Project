@@ -1,0 +1,1 @@
+const e="应用",n="工作",s="角色",c="用户",a="旅行",r="发票",o={title:"博客",caption:"自定义键盘快捷键。"},t="子标题",l={app:"应用",job:"工作",role:"角色",user:"用户",travel:"旅行",invoice:"发票",blog:o,subheader:t};export{e as app,o as blog,l as default,r as invoice,n as job,s as role,t as subheader,a as travel,c as user};

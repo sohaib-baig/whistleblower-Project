@@ -1,0 +1,1 @@
+const e={lang:"Deutsch",description:"Der Ausgangspunkt für Ihr nächstes Projekt basiert auf MUI. Einfache Anpassung hilft Ihnen, Apps schneller und besser zu erstellen."},s={demo:e};export{s as default,e as demo};

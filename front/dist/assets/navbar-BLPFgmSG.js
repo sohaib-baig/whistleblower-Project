@@ -1,0 +1,1 @@
+const t="Ứng dụng",n="Công việc",o="Vai trò",c="Người dùng",s="Du lịch",a="Hóa đơn",e={title:"Blog",caption:"Phím tắt tùy chỉnh."},i="Tiêu đề phụ",g={app:t,job:n,role:o,user:c,travel:s,invoice:a,blog:e,subheader:i};export{t as app,e as blog,g as default,a as invoice,n as job,o as role,i as subheader,s as travel,c as user};

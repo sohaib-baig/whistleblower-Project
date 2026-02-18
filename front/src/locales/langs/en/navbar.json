@@ -1,0 +1,1647 @@
+{
+  "app": "App",
+  "job": "Job",
+  "role": "Role",
+  "user": "User",
+  "travel": "Travel",
+  "invoice": "Invoice",
+  "blog": {
+    "title": "Blog",
+    "caption": "Custom keyboard shortcuts."
+  },
+  "subheader": "Sub header",
+    "sidebar": {
+      "overview": "Overview",
+      "home": "Home",
+      "management": "Management",
+      "companies": "Companies",
+      "categories": "Categories",
+      "reportingLinks": "Reporting Links",
+      "invoices": "Invoices",
+      "cases": "Cases",
+      "caseManagers": "Case Managers",
+      "supportTickets": "Support Tickets",
+    "questions": "Questions",
+    "news": "News",
+    "settings": "Settings",
+    "managementTitle": "Management",
+    "department": "Department",
+    "state": "State",
+    "severity": "Severity",
+    "pages": "Pages",
+    "pagesTitle": "Pages",
+    "privacyPolicy": "Privacy Policy",
+    "aboutUs": "About Us",
+    "loginPage": "Login Page",
+    "policyPage": "Policy Page",
+    "paymentPage": "Payment Page",
+    "termsConditions": "Terms & Conditions",
+    "support": "Support",
+    "account": "Account settings",
+    "preferences": "Preferences",
+    "themeConfiguration": "Theme Configuration",
+    "miscelaneous": "Miscelaneous",
+    "settingsTitle": "Settings",
+    "emailTemplates": "Email Templates",
+    "stripeConfiguration": "Stripe Configuration",
+    "bankDetails": "Bank Details",
+    "basicConfiguration": "Basic configuration",
+    "language": "Language"
+  },
+  "dashboard": {
+    "company": {
+      "heading": "Companies",
+      "list": "List",
+      "createNewCompany": "Create a new company",
+      "create": "Create",
+      "editCompany": "Edit company",
+      "edit": "Edit",
+      "companyNotFound": "Company not found",
+      "companyNotFoundMessage": "The company you are looking for does not exist.",
+      "companyName": "Company Name",
+      "emailAddress": "Email address",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
+      "passwordPlaceholderEdit": "Leave blank to keep current password",
+      "passwordHelperText": "Only fill this if you want to change the password",
+      "phoneNumber": "Phone number",
+      "address": "Address",
+      "status": "Status",
+      "selectStatus": "Select Status",
+      "createCompany": "Create company",
+      "saveChanges": "Save changes",
+      "companyUpdated": "Company updated successfully!",
+      "companyCreated": "Company created successfully!",
+      "failedToSave": "Failed to save company",
+      "companyDeleted": "Company deleted successfully!",
+      "companiesDeleted": "Companies deleted successfully!",
+      "failedToDelete": "Failed to delete company",
+      "failedToDeletePlural": "Failed to delete companies",
+      "delete": "Delete",
+      "deleteConfirmTitle": "Delete",
+      "deleteConfirmMessage": "Are you sure want to delete this company?",
+      "deleteConfirmMessagePlural": "Are you sure want to delete",
+      "companies": "companies",
+      "edit": "Edit",
+      "accessAccount": "Access Account",
+      "searchCompanies": "Search companies...",
+      "all": "All",
+      "print": "Print",
+      "import": "Import",
+      "export": "Export",
+      "errorLoadingCompanies": "Error Loading Companies",
+      "retry": "Retry",
+      "successfullyLoggedIn": "Successfully logged in as company. Page will reload...",
+      "failedToAccessAccount": "Failed to access account. Please try again.",
+      "tableHeaders": {
+        "companyName": "Company Name",
+        "phoneNumber": "Phone Number",
+        "address": "Address",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "active": "Active",
+        "pending": "Pending",
+        "banned": "Banned"
+      }
+    },
+    "category": {
+      "heading": "Categories",
+      "list": "List",
+      "createNewCategory": "Create a new category",
+      "create": "Create",
+      "editCategory": "Edit category",
+      "edit": "Edit",
+      "categoryNotFound": "Category not found",
+      "categoryNotFoundMessage": "The category you are looking for does not exist.",
+      "categoryName": "Category Name",
+      "status": "Status",
+      "selectStatus": "Select status",
+      "createCategory": "Create category",
+      "saveChanges": "Save changes",
+      "categoryUpdated": "Category updated successfully!",
+      "categoryCreated": "Category created successfully!",
+      "failedToSave": "Failed to save category. Please try again.",
+      "categoryDeleted": "Category deleted successfully!",
+      "categoriesDeleted": "Categories deleted successfully!",
+      "failedToDelete": "Failed to delete category",
+      "failedToDeletePlural": "Failed to delete categories",
+      "delete": "Delete",
+      "deleteConfirmTitle": "Delete",
+      "deleteConfirmMessage": "Are you sure want to delete?",
+      "deleteConfirmMessagePlural": "Are you sure want to delete",
+      "categories": "categories",
+      "items": "items",
+      "searchCategories": "Search category...",
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive",
+      "addCategory": "Add category",
+      "tableHeaders": {
+        "categoryName": "Category Name",
+        "status": "Status",
+        "createdAt": "Created At"
+      }
+    },
+    "reportingLink": {
+      "heading": "Reporting links",
+      "breadcrumb": "Reporting Links",
+      "customizeChannel": "Customize your reporting channel",
+      "customizeDescription": "From this page and the tabs below you can adjust the settings for each reporting channel.",
+      "openPage": "Open page",
+      "reportingLink": "Reporting link",
+      "copy": "Copy",
+      "loading": "Loading...",
+      "tabs": {
+        "setting": "Setting",
+        "page": "Reporting channel",
+        "privacyPolicy": "Page 1",
+        "termsConditions": "Page 2",
+        "support": "Page 3",
+        "question": "Question",
+        "department": "Department",
+        "state": "State",
+        "severity": "Severity"
+      },
+      "pageContent": {
+        "title": "Reporting Page Content",
+        "description": "Update the reporting page title and content",
+        "titleLabel": "Title",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs",
+        "preview": "Preview",
+        "saveChanges": "Save Changes",
+        "updatedSuccessfully": "Reporting page updated successfully!",
+        "updateFailed": "Failed to update reporting page. Please try again.",
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "page1": {
+        "updatedSuccessfully": "Page 1 updated successfully!"
+      },
+      "page2": {
+        "updatedSuccessfully": "Page 2 updated successfully!"
+      },
+      "page3": {
+        "updatedSuccessfully": "Page 3 updated successfully!"
+      }
+    },
+    "invoice": {
+      "heading": "Invoices",
+      "list": "List",
+      "createNewInvoice": "Create a new invoice",
+      "create": "Create",
+      "invoiceNotFound": "Invoice not found",
+      "addInvoice": "Add invoice",
+      "loading": "Loading...",
+      "deleteSuccess": "Delete success!",
+      "failedToLoad": "Failed to load invoices",
+      "delete": "Delete",
+      "deleteConfirmTitle": "Delete",
+      "deleteConfirmMessage": "Are you sure want to delete?",
+      "deleteConfirmMessagePlural": "Are you sure want to delete",
+      "items": "items",
+      "view": "View",
+      "edit": "Edit",
+      "print": "Print",
+      "download": "Download",
+      "sent": "Sent",
+      "close": "Close",
+      "status": "Status",
+      "viewPaymentAttachment": "View Payment Attachment",
+      "tabs": {
+        "all": "All",
+        "paid": "Paid",
+        "pending": "Pending",
+        "overdue": "Overdue",
+        "draft": "Draft"
+      },
+      "analytics": {
+        "total": "Total",
+        "paid": "Paid",
+        "pending": "Pending",
+        "overdue": "Overdue",
+        "draft": "Draft"
+      },
+      "tableHeaders": {
+        "customer": "Customer",
+        "create": "Create",
+        "due": "Due",
+        "amount": "Amount",
+        "sent": "Sent",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "paid": "Paid",
+        "pending": "Pending",
+        "overdue": "Overdue",
+        "draft": "Draft"
+      },
+      "details": {
+        "invoiceFrom": "Invoice from",
+        "invoiceTo": "Invoice to",
+        "dateCreate": "Date create",
+        "dueDate": "Due date",
+        "description": "Description",
+        "qty": "Qty",
+        "unitPrice": "Unit price",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "taxes": "VAT",
+        "vat": "VAT",
+        "phone": "Phone",
+        "notes": "NOTES",
+        "bankDetails": "BANK DETAILS",
+        "iban": "IBAN",
+        "bicSwift": "BIC/SWIFT",
+        "bankgiro": "Bankgiro",
+        "haveQuestion": "Have a question?",
+        "companyNumber": "Company Number"
+      }
+    },
+    "supportTicket": {
+      "heading": "Support Tickets",
+      "list": "List",
+      "createNewSupportTicket": "Create a new support ticket",
+      "create": "Create",
+      "editSupportTicket": "Edit support ticket",
+      "edit": "Edit",
+      "supportTicketNotFound": "Support ticket not found",
+      "supportTicketNotFoundMessage": "The support ticket you are looking for does not exist.",
+      "subject": "Subject",
+      "status": "Status",
+      "selectStatus": "Select Status",
+      "createSupportTicket": "Create support ticket",
+      "saveChanges": "Save changes",
+      "supportTicketUpdated": "Support ticket updated successfully!",
+      "supportTicketCreated": "Support ticket created successfully!",
+      "failedToSave": "Failed to save support ticket",
+      "supportTicketDeleted": "Support ticket deleted successfully!",
+      "supportTicketsDeleted": "Support tickets deleted successfully!",
+      "failedToDelete": "Failed to delete support ticket",
+      "failedToDeletePlural": "Failed to delete support tickets",
+      "delete": "Delete",
+      "deleteConfirmTitle": "Delete",
+      "deleteConfirmMessage": "Are you sure want to delete this support ticket?",
+      "deleteConfirmMessagePlural": "Are you sure want to delete",
+      "supportTickets": "support tickets",
+      "searchSupportTickets": "Search support tickets...",
+      "all": "All",
+      "print": "Print",
+      "import": "Import",
+      "export": "Export",
+      "errorLoadingSupportTickets": "Error Loading Support Tickets",
+      "retry": "Retry",
+      "tabs": {
+        "all": "All",
+        "open": "Open",
+        "closed": "Closed"
+      },
+      "analytics": {
+        "total": "Total",
+        "open": "Open",
+        "closed": "Closed"
+      },
+      "tableHeaders": {
+        "id": "Ticket ID",
+        "title": "Subject",
+        "creator": "Created By",
+        "status": "Status",
+        "unread_count": "Unread",
+        "created_at": "Created Date"
+      },
+      "statusOptions": {
+        "open": "Open",
+        "closed": "Closed"
+      },
+      "detailsTabs": {
+        "conversation": "Conversation",
+        "information": "Information"
+      },
+      "form": {
+        "title": "Subject",
+        "titlePlaceholder": "Enter ticket subject...",
+        "content": "Message",
+        "contentPlaceholder": "Describe your issue or question...",
+        "status": "Status",
+        "markAsClosed": "Mark as closed after creation",
+        "send": "Send",
+        "cancel": "Cancel",
+        "save": "Save",
+        "loading": "Loading..."
+      },
+      "chat": {
+        "typeMessage": "Type your reply...",
+        "typeMessagePlaceholder": "Type your reply... (Press Enter to send, Shift+Enter for new line)",
+        "send": "Send Reply",
+        "sending": "Sending...",
+        "noMessages": "No messages yet. Start a conversation!",
+        "loading": "Loading conversation...",
+        "ticketClosed": "This ticket is closed. You cannot send new replies.",
+        "reopenTicket": "Reopen Ticket",
+        "closeTicket": "Close Ticket",
+        "attachment": "Attachment",
+        "attachFile": "Attach file",
+        "fileAttached": "File attached"
+      },
+      "toast": {
+        "created": "Support ticket created successfully!",
+        "replied": "Reply sent successfully!",
+        "statusUpdated": "Ticket status updated successfully!",
+        "deleted": "Support ticket deleted successfully!",
+        "error": "An error occurred"
+      }
+    },
+    "case": {
+      "heading": "Cases",
+      "list": "List",
+      "caseDetails": "Case Details",
+      "addCase": "Add case",
+      "deleteSuccess": "Delete success!",
+      "delete": "Delete",
+      "deleteConfirmTitle": "Delete",
+      "deleteConfirmMessage": "Are you sure want to delete?",
+      "deleteConfirmMessagePlural": "Are you sure want to delete",
+      "items": "items",
+      "view": "View",
+      "edit": "Edit",
+      "unassigned": "Unassigned",
+      "tabs": {
+        "all": "All",
+        "new": "New",
+        "inProgress": "In Progress",
+        "open": "Open",
+        "closed": "Closed"
+      },
+      "analytics": {
+        "total": "Total",
+        "new": "New",
+        "inProgress": "In Progress",
+        "open": "Open",
+        "closed": "Closed"
+      },
+      "tableHeaders": {
+        "caseId": "Case ID",
+        "company": "Company",
+        "subject": "Title",
+        "category": "Category",
+        "caseManager": "Case Manager",
+        "status": "Status",
+        "createdDate": "Created Date"
+      },
+      "detailsTabs": {
+        "caseDetails": "Case Details",
+        "reportSetting": "Report Setting",
+        "logs": "Logs",
+        "documents": "Documents",
+        "notes": "Notes",
+      "chat": "Chat",
+      "legalSupport": "Legal Support"
+      },
+      "statusOptions": {
+        "new": "New",
+        "inProgress": "In Progress",
+        "open": "Open",
+        "closed": "Closed"
+      },
+      "caseDetailsTab": {
+        "loading": "Loading...",
+        "failedToLoad": "Failed to load case details",
+        "caseId": "Case ID",
+        "dateTime": "Date & Time",
+        "subject": "Title",
+        "description": "Description",
+        "files": "Files",
+        "reportingChannel": "Reporting Channel",
+        "category": "Category",
+        "assignedTo": "Assigned To",
+        "reportingMedium": "Reporting Medium",
+        "department": "Department",
+        "severity": "Severity",
+        "state": "State",
+        "select": "Select...",
+        "notAssigned": "Not Assigned",
+        "written": "Written & Oral",
+        "oral": "Oral",
+        "phoneCall": "Phone call",
+        "physicalMeeting": "Physical Meeting",
+        "noData": "N/A"
+      },
+      "reportSettingTab": {
+        "heading": "Report Settings",
+        "loading": "Loading...",
+        "failedToLoad": "Failed to load report settings",
+        "assignTo": "Assign To",
+        "selectCaseManager": "Select Case Manager",
+        "loadingCaseManagers": "Loading case managers...",
+        "assignStatus": "Assign Status",
+        "selectStatus": "Select Status",
+        "nextOpenStateDeadline": "Next Open State Deadline Time",
+        "nextOpenStateDeadlineHelper": "Select number and period for next open state deadline",
+        "nextCloseStateDeadline": "Next Close State Deadline Time",
+        "nextCloseStateDeadlineHelper": "Select number and period for next close state deadline",
+        "selectPeriod": "Select Period",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "linkWithOtherReport": "Link with another report",
+        "linkWithOtherReportPlaceholder": "Enter report ID or link",
+        "autoDeleteAfter30Days": "Automatically Delete after 30 days",
+        "selectOption": "Select Option",
+        "yes": "Yes",
+        "no": "No",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes",
+        "saving": "Saving...",
+        "updatedSuccessfully": "Report settings updated successfully",
+        "failedToUpdate": "Failed to update report settings",
+        "fixFormErrors": "Please fix the form errors before submitting",
+        "pleaseFixErrors": "Please fix the following errors:",
+        "invalidValue": "Invalid value",
+        "assignStatusRequired": "Assign Status is required",
+        "new": "New",
+        "open": "Open",
+        "inProgress": "In Progress",
+        "closed": "Closed",
+        "pending": "Pending",
+        "resolved": "Resolved",
+        "rejected": "Rejected",
+        "cancelled": "Cancelled",
+        "spam": "Spam",
+        "other": "Other"
+      },
+      "logsTab": {
+        "heading": "Action Logs",
+        "searchPlaceholder": "Search logs...",
+        "noLogsFound": "No logs found",
+        "noLogsMatchSearch": "No logs match your search",
+        "actionPerformed": "Action Performed",
+        "actionValue": "Action Value",
+        "dateTime": "Date & Time"
+      },
+      "documentsTab": {
+        "heading": "Documents",
+        "searchPlaceholder": "Search documents...",
+        "newDocument": "New Document",
+        "noDocumentsFound": "No documents found",
+        "noDocumentsMatchSearch": "No documents match your search",
+        "title": "Title",
+        "document": "Document",
+        "uploadedAt": "Uploaded At",
+        "actions": "Actions",
+        "file": "File",
+        "uploadNewDocument": "Upload New Document",
+        "documentTitle": "Document Title",
+        "documentTitleRequired": "Document name is required",
+        "selectFile": "Select File",
+        "fileRequired": "File is required",
+        "fileSizeExceeded": "File size must not exceed 10MB",
+        "invalidFileType": "Invalid file type. Allowed types: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, JPG, JPEG, PNG, GIF",
+        "uploading": "Uploading...",
+        "upload": "Upload",
+        "close": "Close",
+        "uploadedSuccessfully": "Document uploaded successfully",
+        "failedToUpload": "Failed to upload document",
+        "pleaseEnterDocumentName": "Please enter a document name",
+        "pleaseSelectFile": "Please select a file to upload",
+        "fileSizeMaxExceeded": "File size must not exceed 10MB",
+        "invalidFileTypeError": "Invalid file type",
+        "failedToLoad": "Failed to load documents",
+        "deletedSuccessfully": "Document deleted successfully",
+        "failedToDelete": "Failed to delete document",
+        "deleteConfirmTitle": "Delete Document",
+        "deleteConfirmMessage": "Are you sure you want to delete this document?",
+        "delete": "Delete",
+        "selectMultipleFiles": "Select one or more files to upload. File names will be used as document titles."
+      },
+      "notesTab": {
+        "heading": "Notes",
+        "searchPlaceholder": "Search notes...",
+        "addNote": "Add Note",
+        "noNotesFound": "No notes found",
+        "noNotesMatchSearch": "No notes found matching your search",
+        "title": "Title",
+        "description": "Description",
+        "date": "Date",
+        "addedBy": "Added By",
+        "actions": "Actions",
+        "unknownUser": "Unknown User",
+        "editNote": "Edit Note",
+        "addNewNote": "Add New Note",
+        "noteTitle": "Note Title",
+        "noteTitleRequired": "Note title is required",
+        "descriptionRequired": "Note description is required",
+        "pleaseEnterNoteTitle": "Please enter a note title",
+        "pleaseEnterNoteDescription": "Please enter a note description",
+        "save": "Save",
+        "saving": "Saving...",
+        "updatedSuccessfully": "Note updated successfully",
+        "addedSuccessfully": "Note added successfully",
+        "failedToSave": "Failed to save note",
+        "deletedSuccessfully": "Note deleted successfully",
+        "failedToDelete": "Failed to delete note",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note?",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "failedToLoad": "Failed to load notes"
+      },
+      "chatTab": {
+        "heading": "Case Chat",
+        "typeMessage": "Type your message...",
+        "typeMessagePlaceholder": "Type your message... (Press Enter to send, Shift+Enter for new line)",
+        "send": "Send",
+        "audioMessage": "Audio message",
+        "imageMessage": "Image",
+        "voice": "Voice",
+        "text": "Text",
+        "recording": "Recording...",
+        "stopRecording": "Stop Recording",
+        "startRecording": "Start Voice Recording",
+        "processingAudio": "Processing audio...",
+        "uploadImage": "Upload Image",
+        "removeImage": "Remove Image",
+        "attachImage": "Attach Image",
+        "loading": "Loading chat...",
+        "loadingMessages": "Loading messages...",
+        "noMessages": "No messages yet. Start a conversation!",
+        "sendMessage": "Send Message",
+        "you": "You",
+        "cancel": "Cancel",
+        "messageCannotBeEmpty": "Message cannot be empty",
+        "messageTooLong": "Message must not exceed 10,000 characters",
+        "startVoiceRecording": "Start Voice Recording",
+        "imagePreview": "Image Preview",
+        "failedToSend": "Failed to send message",
+        "failedToLoad": "Failed to load chat messages",
+        "recordingError": "Recording error occurred. Please try again.",
+        "noAudioData": "No audio data recorded. Please try again.",
+        "failedToAccessMicrophone": "Failed to access microphone. Please check permissions.",
+        "errorStoppingRecording": "Error stopping recording. Please try again.",
+        "audioFileTooLarge": "Audio file size must not exceed 10MB",
+        "imageFileTooLarge": "Image file size must not exceed 10MB",
+        "invalidImageType": "Invalid image type. Allowed types: JPEG, JPG, PNG, GIF, WEBP",
+        "failedToSendAudio": "Failed to send audio message",
+        "failedToSendImage": "Failed to send image",
+        "anonymous": "Anonymous"
+      },
+      "legalSupportTab": {
+        "heading": "Legal Support",
+        "typeMessage": "Type your message...",
+        "typeMessagePlaceholder": "Type your message... (Press Enter to send, Shift+Enter for new line)",
+        "send": "Send",
+        "audioMessage": "Audio message",
+        "imageMessage": "Image",
+        "voice": "Voice",
+        "text": "Text",
+        "recording": "Recording...",
+        "stopRecording": "Stop Recording",
+        "startRecording": "Start Voice Recording",
+        "processingAudio": "Processing audio...",
+        "uploadImage": "Upload Image",
+        "removeImage": "Remove Image",
+        "attachImage": "Attach Image",
+        "loading": "Loading chat...",
+        "loadingMessages": "Loading messages...",
+        "noMessages": "No messages yet. Start a conversation!",
+        "sendMessage": "Send Message",
+        "you": "You",
+        "partner": "Partner",
+        "cancel": "Cancel",
+        "messageCannotBeEmpty": "Message cannot be empty",
+        "messageTooLong": "Message must not exceed 10,000 characters",
+        "startRecording": "Start Voice Recording",
+        "imagePreview": "Image Preview",
+        "failedToSend": "Failed to send message",
+        "failedToLoad": "Failed to load chat messages",
+        "recordingError": "Recording error occurred. Please try again.",
+        "noAudioData": "No audio data recorded. Please try again.",
+        "failedToAccessMicrophone": "Failed to access microphone. Please check permissions.",
+        "errorStoppingRecording": "Error stopping recording. Please try again.",
+        "audioFileTooLarge": "Audio file size must not exceed 10MB",
+        "imageFileTooLarge": "Image file size must not exceed 10MB",
+        "invalidImageType": "Invalid image type. Allowed types: JPEG, JPG, PNG, GIF, WEBP",
+        "failedToSendAudio": "Failed to send audio message",
+        "failedToSendImage": "Failed to send image"
+      }
+    },
+    "caseManager": {
+      "heading": "Case Managers",
+      "list": "List",
+      "createNewCaseManager": "Create a new case manager",
+      "create": "Create",
+      "editCaseManager": "Edit case manager",
+      "edit": "Edit",
+      "caseManagerNotFound": "Case manager not found",
+      "addCaseManager": "Add Case Manager",
+      "back": "Back",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "password": "Password",
+      "passwordPlaceholder": "Leave blank to keep current password",
+      "passwordHelperText": "Password must be at least 8 characters",
+      "phoneNumber": "Phone Number",
+      "reset": "Reset",
+      "saving": "Saving...",
+      "save": "Save",
+      "nameMinLength": "Name must be at least 2 characters",
+      "invalidEmail": "Invalid email address",
+      "passwordMinLength": "Password must be at least 8 characters",
+      "phoneMinLength": "Phone number must be at least 10 digits",
+      "caseManagerUpdated": "Case manager updated successfully!",
+      "caseManagerCreated": "Case manager created successfully!",
+      "failedToSave": "Failed to save case manager. Please try again.",
+      "delete": "Delete",
+      "deleteConfirmTitle": "Delete",
+      "deleteConfirmMessage": "Are you sure want to delete?",
+      "deleteConfirmMessagePlural": "Are you sure want to delete",
+      "items": "items",
+      "caseManagers": "Case Managers",
+      "edit": "Edit",
+      "accessAccount": "Access Account",
+      "searchCaseManager": "Search case manager...",
+      "searchEmail": "Search email...",
+      "status": "Status",
+      "all": "All",
+      "errorLoading": "Error Loading Case Managers",
+      "retry": "Retry",
+      "caseManagerDeleted": "Case manager deleted successfully!",
+      "caseManagersDeleted": "Case managers deleted successfully!",
+      "failedToDelete": "Failed to delete case manager",
+      "failedToDeletePlural": "Failed to delete case managers",
+      "successfullyLoggedIn": "Successfully logged in as case manager. Page will reload...",
+      "failedToAccessAccount": "Failed to access account. Please try again.",
+      "tableHeaders": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "verified": "Verified",
+        "active": "Active",
+        "status": "Status",
+        "created": "Created"
+      },
+      "statusOptions": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "suspended": "Suspended"
+      }
+    },
+    "question": {
+      "heading": "Questions",
+      "list": "List",
+      "addQuestion": "Add question",
+      "editQuestion": "Edit Question",
+      "newQuestion": "New Question",
+      "questionName": "Question Name",
+      "questionNamePlaceholder": "Enter question name",
+      "isRequired": "Is Required",
+      "yes": "Yes",
+      "no": "No",
+      "required": "Required",
+      "optional": "Optional",
+      "inputType": "Input Type",
+      "inputTypePlaceholder": "Select input type",
+      "options": "Options",
+      "addOption": "Add Option",
+      "addNewOption": "Add new option",
+      "option": "Option",
+      "cancel": "Cancel",
+      "updateQuestion": "Update Question",
+      "createQuestion": "Create Question",
+      "questionUpdated": "Question updated successfully!",
+      "questionCreated": "Question created successfully!",
+      "failedToSave": "Failed to save question. Please try again.",
+      "delete": "Delete",
+      "deleteConfirmTitle": "Warning: Mandatory Questions",
+      "deleteConfirmMessage": "The questions you are trying to remove are required for compliance and proper case handling. Removing them may lead to incomplete reports and reduced legal and procedural reliability.\n\nWisling is not responsible for any issues arising from the removal of mandatory questions.\n\nDo you want to proceed?",
+      "deleteConfirmMessageSingle": "The questions you are trying to remove are required for compliance and proper case handling. Removing them may lead to incomplete reports and reduced legal and procedural reliability.\n\nWisling is not responsible for any issues arising from the removal of mandatory questions.\n\nDo you want to proceed?",
+      "questions": "questions",
+      "questionDeleted": "Question deleted successfully!",
+      "questionsDeleted": "Questions deleted successfully!",
+      "failedToDelete": "Failed to delete question",
+      "failedToDeletePlural": "Failed to delete questions",
+      "questionsReordered": "Questions reordered successfully!",
+      "failedToReorder": "Failed to save question order",
+      "errorLoading": "Error Loading Questions",
+      "retry": "Retry",
+      "searchQuestions": "Search questions...",
+      "print": "Print",
+      "import": "Import",
+      "export": "Export",
+      "nameRequired": "Name is required",
+      "inputTypeRequired": "Input type is required",
+      "tableHeaders": {
+        "questionName": "Question Name",
+        "isRequired": "Is Required",
+        "inputType": "Input Type"
+      },
+      "inputTypes": {
+        "text": "Text",
+        "select": "Select",
+        "password": "Password",
+        "email": "Email",
+        "url": "URL",
+        "tel": "Telephone",
+        "search": "Search",
+        "number": "Number",
+        "range": "Range",
+        "date": "Date",
+        "datetime-local": "Date Time Local",
+        "month": "Month",
+        "week": "Week",
+        "time": "Time",
+        "checkbox": "Checkbox",
+        "radio": "Radio",
+        "file": "File",
+        "color": "Color"
+      },
+      "preview": {
+        "preview": "Preview:",
+        "textInput": "This will create a text input with name=\"{{name}}\" and type=\"text\"",
+        "input": "This will create an input with name=\"{{name}}\" and type=\"{{type}}\"",
+        "inputWithOptions": "This will create a {{type}} input with {{count}} option(s): {{options}}"
+      }
+    },
+    "news": {
+      "heading": "News",
+      "list": "List",
+      "createNewNews": "Create a new news",
+      "create": "Create",
+      "edit": "Edit",
+      "editNews": "Edit news",
+      "newsNotFound": "News Not Found",
+      "newsNotFoundMessage": "The news article you are looking for does not exist.",
+      "backToList": "Back to List",
+      "addNews": "Add news",
+      "tabs": {
+        "all": "All",
+        "published": "Published",
+        "draft": "Draft"
+      },
+      "tableHeaders": {
+        "title": "Title",
+        "status": "Status",
+        "createdAt": "Created At"
+      },
+      "details": {
+        "heading": "Details",
+        "subheader": "Title, short description, image...",
+        "newsTitle": "News title",
+        "description": "Description",
+        "content": "Content",
+        "coverImage": "Cover Image",
+        "coverImageHelper": "Max file size: 5MB. Allowed: JPG, PNG, WEBP"
+      },
+      "properties": {
+        "heading": "Properties",
+        "subheader": "Additional functions and attributes...",
+        "tags": "Tags",
+        "tagsPlaceholder": "+ Tags",
+        "metaTitle": "Meta title",
+        "metaDescription": "Meta description",
+        "metaKeywords": "Meta keywords",
+        "metaKeywordsPlaceholder": "+ Keywords"
+      },
+      "actions": {
+        "publish": "Publish",
+        "preview": "Preview",
+        "createNews": "Create news",
+        "saveChanges": "Save changes"
+      },
+      "toolbar": {
+        "back": "Back",
+        "goLive": "Go live",
+        "edit": "Edit",
+        "loading": "Loading…"
+      },
+      "menu": {
+        "view": "View",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "search": {
+        "placeholder": "Search..."
+      },
+      "toast": {
+        "deletedSuccessfully": "News deleted successfully!",
+        "deleteFailed": "Failed to delete news",
+        "updatedSuccessfully": "News updated successfully!",
+        "createdSuccessfully": "News created successfully!",
+        "coverUploadedSuccessfully": "Cover image uploaded successfully!",
+        "coverUploadFailed": "News saved but cover image upload failed",
+        "saveFailed": "Failed to save news. Please try again."
+      },
+      "errors": {
+        "titleRequired": "Title is required!",
+        "descriptionRequired": "Description is required!",
+        "contentMinLength": "Content must be at least 20 characters",
+        "tagsMinLength": "Must have at least 2 items!",
+        "metaKeywordsRequired": "Meta keywords is required!"
+      },
+      "status": {
+        "published": "Published",
+        "draft": "Draft"
+      },
+      "emptyState": {
+        "notFound": "News not found!",
+        "backToList": "Back to list"
+      }
+    },
+    "department": {
+      "heading": "Departments",
+      "list": "List",
+      "createNewDepartment": "Create a new department",
+      "create": "Create",
+      "edit": "Edit",
+      "editDepartment": "Edit department",
+      "departmentNotFound": "Department not found",
+      "addDepartment": "Add department",
+      "tabs": {
+        "all": "All",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "tableHeaders": {
+        "departmentName": "Department Name",
+        "status": "Status",
+        "createdAt": "Created At"
+      },
+      "form": {
+        "departmentName": "Department Name",
+        "status": "Status",
+        "selectStatus": "Select status"
+      },
+      "actions": {
+        "createDepartment": "Create department",
+        "saveChanges": "Save changes"
+      },
+      "menu": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "search": {
+        "placeholder": "Search department..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Department deleted successfully!",
+        "deleteFailed": "Failed to delete department",
+        "deletedMultipleSuccessfully": "Departments deleted successfully!",
+        "deleteMultipleFailed": "Failed to delete departments",
+        "updatedSuccessfully": "Department updated successfully!",
+        "createdSuccessfully": "Department created successfully!",
+        "saveFailed": "Failed to save department. Please try again."
+      },
+      "errors": {
+        "nameRequired": "Department name is required!",
+        "statusRequired": "Status is required!"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "confirmDialog": {
+        "delete": "Delete",
+        "deleteConfirm": "Are you sure want to delete?",
+        "deleteMultipleConfirm": "Are you sure want to delete {{count}} items?"
+      },
+      "tooltip": {
+        "delete": "Delete"
+      }
+    },
+    "state": {
+      "heading": "States",
+      "list": "List",
+      "createNewState": "Create a new state",
+      "create": "Create",
+      "edit": "Edit",
+      "editState": "Edit state",
+      "stateNotFound": "State not found",
+      "addState": "Add state",
+      "tabs": {
+        "all": "All",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "tableHeaders": {
+        "stateName": "State Name",
+        "status": "Status",
+        "createdAt": "Created At"
+      },
+      "form": {
+        "stateName": "State Name",
+        "status": "Status",
+        "selectStatus": "Select status"
+      },
+      "actions": {
+        "createState": "Create state",
+        "saveChanges": "Save changes"
+      },
+      "menu": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "search": {
+        "placeholder": "Search state..."
+      },
+      "toast": {
+        "deletedSuccessfully": "State deleted successfully!",
+        "deleteFailed": "Failed to delete state",
+        "deletedMultipleSuccessfully": "States deleted successfully!",
+        "deleteMultipleFailed": "Failed to delete states",
+        "updatedSuccessfully": "State updated successfully!",
+        "createdSuccessfully": "State created successfully!",
+        "saveFailed": "Failed to save state. Please try again."
+      },
+      "errors": {
+        "nameRequired": "State name is required!",
+        "statusRequired": "Status is required!"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "confirmDialog": {
+        "delete": "Delete",
+        "deleteConfirm": "Are you sure want to delete?",
+        "deleteMultipleConfirm": "Are you sure want to delete {{count}} items?"
+      },
+      "tooltip": {
+        "delete": "Delete"
+      }
+    },
+    "severity": {
+      "heading": "Severities",
+      "list": "List",
+      "createNewSeverity": "Create a new severity",
+      "create": "Create",
+      "edit": "Edit",
+      "editSeverity": "Edit severity",
+      "severityNotFound": "Severity not found",
+      "addSeverity": "Add severity",
+      "tabs": {
+        "all": "All",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "tableHeaders": {
+        "severityName": "Severity Name",
+        "status": "Status",
+        "createdAt": "Created At"
+      },
+      "form": {
+        "severityName": "Severity Name",
+        "status": "Status",
+        "selectStatus": "Select status"
+      },
+      "actions": {
+        "createSeverity": "Create severity",
+        "saveChanges": "Save changes"
+      },
+      "menu": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "search": {
+        "placeholder": "Search severity..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Severity deleted successfully!",
+        "deleteFailed": "Failed to delete severity",
+        "deletedMultipleSuccessfully": "Severities deleted successfully!",
+        "deleteMultipleFailed": "Failed to delete severities",
+        "updatedSuccessfully": "Severity updated successfully!",
+        "createdSuccessfully": "Severity created successfully!",
+        "saveFailed": "Failed to save severity. Please try again."
+      },
+      "errors": {
+        "nameRequired": "Severity name is required!",
+        "statusRequired": "Status is required!"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "confirmDialog": {
+        "delete": "Delete",
+        "deleteConfirm": "Are you sure want to delete?",
+        "deleteMultipleConfirm": "Are you sure want to delete {{count}} items?"
+      },
+      "tooltip": {
+        "delete": "Delete"
+      }
+    },
+    "privacyPolicy": {
+      "heading": "Privacy Policy",
+      "edit": "Edit",
+      "editPrivacyPolicy": "Edit Privacy Policy",
+      "editPrivacyPolicyButton": "Edit Privacy Policy",
+      "lastUpdated": "Last updated",
+      "unknown": "Unknown",
+      "form": {
+        "title": "Page 1 Details",
+        "subheader": "Update the Page 1 content and metadata",
+        "titleLabel": "Title",
+        "status": "Status",
+        "selectStatus": "Select Status",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "actions": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+      },
+      "toast": {
+        "updatedSuccessfully": "Privacy policy updated successfully!",
+        "updateFailed": "Failed to update privacy policy. Please try again."
+      },
+      "errors": {
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "loading": "Loading...",
+      "error": {
+        "title": "Error Loading Privacy Policy",
+        "description": "There was an error loading the privacy policy. Please try again.",
+        "retry": "Retry"
+      }
+    },
+    "aboutUs": {
+      "heading": "About Us",
+      "edit": "Edit",
+      "editAboutUs": "Edit About Us",
+      "editAboutUsButton": "Edit About Us",
+      "lastUpdated": "Last updated",
+      "unknown": "Unknown",
+      "form": {
+        "title": "About Us Details",
+        "subheader": "Update the about us content and metadata",
+        "titleLabel": "Title",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs"
+      },
+      "actions": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+      },
+      "toast": {
+        "updatedSuccessfully": "About us page updated successfully!",
+        "updateFailed": "Failed to update about us page. Please try again."
+      },
+      "errors": {
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "loading": "Loading...",
+      "error": {
+        "title": "Error Loading About Us",
+        "description": "There was an error loading the about us page. Please try again.",
+        "retry": "Retry"
+      }
+    },
+    "loginPage": {
+      "heading": "Login Page",
+      "edit": "Edit",
+      "editLoginPage": "Edit Login Page",
+      "editLoginPageButton": "Edit Login Page",
+      "lastUpdated": "Last updated",
+      "unknown": "Unknown",
+      "form": {
+        "title": "Login Page Details",
+        "subheader": "Update the login page content and metadata",
+        "titleLabel": "Title",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs"
+      },
+      "actions": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+      },
+      "toast": {
+        "updatedSuccessfully": "Login page updated successfully!",
+        "updateFailed": "Failed to update login page. Please try again."
+      },
+      "errors": {
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "loading": "Loading...",
+      "error": {
+        "title": "Error Loading Login Page",
+        "description": "There was an error loading the login page. Please try again.",
+        "retry": "Retry"
+      }
+    },
+    "policyPage": {
+      "heading": "Policy Page",
+      "edit": "Edit",
+      "editPolicyPage": "Edit Policy Page",
+      "editPolicyPageButton": "Edit Policy Page",
+      "lastUpdated": "Last updated",
+      "unknown": "Unknown",
+      "form": {
+        "title": "Policy Page Details",
+        "subheader": "Update the policy page content and metadata",
+        "titleLabel": "Title",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs"
+      },
+      "actions": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+      },
+      "toast": {
+        "updatedSuccessfully": "Policy page updated successfully!",
+        "updateFailed": "Failed to update policy page. Please try again."
+      },
+      "errors": {
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "loading": "Loading...",
+      "error": {
+        "title": "Error Loading Policy Page",
+        "description": "There was an error loading the policy page. Please try again.",
+        "retry": "Retry"
+      },
+      "unauthorized": {
+        "title": "Unauthorized",
+        "description": "Only company users can edit the policy page."
+      }
+    },
+    "paymentPage": {
+      "heading": "Payment Page",
+      "edit": "Edit",
+      "editPaymentPage": "Edit Payment Page",
+      "editPaymentPageButton": "Edit Payment Page",
+      "lastUpdated": "Last updated",
+      "unknown": "Unknown",
+      "form": {
+        "title": "Payment Page Details",
+        "subheader": "Update the payment page content and metadata",
+        "titleLabel": "Title",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs"
+      },
+      "actions": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+      },
+      "toast": {
+        "updatedSuccessfully": "Payment page updated successfully!",
+        "updateFailed": "Failed to update payment page. Please try again."
+      },
+      "errors": {
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "loading": "Loading...",
+      "error": {
+        "title": "Error Loading Payment Page",
+        "description": "There was an error loading the payment page. Please try again.",
+        "retry": "Retry"
+      }
+    },
+    "termsConditions": {
+      "heading": "Terms & Conditions",
+      "edit": "Edit",
+      "editTermsConditions": "Edit Terms & Conditions",
+      "editTermsConditionsButton": "Edit Terms & Conditions",
+      "lastUpdated": "Last updated",
+      "unknown": "Unknown",
+      "form": {
+        "title": "Page 2 Details",
+        "subheader": "Update the Page 2 content and metadata",
+        "titleLabel": "Title",
+        "status": "Status",
+        "selectStatus": "Select Status",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "actions": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+      },
+      "toast": {
+        "updatedSuccessfully": "Terms & conditions updated successfully!",
+        "updateFailed": "Failed to update terms & conditions. Please try again."
+      },
+      "errors": {
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "loading": "Loading...",
+      "error": {
+        "title": "Error Loading Terms & Conditions",
+        "description": "There was an error loading the terms & conditions. Please try again.",
+        "retry": "Retry"
+      }
+    },
+    "support": {
+      "heading": "Support",
+      "edit": "Edit",
+      "editSupport": "Edit Support",
+      "editSupportButton": "Edit Support",
+      "lastUpdated": "Last updated",
+      "unknown": "Unknown",
+      "form": {
+        "title": "Page 3 Details",
+        "subheader": "Update the Page 3 content and metadata",
+        "titleLabel": "Title",
+        "status": "Status",
+        "selectStatus": "Select Status",
+        "content": "Content",
+        "tip": "💡 Tip: Click the image icon in the toolbar to upload images or add image URLs"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "actions": {
+        "preview": "Preview",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+      },
+      "toast": {
+        "updatedSuccessfully": "Support updated successfully!",
+        "updateFailed": "Failed to update support. Please try again."
+      },
+      "errors": {
+        "titleMinLength": "Title must be at least 5 characters",
+        "contentMinLength": "Content must be at least 20 characters"
+      },
+      "loading": "Loading...",
+      "error": {
+        "title": "Error Loading Support",
+        "description": "There was an error loading the support content. Please try again.",
+        "retry": "Retry"
+      }
+    },
+    "themeConfiguration": {
+      "heading": "Theme Configuration",
+      "resetAll": "Reset all",
+      "basicSettings": {
+        "title": "Basic Settings",
+        "description": "Configure basic theme settings",
+        "mode": "Mode",
+        "contrast": "Contrast",
+        "rightToLeft": "Right to left",
+        "compact": "Compact",
+        "compactTooltip": "Dashboard only and available at large resolutions > 1600px (xl)",
+        "system": "System"
+      },
+      "colorSettings": {
+        "title": "Color Settings",
+        "description": "Customize your application's color scheme",
+        "colorPresets": "Color Presets"
+      },
+      "layoutSettings": {
+        "title": "Layout Settings",
+        "description": "Configure navigation and layout settings",
+        "navigationLayout": {
+          "title": "Navigation Layout",
+          "description": "Choose how the navigation menu is displayed"
+        },
+        "navigationColor": {
+          "title": "Navigation Color",
+          "description": "Choose the navigation color scheme",
+          "integrate": "Integrate",
+          "apparent": "Apparent"
+        }
+      },
+      "typographySettings": {
+        "title": "Typography Settings",
+        "description": "Customize fonts and text settings",
+        "typography": "Typography",
+        "family": "Family",
+        "size": "Size"
+      }
+    },
+    "emailTemplate": {
+      "heading": "Email Templates",
+      "list": "List",
+      "createNewEmailTemplate": "Create Email Template",
+      "editEmailTemplate": "Edit Email Template",
+      "addEmailTemplate": "Add Email Template",
+      "tableHead": {
+        "templateName": "Template Name",
+        "subject": "Subject",
+        "language": "Language",
+        "status": "Status",
+        "createdAt": "Created At"
+      },
+      "tabs": {
+        "all": "All",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "toolbar": {
+        "status": "Status",
+        "searchPlaceholder": "Search email templates..."
+      },
+      "menuActions": {
+        "print": "Print",
+        "import": "Import",
+        "export": "Export",
+        "edit": "Edit",
+        "delete": "Delete",
+        "convertToLanguage": "Convert to Other Language"
+      },
+      "convertDialog": {
+        "title": "Convert Email Template",
+        "description": "Select the target language to convert this email template to. Placeholders like [Username] and {{Email}} will be preserved.",
+        "selectLanguage": "Select Language",
+        "converting": "Converting...",
+        "cancel": "Cancel",
+        "convert": "Convert",
+        "success": "Email template converted successfully!",
+        "error": "Failed to convert email template. Please try again.",
+        "errorInvalidLanguage": "Invalid target language selected.",
+        "errorNotEnglish": "Only English templates can be converted."
+      },
+      "confirmDialog": {
+        "deleteTitle": "Delete",
+        "deleteContent": "Are you sure want to delete <strong> {count} </strong> email templates?",
+        "deleteSingleContent": "Are you sure want to delete this email template?"
+      },
+      "toast": {
+        "deleteSuccess": "Email template deleted successfully!",
+        "deleteMultipleSuccess": "Email templates deleted successfully!",
+        "createSuccess": "Email template created successfully!",
+        "updateSuccess": "Email template updated successfully!",
+        "deleteError": "Failed to delete email template",
+        "deleteMultipleError": "Failed to delete email templates",
+        "createError": "Failed to create email template",
+        "updateError": "Failed to update email template"
+      },
+      "form": {
+        "templateName": "Template Name",
+        "subject": "Subject",
+        "language": "Language",
+        "status": "Status",
+        "selectStatus": "Select Status",
+        "content": "Content",
+        "placeholderVariables": "Placeholder Variables",
+        "placeholderExample": "e.g., {{name}}, {{email}}, {{date}}",
+        "placeholderHelperText": "Enter placeholder variables that can be used in the email template",
+        "cancel": "Cancel",
+        "save": "Save",
+        "loading": "Loading..."
+      },
+      "languageOptions": {
+        "en": "English",
+        "sv": "Swedish",
+        "no": "Norwegian",
+        "da": "Danish",
+        "fi": "Finnish",
+        "fr": "French",
+        "de": "German"
+      },
+      "statusOptions": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "validation": {
+        "templateNameRequired": "Template name is required",
+        "subjectRequired": "Subject is required",
+        "contentRequired": "Content is required",
+        "languageRequired": "Language is required",
+        "statusRequired": "Status is required"
+      }
+    },
+    "stripeConfiguration": {
+      "heading": "Stripe Configuration",
+      "breadcrumb": "Stripe Configuration",
+      "form": {
+        "clientId": "Stripe Client ID (Publishable Key)",
+        "clientIdPlaceholder": "Enter your Stripe Client ID",
+        "clientIdHelperText": "Your Stripe publishable key (e.g., pk_test_...)",
+        "secretKey": "Stripe Secret Key",
+        "secretKeyPlaceholder": "Enter your Stripe Secret Key",
+        "secretKeyHelperText": "Your Stripe secret key (e.g., sk_test_...)",
+        "webhookSecret": "Stripe Webhook Secret",
+        "webhookSecretPlaceholder": "Enter your Stripe Webhook Secret",
+        "webhookSecretHelperText": "Your Stripe webhook secret (e.g., whsec_...)",
+        "saveConfiguration": "Save Configuration",
+        "cancel": "Cancel",
+        "testConnection": "Test Connection",
+        "securityNote": "Security Note:",
+        "securityNoteText": "Your Stripe credentials are stored securely in the database. Make sure to use test keys (pk_test_ and sk_test_) for development and live keys (pk_live_ and sk_live_) only for production environments."
+      },
+      "toast": {
+        "saveSuccess": "Stripe configuration saved successfully!",
+        "saveError": "Failed to save configuration",
+        "testSuccess": "Stripe connection test successful!",
+        "testError": "Stripe connection test failed. Please check your credentials.",
+        "testConnectionError": "Failed to test connection"
+      },
+      "alert": {
+        "testSuccess": "Stripe connection test successful! Your credentials are valid.",
+        "testError": "Stripe connection test failed. Please check your credentials and try again."
+      },
+      "validation": {
+        "clientIdRequired": "Client ID is required",
+        "secretKeyRequired": "Secret Key is required",
+        "webhookSecretRequired": "Webhook Secret is required"
+      }
+    },
+    "bankDetails": {
+      "heading": "Bank Details",
+      "breadcrumb": "Bank Details",
+      "form": {
+        "iban": "IBAN",
+        "ibanPlaceholder": "Enter your IBAN",
+        "ibanHelperText": "International Bank Account Number",
+        "bic": "BIC (Bank Identifier Code)",
+        "bicPlaceholder": "Enter your BIC",
+        "bicHelperText": "Bank Identifier Code (SWIFT code)",
+        "bankAccount": "Bankgiro",
+        "bankAccountPlaceholder": "Enter your Bankgiro",
+        "bankAccountHelperText": "Your Bankgiro",
+        "saveBankDetails": "Save Bank Details",
+        "cancel": "Cancel",
+        "securityNote": "Security Note:",
+        "securityNoteText": "Your bank details are stored securely in your browser's local storage. Make sure to use test data for development and real data only for production environments."
+      },
+      "toast": {
+        "saveSuccess": "Bank details saved successfully!",
+        "saveError": "Failed to save bank details"
+      },
+      "validation": {
+        "ibanRequired": "IBAN is required",
+        "ibanInvalid": "Invalid IBAN format",
+        "bicRequired": "BIC is required",
+        "bicInvalid": "Invalid BIC format",
+        "bankAccountRequired": "Bank Account is required",
+        "bankAccountInvalid": "Bank Account may include letters, numbers, spaces, and dashes"
+      }
+    },
+    "basicConfiguration": {
+      "heading": "Basic Configuration",
+      "breadcrumb": "Basic Configuration",
+      "form": {
+        "companyLogo": "Company Logo",
+        "smallCompanyLogo": "Small Company Logo",
+        "uploadLogo": "Upload Logo",
+        "changeLogo": "Change Logo",
+        "remove": "Remove",
+        "defaultOpenStateDeadline": "Default Open State Deadline (days)",
+        "defaultClosedStateDeadline": "Default Closed State Deadline (days)",
+        "vat": "VAT (%)",
+        "defaultPrice": "Default Price",
+        "phoneHoursFrom": "Phone Hours From",
+        "phoneHoursTo": "Phone Hours To",
+        "invoiceNote": "Invoice Note",
+        "invoiceNoteHelperText": "Optional note to include on invoices",
+        "deleteClosedCases": "Delete Closed Cases",
+        "deleteClosedCasesHelperText": "Enable automatic deletion of closed cases after a certain period",
+        "deleteClosedCasesPeriod": "Delete After (Number)",
+        "deleteClosedCasesPeriodType": "Period Type",
+        "periodDaily": "Daily",
+        "periodWeekly": "Weekly",
+        "periodMonthly": "Monthly",
+        "periodYearly": "Yearly",
+        "saveConfiguration": "Save Configuration",
+        "cancel": "Cancel",
+        "note": "Note:",
+        "noteText": "Configuration changes will affect all new cases and system behavior. Make sure to review all settings before saving."
+      },
+      "toast": {
+        "saveSuccess": "Basic configuration saved successfully!",
+        "saveError": "Failed to save configuration"
+      },
+      "validation": {
+        "fileSizeError": "File size must be less than 5MB",
+        "fileTypeError": "File must be an image",
+        "deadlineMin": "Must be at least 1 day",
+        "deadlineMax": "Must not exceed 365 days",
+        "vatMin": "VAT must be at least 0%",
+        "vatMax": "VAT must not exceed 100%",
+        "priceMin": "Price must be at least 0",
+        "timeFormatError": "Invalid time format (HH:MM)",
+        "invoiceNoteMax": "Invoice note must not exceed 500 characters"
+      }
+    },
+    "user": {
+      "heading": "User",
+      "editUser": "Edit user",
+      "edit": "Edit",
+      "userNotFound": "User not found",
+      "loading": "Loading...",
+      "form": {
+        "fullName": "Full name",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number",
+        "country": "Country",
+        "chooseCountry": "Choose a country",
+        "stateRegion": "State/region",
+        "city": "City",
+        "address": "Address",
+        "physicalAddress": "Physical Address",
+        "phoneHoursFrom": "Phone Hours From",
+        "phoneHoursTo": "Phone Hours To",
+        "phoneHoursFormat": "Phone Hours Format",
+        "userLanguage": "User Language",
+        "zipCode": "Zip/code",
+        "company": "Company",
+        "companyNumber": "Company Number",
+        "role": "Role",
+        "avatarAllowed": "Allowed *.jpeg, *.jpg, *.png, *.gif",
+        "avatarMaxSize": "max size of",
+        "companyLogo": "Company logo",
+        "createUser": "Create user",
+        "saveChanges": "Save changes"
+      },
+      "validation": {
+        "nameRequired": "Name is required!",
+        "emailRequired": "Email is required!",
+        "countryRequired": "Country is required!",
+        "addressRequired": "Address is required!",
+        "stateRequired": "State is required!",
+        "cityRequired": "City is required!",
+        "zipCodeRequired": "Zip code is required!",
+        "companyRequired": "Company is required!",
+        "roleRequired": "Role is required!"
+      },
+      "toast": {
+        "updateSuccess": "User updated",
+        "createSuccess": "Create success!",
+        "saveError": "Failed to save"
+      }
+    },
+    "analytics": {
+      "heading": "Home",
+      "subtitle": "A whistleblowing management system. Compliant and confidential.",
+      "filters": {
+        "fromDate": "From Date",
+        "toDate": "To Date",
+        "selectDate": "Select Date",
+        "filter": "Filter",
+        "search": "Search",
+        "selectCompany": "Select Company Name For Search Report",
+        "all": "All"
+      },
+      "timePeriod": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "allTime": "All-time"
+      },
+      "metrics": {
+        "totalCases": "Total Cases",
+        "totalOpenStateDeadline": "Total Open State Deadline",
+        "totalCloseStateDeadline": "Total Close State Deadline",
+        "avgDaysUntilReceived": "Avg. Days Until Received",
+        "avgDaysUntilClosed": "Avg. Days Until Closed",
+        "totalMessageTemplates": "Total Message Templates",
+        "totalDocuments": "Total Documents",
+        "totalCompanies": "Total Companies",
+        "totalLogs": "Total Logs",
+        "totalCaseManagers": "Total Case Managers",
+        "totalNews": "Total News"
+      },
+      "charts": {
+        "companiesRegistered": "Companies Registered",
+        "caseRegistered": "Case Registered",
+        "categoryBreakdown": "Category Breakdown",
+        "timeOfReporting": "Time Of Reporting",
+        "userActivity": "User Activity",
+        "latestCompanies": "Latest Companies",
+        "labels": {
+          "numberOfCompanies": "Number of Companies",
+          "numberOfCases": "Number of Cases",
+          "companiesJoined": "Companies Joined",
+          "casesRegistered": "Cases Registered",
+          "companies": "companies",
+          "cases": "cases"
+        },
+        "tableHeaders": {
+          "name": "Name",
+          "phone": "Phone",
+          "address": "Address",
+          "date": "Date"
+        }
+      },
+      "errors": {
+        "failedToLoad": "Failed to load dashboard overview.",
+        "dateRangeInvalid": "From date cannot be after To date."
+      },
+      "periodText": "vs previous period"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+import{j as t,x as a}from"./index-BJkBHIXD.js";import{B as e}from"./view-Bn-usEcE.js";const i={title:`Item match params | Dashboard - ${a.appName}`};function m(){return t.jsxs(t.Fragment,{children:[t.jsx("title",{children:i.title}),t.jsx(e,{title:"Match params",description:"Active on matching path with dynamic parameters."})]})}export{m as default};

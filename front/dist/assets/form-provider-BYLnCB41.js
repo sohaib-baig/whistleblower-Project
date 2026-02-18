@@ -1,0 +1,1 @@
+import{j as t}from"./index-BJkBHIXD.js";import{F as i}from"./index.esm-DG78EUPk.js";function f({children:e,onSubmit:r,methods:m}){const a=o=>{o.preventDefault(),o.stopPropagation(),r&&r(o)};return t.jsx(i,{...m,children:t.jsx("form",{onSubmit:a,noValidate:!0,autoComplete:"off",children:e})})}export{f as F};

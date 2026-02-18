@@ -1,0 +1,1 @@
+import{j as t,x as a}from"./index-BJkBHIXD.js";import{B as s}from"./view-Bn-usEcE.js";const e={title:`Item with subpaths - ${a.appName}`};function r(){return t.jsxs(t.Fragment,{children:[t.jsx("title",{children:e.title}),t.jsx(s,{title:"Match subpaths",description:"Active on matching path and its subpaths."})]})}export{r as default};

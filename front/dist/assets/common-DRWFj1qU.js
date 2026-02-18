@@ -1,0 +1,1 @@
+const a={lang:"Suomi",description:"Seuraavan projektisi lähtökohta perustuu MUI:hin. Helppo mukauttaminen auttaa sinua rakentamaan sovelluksia nopeammin ja paremmin."},n={demo:a};export{n as default,a as demo};

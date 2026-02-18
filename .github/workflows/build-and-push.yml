@@ -1,0 +1,169 @@
+name: CI Build and Push to ECR
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  AWS_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+  AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+  ECR_BACKEND: ${{ secrets.ECR_BACKEND }}
+  ECR_FRONTEND: ${{ secrets.ECR_FRONTEND }}
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    outputs:
+      image_tag: ${{ steps.vars.outputs.tag }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Set image tag
+        id: vars
+        run: echo "tag=${GITHUB_SHA}" >> $GITHUB_OUTPUT
+
+      - name: Setup Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build & push backend
+        uses: docker/build-push-action@v6
+        with:
+          context: ./api
+          file: ./api/Dockerfile
+          push: true
+          tags: ${{ env.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.ECR_BACKEND }}:${{ steps.vars.outputs.tag }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Build & push frontend
+        uses: docker/build-push-action@v6
+        with:
+          context: ./front
+          file: ./front/Dockerfile
+          push: true
+          tags: ${{ env.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.ECR_FRONTEND }}:${{ steps.vars.outputs.tag }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build-and-push
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH and Keys
+        run: |
+          # 1. Create the .ssh directory and set permissions
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          # 2. Save the private key
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          # 3. Add the server to known_hosts to prevent "Host key verification failed"
+          # We use -p 2222 because your SSH is on a non-standard port
+          ssh-keyscan -p 2222 ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Create /app folder on EC2
+        run: |
+          ssh -i ~/.ssh/id_rsa -p 2222 ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "mkdir -p ~/app"
+
+      - name: Copy docker-compose.yml
+        run: |
+          # Use -P (uppercase) for port in SCP
+          scp -i ~/.ssh/id_rsa -P 2222 docker-compose.yml ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:~/app/docker-compose.yml
+        
+    
+      - name: Create .env and Restart via SSH
+        run: |
+          ssh -i ~/.ssh/id_rsa -p 2222 ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+            cd ~/app
+
+            # Create the .env file from secrets
+            cat <<EOF > .env
+            ECR_BACKEND=${{ secrets.ECR_BACKEND }}
+            ECR_FRONTEND=${{ secrets.ECR_FRONTEND }}
+            IMAGE_TAG=${{ needs.build-and-push.outputs.image_tag }}
+            AWS_REGION=${{ env.AWS_REGION }}
+            AWS_ACCOUNT_ID=${{ env.AWS_ACCOUNT_ID }}
+            APP_DEBUG=${{ secrets.APP_DEBUG }}
+            APP_ENV=${{ secrets.APP_ENV }}
+            APP_FAKER_LOCALE=${{ secrets.APP_FAKER_LOCALE }}
+            APP_FALLBACK_LOCALE=${{ secrets.APP_FALLBACK_LOCALE }}
+            APP_KEY=${{ secrets.APP_KEY }}
+            APP_LOCALE=${{ secrets.APP_LOCALE }}
+            APP_MAINTENANCE_DRIVER=${{ secrets.APP_MAINTENANCE_DRIVER }}
+            APP_NAME="${{ secrets.APP_NAME }}"
+            APP_URL=${{ secrets.APP_URL }}
+            AWS_BUCKET=${{ secrets.AWS_BUCKET }}
+            AWS_USE_PATH_STYLE_ENDPOINT=${{ secrets.AWS_USE_PATH_STYLE_ENDPOINT }}
+            BCRYPT_ROUNDS=${{ secrets.BCRYPT_ROUNDS }}
+            BROADCAST_CONNECTION=${{ secrets.BROADCAST_CONNECTION }}
+            CACHE_STORE=${{ secrets.CACHE_STORE }}
+            DB_DATABASE=${{ secrets.DB_DATABASE }}
+            DB_HOST=${{ secrets.DB_HOST }}
+            DB_PASSWORD="${{ secrets.DB_PASSWORD }}"
+            DB_PORT=${{ secrets.DB_PORT }}
+            DB_USERNAME=${{ secrets.DB_USERNAME }}
+            FILESYSTEM_DISK=${{ secrets.FILESYSTEM_DISK }}
+            FRONTEND_URL=${{ secrets.FRONTEND_URL }}
+            GOOGLE_TRANSLATE_API_KEY=${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
+            LOG_CHANNEL=${{ secrets.LOG_CHANNEL }}
+            LOG_DEPRECATIONS_CHANNEL=${{ secrets.LOG_DEPRECATIONS_CHANNEL }}
+            LOG_LEVEL=${{ secrets.LOG_LEVEL }}
+            LOG_STACK=${{ secrets.LOG_STACK }}
+            MAIL_ENCRYPTION=${{ secrets.MAIL_ENCRYPTION }}
+            MAIL_FROM_ADDRESS=${{ secrets.MAIL_FROM_ADDRESS }}
+            MAIL_FROM_NAME="${{ secrets.MAIL_FROM_NAME }}"
+            MAIL_HOST=${{ secrets.MAIL_HOST }}
+            MAIL_MAILER=${{ secrets.MAIL_MAILER }}
+            MAIL_PASSWORD="${{ secrets.MAIL_PASSWORD }}"
+            MAIL_PORT=${{ secrets.MAIL_PORT }}
+            MAIL_USERNAME=${{ secrets.MAIL_USERNAME }}
+            MEMCACHED_HOST=${{ secrets.MEMCACHED_HOST }}
+            PHP_CLI_SERVER_WORKERS=${{ secrets.PHP_CLI_SERVER_WORKERS }}
+            QUEUE_CONNECTION=${{ secrets.QUEUE_CONNECTION }}
+            SANCTUM_STATEFUL_DOMAINS=${{ secrets.SANCTUM_STATEFUL_DOMAINS }}
+            SESSION_DOMAIN=${{ secrets.SESSION_DOMAIN }}
+            SESSION_DRIVER=${{ secrets.SESSION_DRIVER }}
+            SESSION_ENCRYPT=${{ secrets.SESSION_ENCRYPT }}
+            SESSION_LIFETIME=${{ secrets.SESSION_LIFETIME }}
+            SESSION_PATH=${{ secrets.SESSION_PATH }}
+            SESSION_SAME_SITE=${{ secrets.SESSION_SAME_SITE }}
+            SESSION_SECURE_COOKIE=${{ secrets.SESSION_SECURE_COOKIE }}
+            STRIPE_PUBLIC_KEY=${{ secrets.STRIPE_PUBLIC_KEY }}
+            STRIPE_SECRET_KEY=${{ secrets.STRIPE_SECRET_KEY }}
+            STRIPE_WEBHOOK_SECRET=${{ secrets.STRIPE_WEBHOOK_SECRET }}
+            VITE_APP_NAME=${{ secrets.VITE_APP_NAME }}
+            # VITE_SERVER_URL=${{ secrets.VITE_SERVER_URL }}
+            EOF
+
+      - name: SSH into EC2 and deploy with Docker Compose
+        run: |
+          ssh -i ~/.ssh/id_rsa -p 2222 ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+            cd ~/app
+            # Use the region and account ID variables
+            aws ecr get-login-password --region ${{ env.AWS_REGION }} | docker login --username AWS --password-stdin ${{ env.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
+            docker compose pull
+            docker compose up -d
+            docker image prune -af
+          EOF
+          
+          

@@ -1,0 +1,1386 @@
+{
+  "app": "App",
+  "job": "Job",
+  "role": "Rolle",
+  "user": "Bruger",
+  "travel": "Rejse",
+  "invoice": "Faktura",
+  "blog": {
+    "title": "Blog",
+    "caption": "Brugerdefinerede tastaturgenveje."
+  },
+  "subheader": "Underoverskrift",
+  "sidebar": {
+    "overview": "Oversigt",
+    "home": "Hjem",
+    "management": "Administration",
+    "companies": "Virksomheder",
+    "categories": "Kategorier",
+    "reportingLinks": "Rapporteringslinks",
+    "invoices": "Fakturaer",
+    "cases": "Sager",
+    "caseManagers": "Sagsbehandlere",
+    "questions": "Spørgsmål",
+    "news": "Nyheder",
+    "settings": "Indstillinger",
+    "managementTitle": "Administration",
+    "department": "Afdeling",
+    "state": "Status",
+    "severity": "Alvorlighedsgrad",
+    "pages": "Sider",
+    "pagesTitle": "Sider",
+    "privacyPolicy": "Fortrolighedspolitik",
+    "aboutUs": "Om os",
+    "loginPage": "Loginside",
+    "paymentPage": "Betalingsside",
+    "termsConditions": "Vilkår og betingelser",
+    "support": "Support",
+    "preferences": "Præferencer",
+    "themeConfiguration": "Temakonfiguration",
+    "miscelaneous": "Diverse",
+    "settingsTitle": "Indstillinger",
+    "emailTemplates": "E-mail-skabeloner",
+    "stripeConfiguration": "Stripe-konfiguration",
+    "bankDetails": "Bankdetaljer",
+    "basicConfiguration": "Grundlæggende konfiguration",
+    "language": "Sprog"
+  },
+  "dashboard": {
+    "company": {
+      "heading": "Virksomheder",
+      "list": "Liste",
+      "createNewCompany": "Opret en ny virksomhed",
+      "create": "Opret",
+      "editCompany": "Rediger virksomhed",
+      "edit": "Rediger",
+      "companyNotFound": "Virksomhed ikke fundet",
+      "companyNotFoundMessage": "Virksomheden, du leder efter, findes ikke.",
+      "companyName": "Virksomhedsnavn",
+      "emailAddress": "E-mailadresse",
+      "password": "Adgangskode",
+      "passwordPlaceholder": "Indtast adgangskode",
+      "passwordPlaceholderEdit": "Lad stå tomt for at beholde nuværende adgangskode",
+      "passwordHelperText": "Udfyld kun dette, hvis du vil ændre adgangskoden",
+      "phoneNumber": "Telefonnummer",
+      "address": "Adresse",
+      "status": "Status",
+      "selectStatus": "Vælg status",
+      "createCompany": "Opret virksomhed",
+      "saveChanges": "Gem ændringer",
+      "companyUpdated": "Virksomhed opdateret!",
+      "companyCreated": "Virksomhed oprettet!",
+      "failedToSave": "Kunne ikke gemme virksomhed",
+      "companyDeleted": "Virksomhed slettet!",
+      "companiesDeleted": "Virksomheder slettet!",
+      "failedToDelete": "Kunne ikke slette virksomhed",
+      "failedToDeletePlural": "Kunne ikke slette virksomheder",
+      "delete": "Slet",
+      "deleteConfirmTitle": "Slet",
+      "deleteConfirmMessage": "Er du sikker på, at du vil slette denne virksomhed?",
+      "deleteConfirmMessagePlural": "Er du sikker på, at du vil slette",
+      "companies": "virksomheder",
+      "edit": "Rediger",
+      "accessAccount": "Få adgang til konto",
+      "searchCompanies": "Søg efter virksomheder...",
+      "all": "Alle",
+      "print": "Udskriv",
+      "import": "Importer",
+      "export": "Eksporter",
+      "errorLoadingCompanies": "Fejl ved indlæsning af virksomheder",
+      "retry": "Prøv igen",
+      "successfullyLoggedIn": "Logget ind som virksomhed. Siden vil blive genindlæst...",
+      "failedToAccessAccount": "Kunne ikke få adgang til konto. Prøv igen.",
+      "tableHeaders": {
+        "companyName": "Virksomhedsnavn",
+        "phoneNumber": "Telefonnummer",
+        "address": "Adresse",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "pending": "Afventer",
+        "banned": "Forbudt"
+      }
+    },
+    "category": {
+      "heading": "Kategorier",
+      "list": "Liste",
+      "createNewCategory": "Opret en ny kategori",
+      "create": "Opret",
+      "editCategory": "Rediger kategori",
+      "edit": "Rediger",
+      "categoryNotFound": "Kategori ikke fundet",
+      "categoryNotFoundMessage": "Kategorien, du leder efter, findes ikke.",
+      "categoryName": "Kategorinavn",
+      "status": "Status",
+      "selectStatus": "Vælg status",
+      "createCategory": "Opret kategori",
+      "saveChanges": "Gem ændringer",
+      "categoryUpdated": "Kategori opdateret!",
+      "categoryCreated": "Kategori oprettet!",
+      "failedToSave": "Kunne ikke gemme kategori. Prøv igen.",
+      "categoryDeleted": "Kategori slettet!",
+      "categoriesDeleted": "Kategorier slettet!",
+      "failedToDelete": "Kunne ikke slette kategori",
+      "failedToDeletePlural": "Kunne ikke slette kategorier",
+      "delete": "Slet",
+      "deleteConfirmTitle": "Slet",
+      "deleteConfirmMessage": "Er du sikker på, at du vil slette?",
+      "deleteConfirmMessagePlural": "Er du sikker på, at du vil slette",
+      "categories": "kategorier",
+      "items": "elementer",
+      "searchCategories": "Søg kategori...",
+      "all": "Alle",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "addCategory": "Tilføj kategori",
+      "tableHeaders": {
+        "categoryName": "Kategorinavn",
+        "status": "Status",
+        "createdAt": "Oprettet"
+      }
+    },
+    "reportingLink": {
+      "heading": "Rapporteringslinks",
+      "breadcrumb": "Rapporteringslinks",
+      "customizeChannel": "Tilpas din rapporteringskanal",
+      "customizeDescription": "Fra denne side og fanerne nedenfor kan du justere indstillingerne for hver rapporteringskanal.",
+      "openPage": "Åbn side",
+      "reportingLink": "Rapporteringslink",
+      "copy": "Kopiér",
+      "loading": "Indlæser...",
+      "tabs": {
+        "setting": "Indstilling",
+        "page": "Side",
+        "question": "Spørgsmål",
+        "department": "Afdeling",
+        "state": "Stat",
+        "severity": "Alvorlighedsgrad"
+      },
+      "pageContent": {
+        "title": "Rapporteringssideindhold",
+        "description": "Opdater rapporteringssidens titel og indhold",
+        "titleLabel": "Titel",
+        "content": "Indhold",
+        "tip": "💡 Tip: Klik på billedikonet i værktøjslinjen for at uploade billeder eller tilføje billede-URL'er",
+        "preview": "Forhåndsvisning",
+        "saveChanges": "Gem ændringer",
+        "updatedSuccessfully": "Rapporteringsside opdateret!",
+        "updateFailed": "Kunne ikke opdatere rapporteringsside. Prøv igen.",
+        "titleMinLength": "Titel skal være mindst 5 tegn",
+        "contentMinLength": "Indhold skal være mindst 20 tegn"
+      },
+      "page1": {
+        "updatedSuccessfully": "Side 1 opdateret!"
+      },
+      "page2": {
+        "updatedSuccessfully": "Side 2 opdateret!"
+      },
+      "page3": {
+        "updatedSuccessfully": "Side 3 opdateret!"
+      }
+    },
+    "invoice": {
+      "heading": "Fakturaer",
+      "list": "Liste",
+      "createNewInvoice": "Opret en ny faktura",
+      "create": "Opret",
+      "invoiceNotFound": "Faktura ikke fundet",
+      "addInvoice": "Tilføj faktura",
+      "loading": "Indlæser...",
+      "deleteSuccess": "Sletning succesfuld!",
+      "failedToLoad": "Kunne ikke indlæse fakturaer",
+      "delete": "Slet",
+      "deleteConfirmTitle": "Slet",
+      "deleteConfirmMessage": "Er du sikker på, at du vil slette?",
+      "deleteConfirmMessagePlural": "Er du sikker på, at du vil slette",
+      "items": "elementer",
+      "view": "Vis",
+      "edit": "Rediger",
+      "print": "Udskriv",
+      "download": "Download",
+      "sent": "Sendt",
+      "close": "Luk",
+      "status": "Status",
+      "viewPaymentAttachment": "Vis betalingsvedhæftning",
+      "tabs": {
+        "all": "Alle",
+        "paid": "Betalt",
+        "pending": "Afventer",
+        "overdue": "Forfalden",
+        "draft": "Kladde"
+      },
+      "analytics": {
+        "total": "I alt",
+        "paid": "Betalt",
+        "pending": "Afventer",
+        "overdue": "Forfalden",
+        "draft": "Kladde"
+      },
+      "tableHeaders": {
+        "customer": "Kunde",
+        "create": "Oprettet",
+        "due": "Forfalder",
+        "amount": "Beløb",
+        "sent": "Sendt",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "paid": "Betalt",
+        "pending": "Afventer",
+        "overdue": "Forfalden",
+        "draft": "Kladde"
+      },
+      "details": {
+        "invoiceFrom": "Faktura fra",
+        "invoiceTo": "Faktura til",
+        "dateCreate": "Oprettet dato",
+        "dueDate": "Forfaldsdato",
+        "description": "Beskrivelse",
+        "qty": "Antal",
+        "unitPrice": "Enhedspris",
+        "total": "I alt",
+        "subtotal": "Delsum",
+        "taxes": "Moms",
+        "vat": "Moms",
+        "phone": "Telefon",
+        "notes": "NOTATER",
+        "bankDetails": "BANKDETALJER",
+        "iban": "IBAN",
+        "bicSwift": "BIC/SWIFT",
+        "bankgiro": "Bankgiro",
+        "haveQuestion": "Har du et spørgsmål?",
+        "companyNumber": "CVR-nummer"
+      }
+    },
+    "case": {
+      "heading": "Sager",
+      "list": "Liste",
+      "caseDetails": "Sagsdetaljer",
+      "addCase": "Tilføj sag",
+      "deleteSuccess": "Sletning succesfuld!",
+      "delete": "Slet",
+      "deleteConfirmTitle": "Slet",
+      "deleteConfirmMessage": "Er du sikker på, at du vil slette?",
+      "deleteConfirmMessagePlural": "Er du sikker på, at du vil slette",
+      "items": "elementer",
+      "view": "Vis",
+      "edit": "Rediger",
+      "unassigned": "Ikke tildelt",
+      "tabs": {
+        "all": "Alle",
+        "new": "Ny",
+        "inProgress": "I gang",
+        "open": "Åben",
+        "closed": "Lukket"
+      },
+      "analytics": {
+        "total": "I alt",
+        "new": "Ny",
+        "inProgress": "I gang",
+        "open": "Åben",
+        "closed": "Lukket"
+      },
+      "tableHeaders": {
+        "caseId": "Sags-ID",
+        "company": "Virksomhed",
+        "subject": "Emne",
+        "category": "Kategori",
+        "caseManager": "Sagsbehandler",
+        "status": "Status",
+        "createdDate": "Oprettet dato"
+      },
+      "detailsTabs": {
+        "caseDetails": "Sagsdetaljer",
+        "reportSetting": "Rapporteringsindstilling",
+        "logs": "Logger",
+        "documents": "Dokumenter",
+        "notes": "Noter",
+      "chat": "Chat",
+      "legalSupport": "Legal Support"
+      },
+      "statusOptions": {
+        "new": "Ny",
+        "inProgress": "I gang",
+        "open": "Åben",
+        "closed": "Lukket"
+      },
+      "caseDetailsTab": {
+        "loading": "Indlæser...",
+        "failedToLoad": "Kunne ikke indlæse sagsdetaljer",
+        "caseId": "Sags-ID",
+        "dateTime": "Dato & Tid",
+        "subject": "Titel",
+        "description": "Beskrivelse",
+        "files": "Filer",
+        "reportingChannel": "Rapporteringskanal",
+        "category": "Kategori",
+        "assignedTo": "Tildelt til",
+        "reportingMedium": "Rapporteringsmedium",
+        "department": "Afdeling",
+        "severity": "Alvorlighedsgrad",
+        "state": "Tilstand",
+        "select": "Vælg...",
+        "notAssigned": "Ikke tildelt",
+        "written": "Skriftlig & Mundtlig",
+        "oral": "Mundtlig",
+        "phoneCall": "Telefonopkald",
+        "physicalMeeting": "Fysisk møde",
+        "noData": "N/A",
+        "reportType": "Rapporttype",
+        "reportAnnonymously": "Rapporter anonymt",
+        "reportWithPersonalDetails": "Rapporter med personlige oplysninger",
+        "email": "E-mail"
+      },
+      "reportSettingTab": {
+        "heading": "Rapporteringsindstillinger",
+        "loading": "Indlæser...",
+        "failedToLoad": "Kunne ikke indlæse rapporteringsindstillinger",
+        "assignTo": "Tildel til",
+        "selectCaseManager": "Vælg sagsbehandler",
+        "loadingCaseManagers": "Indlæser sagsbehandlere...",
+        "assignStatus": "Tildel status",
+        "selectStatus": "Vælg status",
+        "nextOpenStateDeadline": "Næste åbne tilstandsfrist",
+        "nextOpenStateDeadlineHelper": "Vælg dato og tid for næste åbne tilstandsfrist",
+        "nextCloseStateDeadline": "Næste lukkede tilstandsfrist",
+        "nextCloseStateDeadlineHelper": "Vælg dato og tid for næste lukkede tilstandsfrist",
+        "linkWithOtherReport": "Link med en anden rapport",
+        "linkWithOtherReportPlaceholder": "Indtast rapport-ID eller link",
+        "autoDeleteAfter30Days": "Slet automatisk efter 30 dage",
+        "selectOption": "Vælg mulighed",
+        "yes": "Ja",
+        "no": "Nej",
+        "cancel": "Annuller",
+        "saveChanges": "Gem ændringer",
+        "saving": "Gemmer...",
+        "updatedSuccessfully": "Rapporteringsindstillinger opdateret",
+        "failedToUpdate": "Kunne ikke opdatere rapporteringsindstillinger",
+        "fixFormErrors": "Ret venligst formularen fejl før indsendelse",
+        "pleaseFixErrors": "Ret venligst følgende fejl:",
+        "invalidValue": "Ugyldig værdi",
+        "assignStatusRequired": "Tildel status er påkrævet",
+        "new": "Ny",
+        "open": "Åben",
+        "inProgress": "I gang",
+        "closed": "Lukket",
+        "pending": "Afventer",
+        "resolved": "Løst",
+        "rejected": "Afvist",
+        "cancelled": "Annulleret",
+        "spam": "Spam",
+        "other": "Andet"
+      },
+      "logsTab": {
+        "heading": "Handlingslogger",
+        "searchPlaceholder": "Søg logger...",
+        "noLogsFound": "Ingen logger fundet",
+        "noLogsMatchSearch": "Ingen logger matcher dit søgning",
+        "actionPerformed": "Handling udført",
+        "actionValue": "Handlingsværdi",
+        "dateTime": "Dato & Tid"
+      },
+      "documentsTab": {
+        "heading": "Dokumenter",
+        "searchPlaceholder": "Søg dokumenter...",
+        "newDocument": "Nyt dokument",
+        "noDocumentsFound": "Ingen dokumenter fundet",
+        "noDocumentsMatchSearch": "Ingen dokumenter matcher dit søgning",
+        "title": "Titel",
+        "document": "Dokument",
+        "uploadedAt": "Uploadet",
+        "actions": "Handlinger",
+        "file": "Fil",
+        "uploadNewDocument": "Upload nyt dokument",
+        "documentTitle": "Dokumenttitel",
+        "documentTitleRequired": "Dokumentnavn er påkrævet",
+        "selectFile": "Vælg fil",
+        "fileRequired": "Fil er påkrævet",
+        "fileSizeExceeded": "Filstørrelse må ikke overstige 10MB",
+        "invalidFileType": "Ugyldig filtype. Tilladte typer: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, JPG, JPEG, PNG, GIF",
+        "uploading": "Uploader...",
+        "upload": "Upload",
+        "close": "Luk",
+        "uploadedSuccessfully": "Dokument uploadet",
+        "failedToUpload": "Kunne ikke uploade dokument",
+        "pleaseEnterDocumentName": "Indtast venligst et dokumentnavn",
+        "pleaseSelectFile": "Vælg venligst en fil at uploade",
+        "fileSizeMaxExceeded": "Filstørrelse må ikke overstige 10MB",
+        "invalidFileTypeError": "Ugyldig filtype",
+        "failedToLoad": "Kunne ikke indlæse dokumenter",
+        "deletedSuccessfully": "Dokument slettet",
+        "failedToDelete": "Kunne ikke slette dokument",
+        "deleteConfirmTitle": "Slet dokument",
+        "deleteConfirmMessage": "Er du sikker på, at du vil slette dette dokument?",
+        "delete": "Slet"
+      },
+      "notesTab": {
+        "heading": "Notater",
+        "searchPlaceholder": "Søg notater...",
+        "addNote": "Tilføj notat",
+        "noNotesFound": "Ingen notater fundet",
+        "noNotesMatchSearch": "Ingen notater matcher dit søgning",
+        "title": "Titel",
+        "description": "Beskrivelse",
+        "date": "Dato",
+        "addedBy": "Tilføjet af",
+        "actions": "Handlinger",
+        "unknownUser": "Ukendt bruger",
+        "editNote": "Rediger notat",
+        "addNewNote": "Tilføj nyt notat",
+        "noteTitle": "Notattitel",
+        "noteTitleRequired": "Notattitel er påkrævet",
+        "descriptionRequired": "Notatbeskrivelse er påkrævet",
+        "pleaseEnterNoteTitle": "Indtast venligst en notattitel",
+        "pleaseEnterNoteDescription": "Indtast venligst en notatbeskrivelse",
+        "save": "Gem",
+        "saving": "Gemmer...",
+        "updatedSuccessfully": "Notat opdateret",
+        "addedSuccessfully": "Notat tilføjet",
+        "failedToSave": "Kunne ikke gemme notat",
+        "deletedSuccessfully": "Notat slettet",
+        "failedToDelete": "Kunne ikke slette notat",
+        "deleteConfirmTitle": "Slet notat",
+        "deleteConfirmMessage": "Er du sikker på, at du vil slette dette notat?",
+        "delete": "Slet",
+        "cancel": "Annuller",
+        "failedToLoad": "Kunne ikke indlæse notater"
+      },
+      "chatTab": {
+        "heading": "Sagschat",
+        "typeMessage": "Skriv din besked...",
+        "typeMessagePlaceholder": "Skriv din besked... (Tryk Enter for at sende, Shift+Enter for ny linje)",
+        "send": "Send",
+        "audioMessage": "Lydbesked",
+        "imageMessage": "Billede",
+        "voice": "Stemme",
+        "text": "Tekst",
+        "recording": "Optager...",
+        "stopRecording": "Stop optagelse",
+        "startRecording": "Start stemmeoptagelse",
+        "processingAudio": "Behandler lyd...",
+        "uploadImage": "Upload billede",
+        "removeImage": "Fjern billede",
+        "attachImage": "Vedhæft billede",
+        "loading": "Indlæser chat...",
+        "loadingMessages": "Indlæser beskeder...",
+        "noMessages": "Ingen beskeder endnu. Start en samtale!",
+        "sendMessage": "Send besked",
+        "you": "Dig",
+        "cancel": "Annuller",
+        "messageCannotBeEmpty": "Beskeden kan ikke være tom",
+        "messageTooLong": "Beskeden må ikke overstige 10.000 tegn",
+        "startVoiceRecording": "Start stemmeoptagelse",
+        "imagePreview": "Billedforhåndsvisning"
+      },
+      "legalSupportTab": {
+        "heading": "Legal Support",
+        "typeMessage": "Skriv din besked...",
+        "typeMessagePlaceholder": "Skriv din besked... (Tryk Enter for at sende, Shift+Enter for ny linje)",
+        "send": "Send",
+        "audioMessage": "Lydbesked",
+        "imageMessage": "Billede",
+        "voice": "Stemme",
+        "text": "Tekst",
+        "recording": "Optager...",
+        "stopRecording": "Stop optagelse",
+        "startRecording": "Start stemmeoptagelse",
+        "processingAudio": "Behandler lyd...",
+        "uploadImage": "Upload billede",
+        "removeImage": "Fjern billede",
+        "attachImage": "Vedhæft billede",
+        "loading": "Indlæser chat...",
+        "loadingMessages": "Indlæser beskeder...",
+        "noMessages": "Ingen beskeder endnu. Start en samtale!",
+        "sendMessage": "Send besked",
+        "you": "Dig",
+        "partner": "Partner",
+        "cancel": "Annuller",
+        "messageCannotBeEmpty": "Beskeden kan ikke være tom",
+        "messageTooLong": "Beskeden må ikke overstige 10.000 tegn",
+        "startRecording": "Start stemmeoptagelse",
+        "imagePreview": "Billedforhåndsvisning"
+      }
+    },
+    "caseManager": {
+      "heading": "Sagsbehandlere",
+      "list": "Liste",
+      "createNewCaseManager": "Opret en ny sagsbehandler",
+      "create": "Opret",
+      "editCaseManager": "Rediger sagsbehandler",
+      "edit": "Rediger",
+      "caseManagerNotFound": "Sagsbehandler ikke fundet",
+      "addCaseManager": "Tilføj sagsbehandler",
+      "back": "Tilbage",
+      "fullName": "Fulde navn",
+      "emailAddress": "E-postadresse",
+      "password": "Adgangskode",
+      "passwordPlaceholder": "Efterlad tomt for at beholde nuværende adgangskode",
+      "passwordHelperText": "Adgangskoden skal være mindst 8 tegn",
+      "phoneNumber": "Telefonnummer",
+      "reset": "Nulstil",
+      "saving": "Gemmer...",
+      "save": "Gem",
+      "nameMinLength": "Navnet skal være mindst 2 tegn",
+      "invalidEmail": "Ugyldig e-postadresse",
+      "passwordMinLength": "Adgangskoden skal være mindst 8 tegn",
+      "phoneMinLength": "Telefonnummeret skal være mindst 10 cifre",
+      "caseManagerUpdated": "Sagsbehandler opdateret!",
+      "caseManagerCreated": "Sagsbehandler oprettet!",
+      "failedToSave": "Kunne ikke gemme sagsbehandler. Prøv igen.",
+      "delete": "Slet",
+      "deleteConfirmTitle": "Slet",
+      "deleteConfirmMessage": "Er du sikker på, at du vil slette?",
+      "deleteConfirmMessagePlural": "Er du sikker på, at du vil slette",
+      "items": "elementer",
+      "caseManagers": "Sagsbehandlere",
+      "accessAccount": "Åbn konto",
+      "searchCaseManager": "Søg sagsbehandler...",
+      "searchEmail": "Søg e-post...",
+      "status": "Status",
+      "all": "Alle",
+      "errorLoading": "Fejl ved indlæsning af sagsbehandlere",
+      "retry": "Prøv igen",
+      "caseManagerDeleted": "Sagsbehandler slettet!",
+      "caseManagersDeleted": "Sagsbehandlere slettet!",
+      "failedToDelete": "Kunne ikke slette sagsbehandler",
+      "failedToDeletePlural": "Kunne ikke slette sagsbehandlere",
+      "successfullyLoggedIn": "Logget ind som sagsbehandler. Siden genindlæses...",
+      "failedToAccessAccount": "Kunne ikke åbne kontoen. Prøv igen.",
+      "tableHeaders": {
+        "name": "Navn",
+        "email": "E-post",
+        "phone": "Telefon",
+        "verified": "Verificeret",
+        "active": "Aktiv",
+        "status": "Status",
+        "created": "Oprettet"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "suspended": "Suspenderet"
+      }
+    },
+    "question": {
+      "heading": "Spørgsmål",
+      "list": "Liste",
+      "addQuestion": "Tilføj spørgsmål",
+      "editQuestion": "Rediger spørgsmål",
+      "newQuestion": "Nyt spørgsmål",
+      "questionName": "Spørgsmålsnavn",
+      "questionNamePlaceholder": "Indtast spørgsmålsnavn",
+      "isRequired": "Påkrævet",
+      "yes": "Ja",
+      "no": "Nej",
+      "required": "Påkrævet",
+      "optional": "Valgfrit",
+      "inputType": "Indtastningstype",
+      "inputTypePlaceholder": "Vælg indtastningstype",
+      "options": "Indstillinger",
+      "addOption": "Tilføj indstilling",
+      "addNewOption": "Tilføj ny indstilling",
+      "option": "Indstilling",
+      "cancel": "Annuller",
+      "updateQuestion": "Opdater spørgsmål",
+      "createQuestion": "Opret spørgsmål",
+      "questionUpdated": "Spørgsmål opdateret!",
+      "questionCreated": "Spørgsmål oprettet!",
+      "failedToSave": "Kunne ikke gemme spørgsmål. Prøv igen.",
+      "delete": "Slet",
+      "deleteConfirmTitle": "Advarsel: Obligatoriske spørgsmål",
+      "deleteConfirmMessage": "Spørgsmålene, du forsøger at fjerne, er påkrævet for overholdelse og korrekt sagsbehandling. At fjerne dem kan føre til ufuldstændige rapporter og reduceret juridisk og proceduremæssig pålidelighed.\n\nWisling er ikke ansvarlig for problemer, der opstår på grund af fjernelse af obligatoriske spørgsmål.\n\nVil du fortsætte?",
+      "deleteConfirmMessageSingle": "Spørgsmålene, du forsøger at fjerne, er påkrævet for overholdelse og korrekt sagsbehandling. At fjerne dem kan føre til ufuldstændige rapporter og reduceret juridisk og proceduremæssig pålidelighed.\n\nWisling er ikke ansvarlig for problemer, der opstår på grund af fjernelse af obligatoriske spørgsmål.\n\nVil du fortsætte?",
+      "questions": "spørgsmål",
+      "questionDeleted": "Spørgsmål slettet!",
+      "questionsDeleted": "Spørgsmål slettet!",
+      "failedToDelete": "Kunne ikke slette spørgsmål",
+      "failedToDeletePlural": "Kunne ikke slette spørgsmål",
+      "questionsReordered": "Spørgsmål omordnet!",
+      "failedToReorder": "Kunne ikke gemme spørgsmålsrækkefølge",
+      "errorLoading": "Fejl ved indlæsning af spørgsmål",
+      "retry": "Prøv igen",
+      "searchQuestions": "Søg spørgsmål...",
+      "print": "Udskriv",
+      "import": "Importer",
+      "export": "Eksporter",
+      "nameRequired": "Navn er påkrævet",
+      "inputTypeRequired": "Indtastningstype er påkrævet",
+      "tableHeaders": {
+        "questionName": "Spørgsmålsnavn",
+        "isRequired": "Påkrævet",
+        "inputType": "Indtastningstype"
+      },
+      "inputTypes": {
+        "text": "Tekst",
+        "select": "Vælg",
+        "password": "Adgangskode",
+        "email": "E-mail",
+        "url": "URL",
+        "tel": "Telefon",
+        "search": "Søg",
+        "number": "Nummer",
+        "range": "Rækkevidde",
+        "date": "Dato",
+        "datetime-local": "Dato og tid",
+        "month": "Måned",
+        "week": "Uge",
+        "time": "Tid",
+        "checkbox": "Afkrydsningsfelt",
+        "radio": "Radio",
+        "file": "Fil",
+        "color": "Farve"
+      },
+      "preview": {
+        "preview": "Forhåndsvisning:",
+        "textInput": "Dette vil oprette et tekstfelt med name=\"{{name}}\" og type=\"text\"",
+        "input": "Dette vil oprette et felt med name=\"{{name}}\" og type=\"{{type}}\"",
+        "inputWithOptions": "Dette vil oprette et {{type}}-felt med {{count}} indstilling(er): {{options}}"
+      }
+    },
+    "news": {
+      "heading": "Nyheder",
+      "list": "Liste",
+      "createNewNews": "Opret ny nyhed",
+      "create": "Opret",
+      "edit": "Rediger",
+      "editNews": "Rediger nyhed",
+      "newsNotFound": "Nyhed ikke fundet",
+      "newsNotFoundMessage": "Nyhedsartiklen du leder efter eksisterer ikke.",
+      "backToList": "Tilbage til liste",
+      "addNews": "Tilføj nyhed",
+      "tabs": {
+        "all": "Alle",
+        "published": "Publiceret",
+        "draft": "Kladde"
+      },
+      "tableHeaders": {
+        "title": "Titel",
+        "status": "Status",
+        "createdAt": "Oprettet"
+      },
+      "details": {
+        "heading": "Detaljer",
+        "subheader": "Titel, kort beskrivelse, billede...",
+        "newsTitle": "Nyhedstitel",
+        "description": "Beskrivelse",
+        "content": "Indhold",
+        "coverImage": "Forsidebillede",
+        "coverImageHelper": "Maks filstørrelse: 5MB. Tilladt: JPG, PNG, WEBP"
+      },
+      "properties": {
+        "heading": "Egenskaber",
+        "subheader": "Yderligere funktioner og attributter...",
+        "tags": "Tags",
+        "tagsPlaceholder": "+ Tags",
+        "metaTitle": "Meta-titel",
+        "metaDescription": "Meta-beskrivelse",
+        "metaKeywords": "Meta-nøgleord",
+        "metaKeywordsPlaceholder": "+ Nøgleord"
+      },
+      "actions": {
+        "publish": "Publicer",
+        "preview": "Forhåndsvisning",
+        "createNews": "Opret nyhed",
+        "saveChanges": "Gem ændringer"
+      },
+      "toolbar": {
+        "back": "Tilbage",
+        "goLive": "Gå live",
+        "edit": "Rediger",
+        "loading": "Indlæser…"
+      },
+      "menu": {
+        "view": "Vis",
+        "edit": "Rediger",
+        "delete": "Slet"
+      },
+      "search": {
+        "placeholder": "Søg..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Nyhed slettet!",
+        "deleteFailed": "Kunne ikke slette nyhed",
+        "updatedSuccessfully": "Nyhed opdateret!",
+        "createdSuccessfully": "Nyhed oprettet!",
+        "coverUploadedSuccessfully": "Forsidebillede uploadet!",
+        "coverUploadFailed": "Nyhed gemt, men forsidebillede kunne ikke uploades",
+        "saveFailed": "Kunne ikke gemme nyhed. Prøv igen."
+      },
+      "errors": {
+        "titleRequired": "Titel er påkrævet!",
+        "descriptionRequired": "Beskrivelse er påkrævet!",
+        "contentMinLength": "Indhold skal være mindst 20 tegn",
+        "tagsMinLength": "Skal have mindst 2 elementer!",
+        "metaKeywordsRequired": "Meta-nøgleord er påkrævet!"
+      },
+      "status": {
+        "published": "Publiceret",
+        "draft": "Kladde"
+      },
+      "emptyState": {
+        "notFound": "Nyhed ikke fundet!",
+        "backToList": "Tilbage til liste"
+      }
+    },
+    "department": {
+      "heading": "Afdelinger",
+      "list": "Liste",
+      "createNewDepartment": "Opret ny afdeling",
+      "create": "Opret",
+      "edit": "Rediger",
+      "editDepartment": "Rediger afdeling",
+      "departmentNotFound": "Afdeling ikke fundet",
+      "addDepartment": "Tilføj afdeling",
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "departmentName": "Afdelingsnavn",
+        "status": "Status",
+        "createdAt": "Oprettet"
+      },
+      "form": {
+        "departmentName": "Afdelingsnavn",
+        "status": "Status",
+        "selectStatus": "Vælg status"
+      },
+      "actions": {
+        "createDepartment": "Opret afdeling",
+        "saveChanges": "Gem ændringer"
+      },
+      "menu": {
+        "edit": "Rediger",
+        "delete": "Slet"
+      },
+      "search": {
+        "placeholder": "Søg afdeling..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Afdeling slettet!",
+        "deleteFailed": "Kunne ikke slette afdeling",
+        "deletedMultipleSuccessfully": "Afdelinger slettet!",
+        "deleteMultipleFailed": "Kunne ikke slette afdelinger",
+        "updatedSuccessfully": "Afdeling opdateret!",
+        "createdSuccessfully": "Afdeling oprettet!",
+        "saveFailed": "Kunne ikke gemme afdeling. Prøv igen."
+      },
+      "errors": {
+        "nameRequired": "Afdelingsnavn er påkrævet!",
+        "statusRequired": "Status er påkrævet!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Slet",
+        "deleteConfirm": "Er du sikker på, at du vil slette?",
+        "deleteMultipleConfirm": "Er du sikker på, at du vil slette {{count}} elementer?"
+      },
+      "tooltip": {
+        "delete": "Slet"
+      }
+    },
+    "state": {
+      "heading": "Tilstande",
+      "list": "Liste",
+      "createNewState": "Opret ny tilstand",
+      "create": "Opret",
+      "edit": "Rediger",
+      "editState": "Rediger tilstand",
+      "stateNotFound": "Tilstand ikke fundet",
+      "addState": "Tilføj tilstand",
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "stateName": "Tilstandsnavn",
+        "status": "Status",
+        "createdAt": "Oprettet"
+      },
+      "form": {
+        "stateName": "Tilstandsnavn",
+        "status": "Status",
+        "selectStatus": "Vælg status"
+      },
+      "actions": {
+        "createState": "Opret tilstand",
+        "saveChanges": "Gem ændringer"
+      },
+      "menu": {
+        "edit": "Rediger",
+        "delete": "Slet"
+      },
+      "search": {
+        "placeholder": "Søg tilstand..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Tilstand slettet!",
+        "deleteFailed": "Kunne ikke slette tilstand",
+        "deletedMultipleSuccessfully": "Tilstande slettet!",
+        "deleteMultipleFailed": "Kunne ikke slette tilstande",
+        "updatedSuccessfully": "Tilstand opdateret!",
+        "createdSuccessfully": "Tilstand oprettet!",
+        "saveFailed": "Kunne ikke gemme tilstand. Prøv igen."
+      },
+      "errors": {
+        "nameRequired": "Tilstandsnavn er påkrævet!",
+        "statusRequired": "Status er påkrævet!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Slet",
+        "deleteConfirm": "Er du sikker på, at du vil slette?",
+        "deleteMultipleConfirm": "Er du sikker på, at du vil slette {{count}} elementer?"
+      },
+      "tooltip": {
+        "delete": "Slet"
+      }
+    },
+    "severity": {
+      "heading": "Alvorlighedsgrader",
+      "list": "Liste",
+      "createNewSeverity": "Opret ny alvorlighedsgrad",
+      "create": "Opret",
+      "edit": "Rediger",
+      "editSeverity": "Rediger alvorlighedsgrad",
+      "severityNotFound": "Alvorlighedsgrad ikke fundet",
+      "addSeverity": "Tilføj alvorlighedsgrad",
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "severityName": "Alvorlighedsgradsnavn",
+        "status": "Status",
+        "createdAt": "Oprettet"
+      },
+      "form": {
+        "severityName": "Alvorlighedsgradsnavn",
+        "status": "Status",
+        "selectStatus": "Vælg status"
+      },
+      "actions": {
+        "createSeverity": "Opret alvorlighedsgrad",
+        "saveChanges": "Gem ændringer"
+      },
+      "menu": {
+        "edit": "Rediger",
+        "delete": "Slet"
+      },
+      "search": {
+        "placeholder": "Søg alvorlighedsgrad..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Alvorlighedsgrad slettet!",
+        "deleteFailed": "Kunne ikke slette alvorlighedsgrad",
+        "deletedMultipleSuccessfully": "Alvorlighedsgrader slettet!",
+        "deleteMultipleFailed": "Kunne ikke slette alvorlighedsgrader",
+        "updatedSuccessfully": "Alvorlighedsgrad opdateret!",
+        "createdSuccessfully": "Alvorlighedsgrad oprettet!",
+        "saveFailed": "Kunne ikke gemme alvorlighedsgrad. Prøv igen."
+      },
+      "errors": {
+        "nameRequired": "Alvorlighedsgradsnavn er påkrævet!",
+        "statusRequired": "Status er påkrævet!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Slet",
+        "deleteConfirm": "Er du sikker på, at du vil slette?",
+        "deleteMultipleConfirm": "Er du sikker på, at du vil slette {{count}} elementer?"
+      },
+      "tooltip": {
+        "delete": "Slet"
+      }
+    },
+    "privacyPolicy": {
+      "heading": "Fortrolighedspolitik",
+      "edit": "Rediger",
+      "editPrivacyPolicy": "Rediger fortrolighedspolitik",
+      "editPrivacyPolicyButton": "Rediger fortrolighedspolitik",
+      "lastUpdated": "Sidst opdateret",
+      "unknown": "Ukendt",
+      "form": {
+        "title": "Fortrolighedspolitikdetaljer",
+        "subheader": "Opdater indholdet og metadataene for fortrolighedspolitikken",
+        "titleLabel": "Titel",
+        "content": "Indhold",
+        "tip": "💡 Tip: Klik på billedikonet i værktøjslinjen for at uploade billeder eller tilføje billede-URL'er"
+      },
+      "actions": {
+        "preview": "Forhåndsvisning",
+        "cancel": "Annuller",
+        "saveChanges": "Gem ændringer"
+      },
+      "toast": {
+        "updatedSuccessfully": "Fortrolighedspolitik opdateret!",
+        "updateFailed": "Kunne ikke opdatere fortrolighedspolitik. Prøv igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel skal være mindst 5 tegn",
+        "contentMinLength": "Indhold skal være mindst 20 tegn"
+      },
+      "loading": "Indlæser...",
+      "error": {
+        "title": "Fejl ved indlæsning af fortrolighedspolitik",
+        "description": "Der opstod en fejl ved indlæsning af fortrolighedspolitikken. Prøv igen.",
+        "retry": "Prøv igen"
+      }
+    },
+    "aboutUs": {
+      "heading": "Om os",
+      "edit": "Rediger",
+      "editAboutUs": "Rediger om os",
+      "editAboutUsButton": "Rediger om os",
+      "lastUpdated": "Sidst opdateret",
+      "unknown": "Ukendt",
+      "form": {
+        "title": "Om os-detaljer",
+        "subheader": "Opdater indholdet og metadataene for om os-siden",
+        "titleLabel": "Titel",
+        "content": "Indhold",
+        "tip": "💡 Tip: Klik på billedikonet i værktøjslinjen for at uploade billeder eller tilføje billede-URL'er"
+      },
+      "actions": {
+        "preview": "Forhåndsvisning",
+        "cancel": "Annuller",
+        "saveChanges": "Gem ændringer"
+      },
+      "toast": {
+        "updatedSuccessfully": "Om os-siden opdateret!",
+        "updateFailed": "Kunne ikke opdatere om os-siden. Prøv igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel skal være mindst 5 tegn",
+        "contentMinLength": "Indhold skal være mindst 20 tegn"
+      },
+      "loading": "Indlæser...",
+      "error": {
+        "title": "Fejl ved indlæsning af om os-siden",
+        "description": "Der opstod en fejl ved indlæsning af om os-siden. Prøv igen.",
+        "retry": "Prøv igen"
+      }
+    },
+    "loginPage": {
+      "heading": "Loginside",
+      "edit": "Rediger",
+      "editLoginPage": "Rediger loginside",
+      "editLoginPageButton": "Rediger loginside",
+      "lastUpdated": "Sidst opdateret",
+      "unknown": "Ukendt",
+      "form": {
+        "title": "Loginside-detaljer",
+        "subheader": "Opdater indholdet og metadataene for loginsiden",
+        "titleLabel": "Titel",
+        "content": "Indhold",
+        "tip": "💡 Tip: Klik på billedikonet i værktøjslinjen for at uploade billeder eller tilføje billede-URL'er"
+      },
+      "actions": {
+        "preview": "Forhåndsvisning",
+        "cancel": "Annuller",
+        "saveChanges": "Gem ændringer"
+      },
+      "toast": {
+        "updatedSuccessfully": "Loginsiden opdateret!",
+        "updateFailed": "Kunne ikke opdatere loginsiden. Prøv igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel skal være mindst 5 tegn",
+        "contentMinLength": "Indhold skal være mindst 20 tegn"
+      },
+      "loading": "Indlæser...",
+      "error": {
+        "title": "Fejl ved indlæsning af loginsiden",
+        "description": "Der opstod en fejl ved indlæsning af loginsiden. Prøv igen.",
+        "retry": "Prøv igen"
+      }
+    },
+    "paymentPage": {
+      "heading": "Betalingsside",
+      "edit": "Rediger",
+      "editPaymentPage": "Rediger betalingsside",
+      "editPaymentPageButton": "Rediger betalingsside",
+      "lastUpdated": "Sidst opdateret",
+      "unknown": "Ukendt",
+      "form": {
+        "title": "Betalingsside-detaljer",
+        "subheader": "Opdater indholdet og metadataene for betalingssiden",
+        "titleLabel": "Titel",
+        "content": "Indhold",
+        "tip": "💡 Tip: Klik på billedikonet i værktøjslinjen for at uploade billeder eller tilføje billede-URL'er"
+      },
+      "actions": {
+        "preview": "Forhåndsvisning",
+        "cancel": "Annuller",
+        "saveChanges": "Gem ændringer"
+      },
+      "toast": {
+        "updatedSuccessfully": "Betalingssiden opdateret!",
+        "updateFailed": "Kunne ikke opdatere betalingssiden. Prøv igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel skal være mindst 5 tegn",
+        "contentMinLength": "Indhold skal være mindst 20 tegn"
+      },
+      "loading": "Indlæser...",
+      "error": {
+        "title": "Fejl ved indlæsning af betalingssiden",
+        "description": "Der opstod en fejl ved indlæsning af betalingssiden. Prøv igen.",
+        "retry": "Prøv igen"
+      }
+    },
+    "termsConditions": {
+      "heading": "Vilkår og betingelser",
+      "edit": "Rediger",
+      "editTermsConditions": "Rediger vilkår og betingelser",
+      "editTermsConditionsButton": "Rediger vilkår og betingelser",
+      "lastUpdated": "Sidst opdateret",
+      "unknown": "Ukendt",
+      "form": {
+        "title": "Detaljer for vilkår og betingelser",
+        "subheader": "Opdater indholdet og metadataene for vilkårene og betingelserne",
+        "titleLabel": "Titel",
+        "content": "Indhold",
+        "tip": "💡 Tip: Klik på billedikonet i værktøjslinjen for at uploade billeder eller tilføje billede-URL'er"
+      },
+      "actions": {
+        "preview": "Forhåndsvisning",
+        "cancel": "Annuller",
+        "saveChanges": "Gem ændringer"
+      },
+      "toast": {
+        "updatedSuccessfully": "Vilkår og betingelser opdateret!",
+        "updateFailed": "Kunne ikke opdatere vilkår og betingelser. Prøv igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel skal være mindst 5 tegn",
+        "contentMinLength": "Indhold skal være mindst 20 tegn"
+      },
+      "loading": "Indlæser...",
+      "error": {
+        "title": "Fejl ved indlæsning af vilkår og betingelser",
+        "description": "Der opstod en fejl ved indlæsning af vilkårene og betingelserne. Prøv igen.",
+        "retry": "Prøv igen"
+      }
+    },
+    "support": {
+      "heading": "Support",
+      "edit": "Rediger",
+      "editSupport": "Rediger support",
+      "editSupportButton": "Rediger support",
+      "lastUpdated": "Sidst opdateret",
+      "unknown": "Ukendt",
+      "form": {
+        "title": "Supportdetaljer",
+        "subheader": "Opdater supportindholdet og metadataene",
+        "titleLabel": "Titel",
+        "content": "Indhold",
+        "tip": "💡 Tip: Klik på billedikonet i værktøjslinjen for at uploade billeder eller tilføje billede-URL'er"
+      },
+      "actions": {
+        "preview": "Forhåndsvisning",
+        "cancel": "Annuller",
+        "saveChanges": "Gem ændringer"
+      },
+      "toast": {
+        "updatedSuccessfully": "Support opdateret!",
+        "updateFailed": "Kunne ikke opdatere support. Prøv igen."
+      },
+      "errors": {
+        "titleMinLength": "Titel skal være mindst 5 tegn",
+        "contentMinLength": "Indhold skal være mindst 20 tegn"
+      },
+      "loading": "Indlæser...",
+      "error": {
+        "title": "Fejl ved indlæsning af support",
+        "description": "Der opstod en fejl ved indlæsning af supportindholdet. Prøv igen.",
+        "retry": "Prøv igen"
+      }
+    },
+    "themeConfiguration": {
+      "heading": "Temakonfiguration",
+      "resetAll": "Nulstil alle",
+      "basicSettings": {
+        "title": "Grundindstillinger",
+        "description": "Konfigurer grundlæggende temaindstillinger",
+        "mode": "Tilstand",
+        "contrast": "Kontrast",
+        "rightToLeft": "Højre til venstre",
+        "compact": "Kompakt",
+        "compactTooltip": "Kun dashboard og tilgængelig ved store opløsninger > 1600px (xl)",
+        "system": "System"
+      },
+      "colorSettings": {
+        "title": "Farveindstillinger",
+        "description": "Tilpas dit programs farveskema",
+        "colorPresets": "Farveforudindstillinger"
+      },
+      "layoutSettings": {
+        "title": "Layoutindstillinger",
+        "description": "Konfigurer navigations- og layoutindstillinger",
+        "navigationLayout": {
+          "title": "Navigationslayout",
+          "description": "Vælg hvordan navigationsmenuen skal vises"
+        },
+        "navigationColor": {
+          "title": "Navigationsfarve",
+          "description": "Vælg navigationsfarveskemaet",
+          "integrate": "Integrer",
+          "apparent": "Tydelig"
+        }
+      },
+      "typographySettings": {
+        "title": "Typografiindstillinger",
+        "description": "Tilpas skrifter og tekstindstillinger",
+        "typography": "Typografi",
+        "family": "Familie",
+        "size": "Størrelse"
+      }
+    },
+    "emailTemplate": {
+      "heading": "E-mail-skabeloner",
+      "list": "Liste",
+      "createNewEmailTemplate": "Opret e-mail-skabelon",
+      "editEmailTemplate": "Rediger e-mail-skabelon",
+      "addEmailTemplate": "Tilføj e-mail-skabelon",
+      "tableHead": {
+        "templateName": "Skabelonnavn",
+        "subject": "Emne",
+        "language": "Sprog",
+        "status": "Status",
+        "createdAt": "Oprettet"
+      },
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "toolbar": {
+        "status": "Status",
+        "searchPlaceholder": "Søg e-mail-skabeloner..."
+      },
+      "menuActions": {
+        "print": "Print",
+        "import": "Importer",
+        "export": "Eksporter",
+        "edit": "Rediger",
+        "delete": "Slet"
+      },
+      "confirmDialog": {
+        "deleteTitle": "Slet",
+        "deleteContent": "Er du sikker på, at du vil slette <strong> {count} </strong> e-mail-skabeloner?",
+        "deleteSingleContent": "Er du sikker på, at du vil slette denne e-mail-skabelon?"
+      },
+      "toast": {
+        "deleteSuccess": "E-mail-skabelon slettet!",
+        "deleteMultipleSuccess": "E-mail-skabeloner slettet!",
+        "createSuccess": "E-mail-skabelon oprettet!",
+        "updateSuccess": "E-mail-skabelon opdateret!",
+        "deleteError": "Kunne ikke slette e-mail-skabelon",
+        "deleteMultipleError": "Kunne ikke slette e-mail-skabeloner",
+        "createError": "Kunne ikke oprette e-mail-skabelon",
+        "updateError": "Kunne ikke opdatere e-mail-skabelon"
+      },
+      "form": {
+        "templateName": "Skabelonnavn",
+        "subject": "Emne",
+        "language": "Sprog",
+        "status": "Status",
+        "selectStatus": "Vælg status",
+        "content": "Indhold",
+        "placeholderVariables": "Pladsholder-variabler",
+        "placeholderExample": "f.eks. {{name}}, {{email}}, {{date}}",
+        "placeholderHelperText": "Indtast pladsholder-variabler, der kan bruges i e-mail-skabelonen",
+        "cancel": "Annuller",
+        "save": "Gem",
+        "loading": "Indlæser..."
+      },
+      "languageOptions": {
+        "en": "Engelsk",
+        "sv": "Svensk",
+        "no": "Norsk",
+        "da": "Dansk",
+        "fi": "Finsk",
+        "fr": "Fransk",
+        "de": "Tysk"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "validation": {
+        "templateNameRequired": "Skabelonnavn påkrævet",
+        "subjectRequired": "Emne påkrævet",
+        "contentRequired": "Indhold påkrævet",
+        "languageRequired": "Sprog påkrævet",
+        "statusRequired": "Status påkrævet"
+      }
+    },
+    "stripeConfiguration": {
+      "heading": "Stripe-konfiguration",
+      "breadcrumb": "Stripe-konfiguration",
+      "form": {
+        "clientId": "Stripe Client ID (Offentliggørelsesnøgle)",
+        "clientIdPlaceholder": "Indtast dit Stripe Client ID",
+        "clientIdHelperText": "Din Stripe offentliggørelsesnøgle (f.eks. pk_test_...)",
+        "secretKey": "Stripe Secret Key",
+        "secretKeyPlaceholder": "Indtast din Stripe Secret Key",
+        "secretKeyHelperText": "Din Stripe hemmelige nøgle (f.eks. sk_test_...)",
+        "webhookSecret": "Stripe Webhook Secret",
+        "webhookSecretPlaceholder": "Indtast din Stripe Webhook Secret",
+        "webhookSecretHelperText": "Din Stripe webhook-hemmelighed (f.eks. whsec_...)",
+        "saveConfiguration": "Gem konfiguration",
+        "cancel": "Annuller",
+        "testConnection": "Test forbindelse",
+        "securityNote": "Sikkerhedsnotat:",
+        "securityNoteText": "Dine Stripe-legitimationsoplysninger gemmes sikkert i databasen. Sørg for at bruge testnøgler (pk_test_ og sk_test_) til udvikling og live-nøgler (pk_live_ og sk_live_) kun til produktionsmiljøer."
+      },
+      "toast": {
+        "saveSuccess": "Stripe-konfiguration gemt!",
+        "saveError": "Kunne ikke gemme konfiguration",
+        "testSuccess": "Stripe-forbindelsestest lykkedes!",
+        "testError": "Stripe-forbindelsestest mislykkedes. Tjek dine legitimationsoplysninger.",
+        "testConnectionError": "Kunne ikke teste forbindelse"
+      },
+      "alert": {
+        "testSuccess": "Stripe-forbindelsestest lykkedes! Dine legitimationsoplysninger er gyldige.",
+        "testError": "Stripe-forbindelsestest mislykkedes. Tjek dine legitimationsoplysninger og prøv igen."
+      },
+      "validation": {
+        "clientIdRequired": "Client ID påkrævet",
+        "secretKeyRequired": "Secret Key påkrævet",
+        "webhookSecretRequired": "Webhook Secret påkrævet"
+      }
+    },
+    "bankDetails": {
+      "heading": "Bankoplysninger",
+      "breadcrumb": "Bankoplysninger",
+      "form": {
+        "iban": "IBAN",
+        "ibanPlaceholder": "Indtast dit IBAN",
+        "ibanHelperText": "Internationalt bankkontonummer",
+        "bic": "BIC (Bank Identifier Code)",
+        "bicPlaceholder": "Indtast din BIC",
+        "bicHelperText": "Bank Identifier Code (SWIFT-kode)",
+        "bankAccount": "Bankkontonummer",
+        "bankAccountPlaceholder": "Indtast dit bankkontonummer",
+        "bankAccountHelperText": "Dit bankkontonummer",
+        "saveBankDetails": "Gem bankoplysninger",
+        "cancel": "Annuller",
+        "securityNote": "Sikkerhedsnotat:",
+        "securityNoteText": "Dine bankoplysninger gemmes sikkert i din browsers lokale lagring. Sørg for at bruge testdata til udvikling og rigtige data kun til produktionsmiljøer."
+      },
+      "toast": {
+        "saveSuccess": "Bankoplysninger gemt!",
+        "saveError": "Kunne ikke gemme bankoplysninger"
+      },
+      "validation": {
+        "ibanRequired": "IBAN påkrævet",
+        "ibanInvalid": "Ugyldigt IBAN-format",
+        "bicRequired": "BIC påkrævet",
+        "bicInvalid": "Ugyldigt BIC-format",
+        "bankAccountRequired": "Bankkonto påkrævet",
+        "bankAccountInvalid": "Bankkonto kan indeholde bogstaver, tal, mellemrum og bindestreger"
+      }
+    },
+    "basicConfiguration": {
+      "heading": "Grundkonfiguration",
+      "breadcrumb": "Grundkonfiguration",
+      "form": {
+        "companyLogo": "Firmalogo",
+        "smallCompanyLogo": "Lille firmalogo",
+        "uploadLogo": "Upload logo",
+        "changeLogo": "Skift logo",
+        "remove": "Fjern",
+        "defaultOpenStateDeadline": "Standard åben tilstand deadline (dage)",
+        "defaultClosedStateDeadline": "Standard lukket tilstand deadline (dage)",
+        "vat": "Moms (%)",
+        "defaultPrice": "Standardpris",
+        "phoneHoursFrom": "Telefontid fra",
+        "phoneHoursTo": "Telefontid til",
+        "invoiceNote": "Faktura notat",
+        "invoiceNoteHelperText": "Valgfrit notat at inkludere på fakturaer",
+        "deleteClosedCases": "Slet lukkede sager",
+        "deleteClosedCasesHelperText": "Aktiver automatisk sletning af lukkede sager efter en vis periode",
+        "saveConfiguration": "Gem konfiguration",
+        "cancel": "Annuller",
+        "note": "Bemærk:",
+        "noteText": "Konfigurationsændringer vil påvirke alle nye sager og systemadfærd. Sørg for at gennemgå alle indstillinger før lagring."
+      },
+      "toast": {
+        "saveSuccess": "Grundkonfiguration gemt!",
+        "saveError": "Kunne ikke gemme konfiguration"
+      },
+      "validation": {
+        "fileSizeError": "Filstørrelsen skal være mindre end 5MB",
+        "fileTypeError": "Filen skal være et billede",
+        "deadlineMin": "Skal være mindst 1 dag",
+        "deadlineMax": "Må ikke overstige 365 dage",
+        "vatMin": "Moms skal være mindst 0%",
+        "vatMax": "Moms må ikke overstige 100%",
+        "priceMin": "Prisen skal være mindst 0",
+        "timeFormatError": "Ugyldigt tidsformat (HH:MM)",
+        "invoiceNoteMax": "Faktura notat må ikke overstige 500 tegn"
+      }
+    },
+    "user": {
+      "heading": "Bruger",
+      "editUser": "Rediger bruger",
+      "edit": "Rediger",
+      "userNotFound": "Bruger ikke fundet",
+      "loading": "Indlæser...",
+      "form": {
+        "fullName": "Fulde navn",
+        "emailAddress": "E-mailadresse",
+        "phoneNumber": "Telefonnummer",
+        "country": "Land",
+        "chooseCountry": "Vælg et land",
+        "stateRegion": "Stat/region",
+        "city": "By",
+        "address": "Adresse",
+        "physicalAddress": "Fysisk adresse",
+        "phoneHoursFrom": "Telefontider fra",
+        "phoneHoursTo": "Telefontider til",
+        "zipCode": "Postnummer",
+        "company": "Virksomhed",
+        "companyNumber": "CVR-nummer",
+        "role": "Rolle",
+        "avatarAllowed": "Tilladte *.jpeg, *.jpg, *.png, *.gif",
+        "avatarMaxSize": "maks størrelse på",
+        "companyLogo": "Firmalogo",
+        "createUser": "Opret bruger",
+        "saveChanges": "Gem ændringer"
+      },
+      "validation": {
+        "nameRequired": "Navn påkrævet!",
+        "emailRequired": "E-mail påkrævet!",
+        "countryRequired": "Land påkrævet!",
+        "addressRequired": "Adresse påkrævet!",
+        "stateRequired": "Stat påkrævet!",
+        "cityRequired": "By påkrævet!",
+        "zipCodeRequired": "Postnummer påkrævet!",
+        "companyRequired": "Virksomhed påkrævet!",
+        "roleRequired": "Rolle påkrævet!"
+      },
+      "toast": {
+        "updateSuccess": "Bruger opdateret",
+        "createSuccess": "Opretning lykkedes!",
+        "saveError": "Kunne ikke gemme"
+      }
+    }
+  }
+}
+

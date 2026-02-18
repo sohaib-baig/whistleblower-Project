@@ -1,0 +1,144 @@
+/** **************************************
+* Fonts: app
+*************************************** */
+@import '@fontsource-variable/public-sans';
+
+@import '@fontsource/barlow/400.css';
+@import '@fontsource/barlow/500.css';
+@import '@fontsource/barlow/600.css';
+@import '@fontsource/barlow/700.css';
+@import '@fontsource/barlow/800.css';
+
+/** **************************************
+* Fonts: options
+*************************************** */
+@import '@fontsource-variable/dm-sans';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/nunito-sans';
+
+/** **************************************
+* Plugins
+*************************************** */
+
+/* scrollbar */
+@import './components/scrollbar/styles.css';
+
+/** **************************************
+* Baseline
+*************************************** */
+html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+body,
+#root,
+#root__layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 100%;
+  flex-direction: column;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+input[type='number']::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+input[type='number']::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+/** **************************************
+* Print Styles - Invoice
+*************************************** */
+@media print {
+  /* Hide navigation sidebar */
+  [class*='layout__nav__root'],
+  [class*='layout__nav__vertical'],
+  [class*='layout__nav__horizontal'],
+  [class*='layout__nav__mobile'] {
+    display: none !important;
+  }
+
+  /* Hide header */
+  [class*='layout__header'] {
+    display: none !important;
+  }
+
+  /* Hide breadcrumbs */
+  .invoice-breadcrumbs,
+  [class*='breadcrumbs'],
+  [class*='MuiBreadcrumbs'] {
+    display: none !important;
+  }
+
+  /* Hide invoice toolbar (buttons) */
+  .invoice-toolbar,
+  [class*='invoice-toolbar'] {
+    display: none !important;
+  }
+
+  /* Hide any status dropdown in invoice toolbar area */
+  [class*='MuiTextField-root']:has(select) {
+    display: none !important;
+  }
+
+  /* Hide action buttons in toolbar area */
+  .invoice-toolbar button,
+  .invoice-toolbar [class*='MuiIconButton'],
+  .invoice-toolbar [class*='MuiButton'] {
+    display: none !important;
+  }
+
+  /* Ensure body and root take full width */
+  body,
+  #root,
+  #root__layout {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Hide sidebar container padding */
+  [class*='layout__sidebar__container'] {
+    padding-left: 0 !important;
+  }
+
+  /* Show only the invoice card content */
+  [class*='MuiCard-root'] {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    page-break-inside: avoid;
+    background: #fff !important;
+  }
+
+  /* Ensure proper page breaks */
+  @page {
+    margin: 0.5cm;
+    size: A4;
+  }
+
+  /* Hide scrollbars */
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  /* Keep images visible with proper color adjustment */
+  img {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

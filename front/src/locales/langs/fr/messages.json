@@ -1,0 +1,129 @@
+{
+  "languageSwitch": {
+    "success": "La langue a été changée!",
+    "error": "Erreur lors du changement de langue!",
+    "loading": "Chargement..."
+  },
+  "signIn": {
+    "title": "Connectez-vous à votre compte",
+    "description": "Vous n'avez pas de compte?",
+    "getStarted": "Commencer",
+    "emailAddress": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre adresse e-mail",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "8+ caractères",
+    "forgotPassword": "Mot de passe oublié?",
+    "signInButton": "Se connecter",
+    "signingIn": "Connexion...",
+    "emailVerified": "Votre compte a été vérifié avec succès. Vous pouvez maintenant vous connecter.",
+    "emailVerificationFailed": "La vérification de l'e-mail a échoué. Le lien a peut-être expiré ou est invalide.",
+    "validation": {
+      "passwordRequired": "Le mot de passe est requis!",
+      "passwordMinLength": "Le mot de passe doit contenir au moins 8 caractères!"
+    }
+  },
+  "signUp": {
+    "title": "Créez votre compte",
+    "description": "Rejoignez notre plateforme de gestion des signalements et commencez à construire un lieu de travail plus sûr.",
+    "steps": {
+      "personalDetails": "Détails personnels",
+      "companyDetails": "Détails de l'entreprise",
+      "paymentSummary": "Résumé du paiement"
+    },
+    "stepOne": {
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "agreeToTerms": "J'accepte",
+      "privacyPolicy": "Politique de confidentialité",
+      "and": "et",
+      "termsOfService": "Conditions d'utilisation"
+    },
+    "stepTwo": {
+      "companyName": "Nom de l'entreprise",
+      "companyNumber": "Numéro d'entreprise",
+      "companyNumberTooltip": "Il s'agit du numéro d'enregistrement ou d'identification de votre entreprise.",
+      "address": "Adresse",
+      "city": "Ville",
+      "country": "Pays",
+      "vatNumber": "Numéro de TVA",
+      "website": "Site Web",
+      "websiteTooltip": "Entrez le site Web officiel de votre entreprise (ex. http://www.example.com)."
+    },
+    "stepThree": {
+      "subscribeTitle": "Abonnez-vous aux services de gestion des signalements",
+      "subscribeDescription": "Les signalements offrent une plateforme sécurisée pour les employés afin de signaler les mauvais comportements, favorisant un lieu de travail sûr et transparent.",
+      "whyChooseUs": "Pourquoi nous choisir?",
+      "confidentialReporting": "Signalement confidentiel",
+      "confidentialReportingDesc": "Assurez l'anonymat et la sécurité des lanceurs d'alerte.",
+      "userFriendlyInterface": "Interface conviviale",
+      "userFriendlyInterfaceDesc": "Naviguez sans effort pour des signalements fluides.",
+      "securePlatform": "Plateforme sécurisée",
+      "securePlatformDesc": "Protégez les données sensibles avec un cryptage avancé.",
+      "comprehensiveReporting": "Signalement complet",
+      "comprehensiveReportingDesc": "Signalez les mauvais comportements, y compris la fraude et le harcèlement.",
+      "keyFeatures": "Fonctionnalités clés:",
+      "userAuthentication": "Authentification utilisateur: Connexion sécurisée pour un accès autorisé.",
+      "orderSummary": "Résumé de la commande",
+      "subscription": "Wisling - Abonnement d'un an",
+      "vat": "TVA",
+      "total": "Total",
+      "payWithCard": "Payer par carte",
+      "bankTransfer": "Virement bancaire",
+      "uploadPaymentScreenshot": "Télécharger la capture d'écran du paiement",
+      "uploadPaymentDescription": "Veuillez télécharger une capture d'écran ou un reçu de votre virement bancaire. Formats acceptés: JPG, PNG, PDF (Max 5 Mo)",
+      "chooseFile": "Choisir un fichier",
+      "fileSelected": "Fichier sélectionné:",
+      "cancel": "Annuler",
+      "submitPayment": "Soumettre le paiement",
+      "paymentConfirmation": "Confirmation de paiement",
+      "bankTransferDetails": "Détails du virement bancaire",
+      "cardPaymentMessage": "Facture envoyée à votre adresse e-mail.",
+      "bankTransferMessage": "Les détails bancaires sont envoyés en pièce jointe par e-mail. Veuillez effectuer le paiement pour activer votre compte sur Wisling.",
+      "thankYou": "Merci de nous avoir choisis!",
+      "backToHome": "Retour à l'accueil",
+      "uploadScreenshotRequired": "Veuillez télécharger la capture d'écran du paiement"
+    },
+    "buttons": {
+      "back": "Retour",
+      "next": "Suivant",
+      "close": "Fermer"
+    },
+    "validation": {
+      "firstNameRequired": "Le prénom est requis!",
+      "lastNameRequired": "Le nom de famille est requis!",
+      "phoneRequired": "Le numéro de téléphone est requis!",
+      "agreeToTermsRequired": "Vous devez accepter les conditions!",
+      "companyNameRequired": "Le nom de l'entreprise est requis!",
+      "companyNumberRequired": "Le numéro d'entreprise est requis!",
+      "addressRequired": "L'adresse est requise!",
+      "cityRequired": "La ville est requise!",
+      "countryRequired": "Le pays est requis!",
+      "vatNumberRequired": "Le numéro de TVA est requis!",
+      "vatNumberFormatInvalid": "Format de numéro de TVA invalide. Veuillez vérifier le format et réessayer.",
+      "websiteInvalid": "Veuillez entrer une URL de site Web valide (ex. https://example.com)!",
+      "paymentMethodRequired": "Veuillez sélectionner une méthode de paiement!"
+    },
+    "errors": {
+      "emailExists": "L'e-mail existe déjà.",
+      "phoneExists": "Le téléphone existe déjà.",
+      "unableToValidateEmail": "Impossible de valider l'e-mail pour le moment.",
+      "unableToValidatePhone": "Impossible de valider le téléphone pour le moment.",
+      "signupFailed": "L'inscription a échoué. Veuillez réessayer.",
+      "paymentFailed": "Échec du traitement du paiement. Veuillez réessayer."
+    }
+  },
+  "forgotPassword": {
+    "title": "Mot de passe oublié",
+    "pageTitle": "Mot de passe oublié?",
+    "description": "Veuillez entrer l'adresse e-mail associée à votre compte et nous vous enverrons un lien par e-mail pour réinitialiser votre mot de passe.",
+    "emailAddress": "Adresse e-mail",
+    "emailPlaceholder": "exemple@gmail.com",
+    "sendResetLink": "Envoyer le lien de réinitialisation",
+    "sendRequest": "Envoyer la demande",
+    "returnToSignIn": "Retour à la connexion",
+    "successMessage": "Si l'adresse e-mail existe, un lien a été envoyé.",
+    "errorMessage": "Échec de l'envoi du lien de réinitialisation"
+  }
+}

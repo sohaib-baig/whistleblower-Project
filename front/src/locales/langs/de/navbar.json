@@ -1,0 +1,1386 @@
+{
+  "app": "App",
+  "job": "Job",
+  "role": "Rolle",
+  "user": "Benutzer",
+  "travel": "Reise",
+  "invoice": "Rechnung",
+  "blog": {
+    "title": "Blog",
+    "caption": "Benutzerdefinierte Tastenkombinationen."
+  },
+  "subheader": "Unterüberschrift",
+  "sidebar": {
+    "overview": "Übersicht",
+    "home": "Startseite",
+    "management": "Verwaltung",
+    "companies": "Unternehmen",
+    "categories": "Kategorien",
+    "reportingLinks": "Berichtslinks",
+    "invoices": "Rechnungen",
+    "cases": "Fälle",
+    "caseManagers": "Fallmanager",
+    "questions": "Fragen",
+    "news": "Nachrichten",
+    "settings": "Einstellungen",
+    "managementTitle": "Verwaltung",
+    "department": "Abteilung",
+    "state": "Status",
+    "severity": "Schweregrad",
+    "pages": "Seiten",
+    "pagesTitle": "Seiten",
+    "privacyPolicy": "Datenschutzerklärung",
+    "aboutUs": "Über uns",
+    "loginPage": "Anmeldeseite",
+    "paymentPage": "Zahlungsseite",
+    "termsConditions": "Allgemeine Geschäftsbedingungen",
+    "support": "Support",
+    "preferences": "Einstellungen",
+    "themeConfiguration": "Designkonfiguration",
+    "miscelaneous": "Verschiedenes",
+    "settingsTitle": "Einstellungen",
+    "emailTemplates": "E-Mail-Vorlagen",
+    "stripeConfiguration": "Stripe-Konfiguration",
+    "bankDetails": "Bankdaten",
+    "basicConfiguration": "Grundkonfiguration",
+    "language": "Sprache"
+  },
+  "dashboard": {
+    "company": {
+      "heading": "Unternehmen",
+      "list": "Liste",
+      "createNewCompany": "Neues Unternehmen erstellen",
+      "create": "Erstellen",
+      "editCompany": "Unternehmen bearbeiten",
+      "edit": "Bearbeiten",
+      "companyNotFound": "Unternehmen nicht gefunden",
+      "companyNotFoundMessage": "Das gesuchte Unternehmen existiert nicht.",
+      "companyName": "Firmenname",
+      "emailAddress": "E-Mail-Adresse",
+      "password": "Passwort",
+      "passwordPlaceholder": "Passwort eingeben",
+      "passwordPlaceholderEdit": "Leer lassen, um aktuelles Passwort beizubehalten",
+      "passwordHelperText": "Nur ausfüllen, wenn Sie das Passwort ändern möchten",
+      "phoneNumber": "Telefonnummer",
+      "address": "Adresse",
+      "status": "Status",
+      "selectStatus": "Status auswählen",
+      "createCompany": "Unternehmen erstellen",
+      "saveChanges": "Änderungen speichern",
+      "companyUpdated": "Unternehmen erfolgreich aktualisiert!",
+      "companyCreated": "Unternehmen erfolgreich erstellt!",
+      "failedToSave": "Fehler beim Speichern des Unternehmens",
+      "companyDeleted": "Unternehmen erfolgreich gelöscht!",
+      "companiesDeleted": "Unternehmen erfolgreich gelöscht!",
+      "failedToDelete": "Fehler beim Löschen des Unternehmens",
+      "failedToDeletePlural": "Fehler beim Löschen der Unternehmen",
+      "delete": "Löschen",
+      "deleteConfirmTitle": "Löschen",
+      "deleteConfirmMessage": "Möchten Sie dieses Unternehmen wirklich löschen?",
+      "deleteConfirmMessagePlural": "Möchten Sie wirklich",
+      "companies": "Unternehmen",
+      "edit": "Bearbeiten",
+      "accessAccount": "Konto zugreifen",
+      "searchCompanies": "Unternehmen suchen...",
+      "all": "Alle",
+      "print": "Drucken",
+      "import": "Importieren",
+      "export": "Exportieren",
+      "errorLoadingCompanies": "Fehler beim Laden der Unternehmen",
+      "retry": "Wiederholen",
+      "successfullyLoggedIn": "Erfolgreich als Unternehmen angemeldet. Seite wird neu geladen...",
+      "failedToAccessAccount": "Fehler beim Zugriff auf das Konto. Bitte versuchen Sie es erneut.",
+      "tableHeaders": {
+        "companyName": "Firmenname",
+        "phoneNumber": "Telefonnummer",
+        "address": "Adresse",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "pending": "Ausstehend",
+        "banned": "Gesperrt"
+      }
+    },
+    "category": {
+      "heading": "Kategorien",
+      "list": "Liste",
+      "createNewCategory": "Neue Kategorie erstellen",
+      "create": "Erstellen",
+      "editCategory": "Kategorie bearbeiten",
+      "edit": "Bearbeiten",
+      "categoryNotFound": "Kategorie nicht gefunden",
+      "categoryNotFoundMessage": "Die gesuchte Kategorie existiert nicht.",
+      "categoryName": "Kategoriename",
+      "status": "Status",
+      "selectStatus": "Status auswählen",
+      "createCategory": "Kategorie erstellen",
+      "saveChanges": "Änderungen speichern",
+      "categoryUpdated": "Kategorie erfolgreich aktualisiert!",
+      "categoryCreated": "Kategorie erfolgreich erstellt!",
+      "failedToSave": "Fehler beim Speichern der Kategorie. Bitte versuchen Sie es erneut.",
+      "categoryDeleted": "Kategorie erfolgreich gelöscht!",
+      "categoriesDeleted": "Kategorien erfolgreich gelöscht!",
+      "failedToDelete": "Fehler beim Löschen der Kategorie",
+      "failedToDeletePlural": "Fehler beim Löschen der Kategorien",
+      "delete": "Löschen",
+      "deleteConfirmTitle": "Löschen",
+      "deleteConfirmMessage": "Möchten Sie wirklich löschen?",
+      "deleteConfirmMessagePlural": "Möchten Sie wirklich löschen",
+      "categories": "Kategorien",
+      "items": "Elemente",
+      "searchCategories": "Kategorie suchen...",
+      "all": "Alle",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "addCategory": "Kategorie hinzufügen",
+      "tableHeaders": {
+        "categoryName": "Kategoriename",
+        "status": "Status",
+        "createdAt": "Erstellt am"
+      }
+    },
+    "reportingLink": {
+      "heading": "Berichtslinks",
+      "breadcrumb": "Berichtslinks",
+      "customizeChannel": "Passen Sie Ihren Berichtskanal an",
+      "customizeDescription": "Von dieser Seite und den unten stehenden Registerkarten können Sie die Einstellungen für jeden Berichtskanal anpassen.",
+      "openPage": "Seite öffnen",
+      "reportingLink": "Berichtslink",
+      "copy": "Kopieren",
+      "loading": "Wird geladen...",
+      "tabs": {
+        "setting": "Einstellung",
+        "page": "Seite",
+        "question": "Frage",
+        "department": "Abteilung",
+        "state": "Bundesstaat",
+        "severity": "Schweregrad"
+      },
+      "pageContent": {
+        "title": "Berichtsseiteninhalt",
+        "description": "Aktualisieren Sie den Titel und Inhalt der Berichtsseite",
+        "titleLabel": "Titel",
+        "content": "Inhalt",
+        "tip": "💡 Tipp: Klicken Sie auf das Bildsymbol in der Symbolleiste, um Bilder hochzuladen oder Bild-URLs hinzuzufügen",
+        "preview": "Vorschau",
+        "saveChanges": "Änderungen speichern",
+        "updatedSuccessfully": "Berichtsseite erfolgreich aktualisiert!",
+        "updateFailed": "Fehler beim Aktualisieren der Berichtsseite. Bitte versuchen Sie es erneut.",
+        "titleMinLength": "Titel muss mindestens 5 Zeichen lang sein",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein"
+      },
+      "page1": {
+        "updatedSuccessfully": "Seite 1 erfolgreich aktualisiert!"
+      },
+      "page2": {
+        "updatedSuccessfully": "Seite 2 erfolgreich aktualisiert!"
+      },
+      "page3": {
+        "updatedSuccessfully": "Seite 3 erfolgreich aktualisiert!"
+      }
+    },
+    "invoice": {
+      "heading": "Rechnungen",
+      "list": "Liste",
+      "createNewInvoice": "Neue Rechnung erstellen",
+      "create": "Erstellen",
+      "invoiceNotFound": "Rechnung nicht gefunden",
+      "addInvoice": "Rechnung hinzufügen",
+      "loading": "Wird geladen...",
+      "deleteSuccess": "Erfolgreich gelöscht!",
+      "failedToLoad": "Fehler beim Laden der Rechnungen",
+      "delete": "Löschen",
+      "deleteConfirmTitle": "Löschen",
+      "deleteConfirmMessage": "Möchten Sie wirklich löschen?",
+      "deleteConfirmMessagePlural": "Möchten Sie wirklich löschen",
+      "items": "Elemente",
+      "view": "Anzeigen",
+      "edit": "Bearbeiten",
+      "print": "Drucken",
+      "download": "Herunterladen",
+      "sent": "Gesendet",
+      "close": "Schließen",
+      "status": "Status",
+      "viewPaymentAttachment": "Zahlungsanhang anzeigen",
+      "tabs": {
+        "all": "Alle",
+        "paid": "Bezahlt",
+        "pending": "Ausstehend",
+        "overdue": "Überfällig",
+        "draft": "Entwurf"
+      },
+      "analytics": {
+        "total": "Gesamt",
+        "paid": "Bezahlt",
+        "pending": "Ausstehend",
+        "overdue": "Überfällig",
+        "draft": "Entwurf"
+      },
+      "tableHeaders": {
+        "customer": "Kunde",
+        "create": "Erstellt",
+        "due": "Fällig",
+        "amount": "Betrag",
+        "sent": "Gesendet",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "paid": "Bezahlt",
+        "pending": "Ausstehend",
+        "overdue": "Überfällig",
+        "draft": "Entwurf"
+      },
+      "details": {
+        "invoiceFrom": "Rechnung von",
+        "invoiceTo": "Rechnung an",
+        "dateCreate": "Erstellt am",
+        "dueDate": "Fälligkeitsdatum",
+        "description": "Beschreibung",
+        "qty": "Menge",
+        "unitPrice": "Einzelpreis",
+        "total": "Gesamt",
+        "subtotal": "Zwischensumme",
+        "taxes": "MwSt",
+        "vat": "MwSt",
+        "phone": "Telefon",
+        "notes": "HINWEISE",
+        "bankDetails": "BANKDATEN",
+        "iban": "IBAN",
+        "bicSwift": "BIC/SWIFT",
+        "bankgiro": "Bankgiro",
+        "haveQuestion": "Haben Sie eine Frage?",
+        "companyNumber": "Handelsregisternummer"
+      }
+    },
+    "case": {
+      "heading": "Fälle",
+      "list": "Liste",
+      "caseDetails": "Falldetails",
+      "addCase": "Fall hinzufügen",
+      "deleteSuccess": "Erfolgreich gelöscht!",
+      "delete": "Löschen",
+      "deleteConfirmTitle": "Löschen",
+      "deleteConfirmMessage": "Möchten Sie wirklich löschen?",
+      "deleteConfirmMessagePlural": "Möchten Sie wirklich löschen",
+      "items": "Elemente",
+      "view": "Anzeigen",
+      "edit": "Bearbeiten",
+      "unassigned": "Nicht zugewiesen",
+      "tabs": {
+        "all": "Alle",
+        "new": "Neu",
+        "inProgress": "In Bearbeitung",
+        "open": "Offen",
+        "closed": "Geschlossen"
+      },
+      "analytics": {
+        "total": "Gesamt",
+        "new": "Neu",
+        "inProgress": "In Bearbeitung",
+        "open": "Offen",
+        "closed": "Geschlossen"
+      },
+      "tableHeaders": {
+        "caseId": "Fall-ID",
+        "company": "Unternehmen",
+        "subject": "Betreff",
+        "category": "Kategorie",
+        "caseManager": "Fallmanager",
+        "status": "Status",
+        "createdDate": "Erstellt am"
+      },
+      "detailsTabs": {
+        "caseDetails": "Falldetails",
+        "reportSetting": "Berichtseinstellung",
+        "logs": "Protokolle",
+        "documents": "Dokumente",
+        "notes": "Notizen",
+      "chat": "Chat",
+      "legalSupport": "Legal Support"
+      },
+      "statusOptions": {
+        "new": "Neu",
+        "inProgress": "In Bearbeitung",
+        "open": "Offen",
+        "closed": "Geschlossen"
+      },
+      "caseDetailsTab": {
+        "loading": "Laden...",
+        "failedToLoad": "Fehler beim Laden der Falldetails",
+        "caseId": "Fall-ID",
+        "dateTime": "Datum & Uhrzeit",
+        "subject": "Titel",
+        "description": "Beschreibung",
+        "files": "Dateien",
+        "reportingChannel": "Meldungskanal",
+        "category": "Kategorie",
+        "assignedTo": "Zugewiesen an",
+        "reportingMedium": "Meldungsmedium",
+        "department": "Abteilung",
+        "severity": "Schweregrad",
+        "state": "Status",
+        "select": "Auswählen...",
+        "notAssigned": "Nicht zugewiesen",
+        "written": "Schriftlich & Mündlich",
+        "oral": "Mündlich",
+        "phoneCall": "Telefonanruf",
+        "physicalMeeting": "Persönliches Treffen",
+        "noData": "N/A",
+        "reportType": "Meldungstyp",
+        "reportAnnonymously": "Anonym melden",
+        "reportWithPersonalDetails": "Mit persönlichen Daten melden",
+        "email": "E-Mail"
+      },
+      "reportSettingTab": {
+        "heading": "Berichtseinstellungen",
+        "loading": "Laden...",
+        "failedToLoad": "Berichtseinstellungen konnten nicht geladen werden",
+        "assignTo": "Zuweisen an",
+        "selectCaseManager": "Fallmanager auswählen",
+        "loadingCaseManagers": "Fallmanager werden geladen...",
+        "assignStatus": "Status zuweisen",
+        "selectStatus": "Status auswählen",
+        "nextOpenStateDeadline": "Nächste Frist für offenen Status",
+        "nextOpenStateDeadlineHelper": "Wählen Sie Datum und Uhrzeit für die nächste Frist des offenen Status",
+        "nextCloseStateDeadline": "Nächste Frist für geschlossenen Status",
+        "nextCloseStateDeadlineHelper": "Wählen Sie Datum und Uhrzeit für die nächste Frist des geschlossenen Status",
+        "linkWithOtherReport": "Mit einem anderen Bericht verknüpfen",
+        "linkWithOtherReportPlaceholder": "Berichts-ID oder Link eingeben",
+        "autoDeleteAfter30Days": "Automatisch nach 30 Tagen löschen",
+        "selectOption": "Option auswählen",
+        "yes": "Ja",
+        "no": "Nein",
+        "cancel": "Abbrechen",
+        "saveChanges": "Änderungen speichern",
+        "saving": "Speichern...",
+        "updatedSuccessfully": "Berichtseinstellungen erfolgreich aktualisiert",
+        "failedToUpdate": "Berichtseinstellungen konnten nicht aktualisiert werden",
+        "fixFormErrors": "Bitte korrigieren Sie die Formularfehler vor dem Absenden",
+        "pleaseFixErrors": "Bitte korrigieren Sie die folgenden Fehler:",
+        "invalidValue": "Ungültiger Wert",
+        "assignStatusRequired": "Statuszuweisung ist erforderlich",
+        "new": "Neu",
+        "open": "Offen",
+        "inProgress": "In Bearbeitung",
+        "closed": "Geschlossen",
+        "pending": "Ausstehend",
+        "resolved": "Gelöst",
+        "rejected": "Abgelehnt",
+        "cancelled": "Abgebrochen",
+        "spam": "Spam",
+        "other": "Andere"
+      },
+      "logsTab": {
+        "heading": "Aktionsprotokolle",
+        "searchPlaceholder": "Protokolle suchen...",
+        "noLogsFound": "Keine Protokolle gefunden",
+        "noLogsMatchSearch": "Keine Protokolle entsprechen Ihrer Suche",
+        "actionPerformed": "Ausgeführte Aktion",
+        "actionValue": "Aktionswert",
+        "dateTime": "Datum & Uhrzeit"
+      },
+      "documentsTab": {
+        "heading": "Dokumente",
+        "searchPlaceholder": "Dokumente suchen...",
+        "newDocument": "Neues Dokument",
+        "noDocumentsFound": "Keine Dokumente gefunden",
+        "noDocumentsMatchSearch": "Keine Dokumente entsprechen Ihrer Suche",
+        "title": "Titel",
+        "document": "Dokument",
+        "uploadedAt": "Hochgeladen am",
+        "actions": "Aktionen",
+        "file": "Datei",
+        "uploadNewDocument": "Neues Dokument hochladen",
+        "documentTitle": "Dokumenttitel",
+        "documentTitleRequired": "Dokumentname ist erforderlich",
+        "selectFile": "Datei auswählen",
+        "fileRequired": "Datei ist erforderlich",
+        "fileSizeExceeded": "Dateigröße darf 10MB nicht überschreiten",
+        "invalidFileType": "Ungültiger Dateityp. Erlaubte Typen: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, JPG, JPEG, PNG, GIF",
+        "uploading": "Hochladen...",
+        "upload": "Hochladen",
+        "close": "Schließen",
+        "uploadedSuccessfully": "Dokument erfolgreich hochgeladen",
+        "failedToUpload": "Dokument konnte nicht hochgeladen werden",
+        "pleaseEnterDocumentName": "Bitte geben Sie einen Dokumentnamen ein",
+        "pleaseSelectFile": "Bitte wählen Sie eine Datei zum Hochladen aus",
+        "fileSizeMaxExceeded": "Dateigröße darf 10MB nicht überschreiten",
+        "invalidFileTypeError": "Ungültiger Dateityp",
+        "failedToLoad": "Dokumente konnten nicht geladen werden",
+        "deletedSuccessfully": "Dokument erfolgreich gelöscht",
+        "failedToDelete": "Dokument konnte nicht gelöscht werden",
+        "deleteConfirmTitle": "Dokument löschen",
+        "deleteConfirmMessage": "Sind Sie sicher, dass Sie dieses Dokument löschen möchten?",
+        "delete": "Löschen"
+      },
+      "notesTab": {
+        "heading": "Notizen",
+        "searchPlaceholder": "Notizen suchen...",
+        "addNote": "Notiz hinzufügen",
+        "noNotesFound": "Keine Notizen gefunden",
+        "noNotesMatchSearch": "Keine Notizen entsprechen Ihrer Suche",
+        "title": "Titel",
+        "description": "Beschreibung",
+        "date": "Datum",
+        "addedBy": "Hinzugefügt von",
+        "actions": "Aktionen",
+        "unknownUser": "Unbekannter Benutzer",
+        "editNote": "Notiz bearbeiten",
+        "addNewNote": "Neue Notiz hinzufügen",
+        "noteTitle": "Notiztitel",
+        "noteTitleRequired": "Notiztitel ist erforderlich",
+        "descriptionRequired": "Notizbeschreibung ist erforderlich",
+        "pleaseEnterNoteTitle": "Bitte geben Sie einen Notiztitel ein",
+        "pleaseEnterNoteDescription": "Bitte geben Sie eine Notizbeschreibung ein",
+        "save": "Speichern",
+        "saving": "Speichern...",
+        "updatedSuccessfully": "Notiz erfolgreich aktualisiert",
+        "addedSuccessfully": "Notiz erfolgreich hinzugefügt",
+        "failedToSave": "Notiz konnte nicht gespeichert werden",
+        "deletedSuccessfully": "Notiz erfolgreich gelöscht",
+        "failedToDelete": "Notiz konnte nicht gelöscht werden",
+        "deleteConfirmTitle": "Notiz löschen",
+        "deleteConfirmMessage": "Sind Sie sicher, dass Sie diese Notiz löschen möchten?",
+        "delete": "Löschen",
+        "cancel": "Abbrechen",
+        "failedToLoad": "Notizen konnten nicht geladen werden"
+      },
+      "chatTab": {
+        "heading": "Fall-Chat",
+        "typeMessage": "Geben Sie Ihre Nachricht ein...",
+        "typeMessagePlaceholder": "Geben Sie Ihre Nachricht ein... (Enter zum Senden, Shift+Enter für neue Zeile)",
+        "send": "Senden",
+        "audioMessage": "Sprachnachricht",
+        "imageMessage": "Bild",
+        "voice": "Stimme",
+        "text": "Text",
+        "recording": "Wird aufgenommen...",
+        "stopRecording": "Aufnahme stoppen",
+        "startRecording": "Sprachaufnahme starten",
+        "processingAudio": "Audio wird verarbeitet...",
+        "uploadImage": "Bild hochladen",
+        "removeImage": "Bild entfernen",
+        "attachImage": "Bild anhängen",
+        "loading": "Chat wird geladen...",
+        "loadingMessages": "Nachrichten werden geladen...",
+        "noMessages": "Noch keine Nachrichten. Starten Sie eine Unterhaltung!",
+        "sendMessage": "Nachricht senden",
+        "you": "Sie",
+        "cancel": "Abbrechen",
+        "messageCannotBeEmpty": "Nachricht darf nicht leer sein",
+        "messageTooLong": "Nachricht darf 10.000 Zeichen nicht überschreiten",
+        "startVoiceRecording": "Sprachaufnahme starten",
+        "imagePreview": "Bildvorschau"
+      },
+      "legalSupportTab": {
+        "heading": "Legal Support",
+        "typeMessage": "Geben Sie Ihre Nachricht ein...",
+        "typeMessagePlaceholder": "Geben Sie Ihre Nachricht ein... (Enter zum Senden, Shift+Enter für neue Zeile)",
+        "send": "Senden",
+        "audioMessage": "Sprachnachricht",
+        "imageMessage": "Bild",
+        "voice": "Stimme",
+        "text": "Text",
+        "recording": "Wird aufgenommen...",
+        "stopRecording": "Aufnahme stoppen",
+        "startRecording": "Sprachaufnahme starten",
+        "processingAudio": "Audio wird verarbeitet...",
+        "uploadImage": "Bild hochladen",
+        "removeImage": "Bild entfernen",
+        "attachImage": "Bild anhängen",
+        "loading": "Chat wird geladen...",
+        "loadingMessages": "Nachrichten werden geladen...",
+        "noMessages": "Noch keine Nachrichten. Starten Sie eine Unterhaltung!",
+        "sendMessage": "Nachricht senden",
+        "you": "Sie",
+        "partner": "Partner",
+        "cancel": "Abbrechen",
+        "messageCannotBeEmpty": "Nachricht darf nicht leer sein",
+        "messageTooLong": "Nachricht darf 10.000 Zeichen nicht überschreiten",
+        "startRecording": "Sprachaufnahme starten",
+        "imagePreview": "Bildvorschau"
+      }
+    },
+    "caseManager": {
+      "heading": "Fallmanager",
+      "list": "Liste",
+      "createNewCaseManager": "Neuen Fallmanager erstellen",
+      "create": "Erstellen",
+      "editCaseManager": "Fallmanager bearbeiten",
+      "edit": "Bearbeiten",
+      "caseManagerNotFound": "Fallmanager nicht gefunden",
+      "addCaseManager": "Fallmanager hinzufügen",
+      "back": "Zurück",
+      "fullName": "Vollständiger Name",
+      "emailAddress": "E-Mail-Adresse",
+      "password": "Passwort",
+      "passwordPlaceholder": "Leer lassen, um aktuelles Passwort beizubehalten",
+      "passwordHelperText": "Passwort muss mindestens 8 Zeichen lang sein",
+      "phoneNumber": "Telefonnummer",
+      "reset": "Zurücksetzen",
+      "saving": "Wird gespeichert...",
+      "save": "Speichern",
+      "nameMinLength": "Name muss mindestens 2 Zeichen lang sein",
+      "invalidEmail": "Ungültige E-Mail-Adresse",
+      "passwordMinLength": "Passwort muss mindestens 8 Zeichen lang sein",
+      "phoneMinLength": "Telefonnummer muss mindestens 10 Ziffern haben",
+      "caseManagerUpdated": "Fallmanager erfolgreich aktualisiert!",
+      "caseManagerCreated": "Fallmanager erfolgreich erstellt!",
+      "failedToSave": "Fallmanager konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+      "delete": "Löschen",
+      "deleteConfirmTitle": "Löschen",
+      "deleteConfirmMessage": "Sind Sie sicher, dass Sie löschen möchten?",
+      "deleteConfirmMessagePlural": "Sind Sie sicher, dass Sie löschen möchten",
+      "items": "Elemente",
+      "caseManagers": "Fallmanager",
+      "accessAccount": "Konto öffnen",
+      "searchCaseManager": "Fallmanager suchen...",
+      "searchEmail": "E-Mail suchen...",
+      "status": "Status",
+      "all": "Alle",
+      "errorLoading": "Fehler beim Laden der Fallmanager",
+      "retry": "Erneut versuchen",
+      "caseManagerDeleted": "Fallmanager erfolgreich gelöscht!",
+      "caseManagersDeleted": "Fallmanager erfolgreich gelöscht!",
+      "failedToDelete": "Fallmanager konnte nicht gelöscht werden",
+      "failedToDeletePlural": "Fallmanager konnten nicht gelöscht werden",
+      "successfullyLoggedIn": "Erfolgreich als Fallmanager angemeldet. Seite wird neu geladen...",
+      "failedToAccessAccount": "Konto konnte nicht geöffnet werden. Bitte versuchen Sie es erneut.",
+      "tableHeaders": {
+        "name": "Name",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "verified": "Verifiziert",
+        "active": "Aktiv",
+        "status": "Status",
+        "created": "Erstellt"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "suspended": "Gesperrt"
+      }
+    },
+    "question": {
+      "heading": "Fragen",
+      "list": "Liste",
+      "addQuestion": "Frage hinzufügen",
+      "editQuestion": "Frage bearbeiten",
+      "newQuestion": "Neue Frage",
+      "questionName": "Fragenname",
+      "questionNamePlaceholder": "Fragenname eingeben",
+      "isRequired": "Erforderlich",
+      "yes": "Ja",
+      "no": "Nein",
+      "required": "Erforderlich",
+      "optional": "Optional",
+      "inputType": "Eingabetyp",
+      "inputTypePlaceholder": "Eingabetyp auswählen",
+      "options": "Optionen",
+      "addOption": "Option hinzufügen",
+      "addNewOption": "Neue Option hinzufügen",
+      "option": "Option",
+      "cancel": "Abbrechen",
+      "updateQuestion": "Frage aktualisieren",
+      "createQuestion": "Frage erstellen",
+      "questionUpdated": "Frage erfolgreich aktualisiert!",
+      "questionCreated": "Frage erfolgreich erstellt!",
+      "failedToSave": "Frage konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+      "delete": "Löschen",
+      "deleteConfirmTitle": "Warnung: Obligatorische Fragen",
+      "deleteConfirmMessage": "Die Fragen, die Sie zu entfernen versuchen, sind für die Compliance und ordnungsgemäße Fallbearbeitung erforderlich. Ihre Entfernung kann zu unvollständigen Berichten und verringerter rechtlicher und verfahrenstechnischer Zuverlässigkeit führen.\n\nWisling ist nicht verantwortlich für Probleme, die aus der Entfernung obligatorischer Fragen entstehen.\n\nMöchten Sie fortfahren?",
+      "deleteConfirmMessageSingle": "Die Fragen, die Sie zu entfernen versuchen, sind für die Compliance und ordnungsgemäße Fallbearbeitung erforderlich. Ihre Entfernung kann zu unvollständigen Berichten und verringerter rechtlicher und verfahrenstechnischer Zuverlässigkeit führen.\n\nWisling ist nicht verantwortlich für Probleme, die aus der Entfernung obligatorischer Fragen entstehen.\n\nMöchten Sie fortfahren?",
+      "questions": "Fragen",
+      "questionDeleted": "Frage erfolgreich gelöscht!",
+      "questionsDeleted": "Fragen erfolgreich gelöscht!",
+      "failedToDelete": "Frage konnte nicht gelöscht werden",
+      "failedToDeletePlural": "Fragen konnten nicht gelöscht werden",
+      "questionsReordered": "Fragen erfolgreich umgeordnet!",
+      "failedToReorder": "Fragenreihenfolge konnte nicht gespeichert werden",
+      "errorLoading": "Fehler beim Laden der Fragen",
+      "retry": "Erneut versuchen",
+      "searchQuestions": "Fragen suchen...",
+      "print": "Drucken",
+      "import": "Importieren",
+      "export": "Exportieren",
+      "nameRequired": "Name ist erforderlich",
+      "inputTypeRequired": "Eingabetyp ist erforderlich",
+      "tableHeaders": {
+        "questionName": "Fragenname",
+        "isRequired": "Erforderlich",
+        "inputType": "Eingabetyp"
+      },
+      "inputTypes": {
+        "text": "Text",
+        "select": "Auswählen",
+        "password": "Passwort",
+        "email": "E-Mail",
+        "url": "URL",
+        "tel": "Telefon",
+        "search": "Suchen",
+        "number": "Nummer",
+        "range": "Bereich",
+        "date": "Datum",
+        "datetime-local": "Datum und Zeit",
+        "month": "Monat",
+        "week": "Woche",
+        "time": "Zeit",
+        "checkbox": "Kontrollkästchen",
+        "radio": "Radio",
+        "file": "Datei",
+        "color": "Farbe"
+      },
+      "preview": {
+        "preview": "Vorschau:",
+        "textInput": "Dies erstellt ein Texteingabefeld mit name=\"{{name}}\" und type=\"text\"",
+        "input": "Dies erstellt ein Eingabefeld mit name=\"{{name}}\" und type=\"{{type}}\"",
+        "inputWithOptions": "Dies erstellt ein {{type}}-Eingabefeld mit {{count}} Option(en): {{options}}"
+      }
+    },
+    "news": {
+      "heading": "Nachrichten",
+      "list": "Liste",
+      "createNewNews": "Neue Nachricht erstellen",
+      "create": "Erstellen",
+      "edit": "Bearbeiten",
+      "editNews": "Nachricht bearbeiten",
+      "newsNotFound": "Nachricht nicht gefunden",
+      "newsNotFoundMessage": "Der gesuchte Nachrichtenartikel existiert nicht.",
+      "backToList": "Zurück zur Liste",
+      "addNews": "Nachricht hinzufügen",
+      "tabs": {
+        "all": "Alle",
+        "published": "Veröffentlicht",
+        "draft": "Entwurf"
+      },
+      "tableHeaders": {
+        "title": "Titel",
+        "status": "Status",
+        "createdAt": "Erstellt"
+      },
+      "details": {
+        "heading": "Details",
+        "subheader": "Titel, kurze Beschreibung, Bild...",
+        "newsTitle": "Nachrichtentitel",
+        "description": "Beschreibung",
+        "content": "Inhalt",
+        "coverImage": "Titelbild",
+        "coverImageHelper": "Max. Dateigröße: 5MB. Erlaubt: JPG, PNG, WEBP"
+      },
+      "properties": {
+        "heading": "Eigenschaften",
+        "subheader": "Zusätzliche Funktionen und Attribute...",
+        "tags": "Tags",
+        "tagsPlaceholder": "+ Tags",
+        "metaTitle": "Meta-Titel",
+        "metaDescription": "Meta-Beschreibung",
+        "metaKeywords": "Meta-Schlüsselwörter",
+        "metaKeywordsPlaceholder": "+ Schlüsselwörter"
+      },
+      "actions": {
+        "publish": "Veröffentlichen",
+        "preview": "Vorschau",
+        "createNews": "Nachricht erstellen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "toolbar": {
+        "back": "Zurück",
+        "goLive": "Live gehen",
+        "edit": "Bearbeiten",
+        "loading": "Lädt…"
+      },
+      "menu": {
+        "view": "Anzeigen",
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+      },
+      "search": {
+        "placeholder": "Suchen..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Nachricht erfolgreich gelöscht!",
+        "deleteFailed": "Nachricht konnte nicht gelöscht werden",
+        "updatedSuccessfully": "Nachricht erfolgreich aktualisiert!",
+        "createdSuccessfully": "Nachricht erfolgreich erstellt!",
+        "coverUploadedSuccessfully": "Titelbild erfolgreich hochgeladen!",
+        "coverUploadFailed": "Nachricht gespeichert, aber Titelbild konnte nicht hochgeladen werden",
+        "saveFailed": "Nachricht konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "titleRequired": "Titel ist erforderlich!",
+        "descriptionRequired": "Beschreibung ist erforderlich!",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein",
+        "tagsMinLength": "Muss mindestens 2 Elemente haben!",
+        "metaKeywordsRequired": "Meta-Schlüsselwörter sind erforderlich!"
+      },
+      "status": {
+        "published": "Veröffentlicht",
+        "draft": "Entwurf"
+      },
+      "emptyState": {
+        "notFound": "Nachricht nicht gefunden!",
+        "backToList": "Zurück zur Liste"
+      }
+    },
+    "department": {
+      "heading": "Abteilungen",
+      "list": "Liste",
+      "createNewDepartment": "Neue Abteilung erstellen",
+      "create": "Erstellen",
+      "edit": "Bearbeiten",
+      "editDepartment": "Abteilung bearbeiten",
+      "departmentNotFound": "Abteilung nicht gefunden",
+      "addDepartment": "Abteilung hinzufügen",
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "departmentName": "Abteilungsname",
+        "status": "Status",
+        "createdAt": "Erstellt"
+      },
+      "form": {
+        "departmentName": "Abteilungsname",
+        "status": "Status",
+        "selectStatus": "Status auswählen"
+      },
+      "actions": {
+        "createDepartment": "Abteilung erstellen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "menu": {
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+      },
+      "search": {
+        "placeholder": "Abteilung suchen..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Abteilung erfolgreich gelöscht!",
+        "deleteFailed": "Abteilung konnte nicht gelöscht werden",
+        "deletedMultipleSuccessfully": "Abteilungen erfolgreich gelöscht!",
+        "deleteMultipleFailed": "Abteilungen konnten nicht gelöscht werden",
+        "updatedSuccessfully": "Abteilung erfolgreich aktualisiert!",
+        "createdSuccessfully": "Abteilung erfolgreich erstellt!",
+        "saveFailed": "Abteilung konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "nameRequired": "Abteilungsname ist erforderlich!",
+        "statusRequired": "Status ist erforderlich!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Löschen",
+        "deleteConfirm": "Möchten Sie wirklich löschen?",
+        "deleteMultipleConfirm": "Möchten Sie wirklich {{count}} Elemente löschen?"
+      },
+      "tooltip": {
+        "delete": "Löschen"
+      }
+    },
+    "state": {
+      "heading": "Zustände",
+      "list": "Liste",
+      "createNewState": "Neuen Zustand erstellen",
+      "create": "Erstellen",
+      "edit": "Bearbeiten",
+      "editState": "Zustand bearbeiten",
+      "stateNotFound": "Zustand nicht gefunden",
+      "addState": "Zustand hinzufügen",
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "stateName": "Zustandsname",
+        "status": "Status",
+        "createdAt": "Erstellt"
+      },
+      "form": {
+        "stateName": "Zustandsname",
+        "status": "Status",
+        "selectStatus": "Status auswählen"
+      },
+      "actions": {
+        "createState": "Zustand erstellen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "menu": {
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+      },
+      "search": {
+        "placeholder": "Zustand suchen..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Zustand erfolgreich gelöscht!",
+        "deleteFailed": "Zustand konnte nicht gelöscht werden",
+        "deletedMultipleSuccessfully": "Zustände erfolgreich gelöscht!",
+        "deleteMultipleFailed": "Zustände konnten nicht gelöscht werden",
+        "updatedSuccessfully": "Zustand erfolgreich aktualisiert!",
+        "createdSuccessfully": "Zustand erfolgreich erstellt!",
+        "saveFailed": "Zustand konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "nameRequired": "Zustandsname ist erforderlich!",
+        "statusRequired": "Status ist erforderlich!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Löschen",
+        "deleteConfirm": "Möchten Sie wirklich löschen?",
+        "deleteMultipleConfirm": "Möchten Sie wirklich {{count}} Elemente löschen?"
+      },
+      "tooltip": {
+        "delete": "Löschen"
+      }
+    },
+    "severity": {
+      "heading": "Schweregrade",
+      "list": "Liste",
+      "createNewSeverity": "Neuen Schweregrad erstellen",
+      "create": "Erstellen",
+      "edit": "Bearbeiten",
+      "editSeverity": "Schweregrad bearbeiten",
+      "severityNotFound": "Schweregrad nicht gefunden",
+      "addSeverity": "Schweregrad hinzufügen",
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "tableHeaders": {
+        "severityName": "Schweregradname",
+        "status": "Status",
+        "createdAt": "Erstellt"
+      },
+      "form": {
+        "severityName": "Schweregradname",
+        "status": "Status",
+        "selectStatus": "Status auswählen"
+      },
+      "actions": {
+        "createSeverity": "Schweregrad erstellen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "menu": {
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+      },
+      "search": {
+        "placeholder": "Schweregrad suchen..."
+      },
+      "toast": {
+        "deletedSuccessfully": "Schweregrad erfolgreich gelöscht!",
+        "deleteFailed": "Schweregrad konnte nicht gelöscht werden",
+        "deletedMultipleSuccessfully": "Schweregrade erfolgreich gelöscht!",
+        "deleteMultipleFailed": "Schweregrade konnten nicht gelöscht werden",
+        "updatedSuccessfully": "Schweregrad erfolgreich aktualisiert!",
+        "createdSuccessfully": "Schweregrad erfolgreich erstellt!",
+        "saveFailed": "Schweregrad konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "nameRequired": "Schweregradname ist erforderlich!",
+        "statusRequired": "Status ist erforderlich!"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "confirmDialog": {
+        "delete": "Löschen",
+        "deleteConfirm": "Möchten Sie wirklich löschen?",
+        "deleteMultipleConfirm": "Möchten Sie wirklich {{count}} Elemente löschen?"
+      },
+      "tooltip": {
+        "delete": "Löschen"
+      }
+    },
+    "privacyPolicy": {
+      "heading": "Datenschutzerklärung",
+      "edit": "Bearbeiten",
+      "editPrivacyPolicy": "Datenschutzerklärung bearbeiten",
+      "editPrivacyPolicyButton": "Datenschutzerklärung bearbeiten",
+      "lastUpdated": "Zuletzt aktualisiert",
+      "unknown": "Unbekannt",
+      "form": {
+        "title": "Datenschutzerklärungsdetails",
+        "subheader": "Aktualisieren Sie den Inhalt und die Metadaten der Datenschutzerklärung",
+        "titleLabel": "Titel",
+        "content": "Inhalt",
+        "tip": "💡 Tipp: Klicken Sie auf das Bildsymbol in der Symbolleiste, um Bilder hochzuladen oder Bild-URLs hinzuzufügen"
+      },
+      "actions": {
+        "preview": "Vorschau",
+        "cancel": "Abbrechen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "toast": {
+        "updatedSuccessfully": "Datenschutzerklärung erfolgreich aktualisiert!",
+        "updateFailed": "Datenschutzerklärung konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "titleMinLength": "Titel muss mindestens 5 Zeichen lang sein",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein"
+      },
+      "loading": "Laden...",
+      "error": {
+        "title": "Fehler beim Laden der Datenschutzerklärung",
+        "description": "Beim Laden der Datenschutzerklärung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "retry": "Erneut versuchen"
+      }
+    },
+    "aboutUs": {
+      "heading": "Über uns",
+      "edit": "Bearbeiten",
+      "editAboutUs": "Über uns bearbeiten",
+      "editAboutUsButton": "Über uns bearbeiten",
+      "lastUpdated": "Zuletzt aktualisiert",
+      "unknown": "Unbekannt",
+      "form": {
+        "title": "Über uns-Details",
+        "subheader": "Aktualisieren Sie den Inhalt und die Metadaten der Über uns-Seite",
+        "titleLabel": "Titel",
+        "content": "Inhalt",
+        "tip": "💡 Tipp: Klicken Sie auf das Bildsymbol in der Symbolleiste, um Bilder hochzuladen oder Bild-URLs hinzuzufügen"
+      },
+      "actions": {
+        "preview": "Vorschau",
+        "cancel": "Abbrechen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "toast": {
+        "updatedSuccessfully": "Über uns-Seite erfolgreich aktualisiert!",
+        "updateFailed": "Über uns-Seite konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "titleMinLength": "Titel muss mindestens 5 Zeichen lang sein",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein"
+      },
+      "loading": "Wird geladen...",
+      "error": {
+        "title": "Fehler beim Laden der Über uns-Seite",
+        "description": "Beim Laden der Über uns-Seite ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "retry": "Erneut versuchen"
+      }
+    },
+    "loginPage": {
+      "heading": "Anmeldeseite",
+      "edit": "Bearbeiten",
+      "editLoginPage": "Anmeldeseite bearbeiten",
+      "editLoginPageButton": "Anmeldeseite bearbeiten",
+      "lastUpdated": "Zuletzt aktualisiert",
+      "unknown": "Unbekannt",
+      "form": {
+        "title": "Anmeldeseite-Details",
+        "subheader": "Aktualisieren Sie den Inhalt und die Metadaten der Anmeldeseite",
+        "titleLabel": "Titel",
+        "content": "Inhalt",
+        "tip": "💡 Tipp: Klicken Sie auf das Bildsymbol in der Symbolleiste, um Bilder hochzuladen oder Bild-URLs hinzuzufügen"
+      },
+      "actions": {
+        "preview": "Vorschau",
+        "cancel": "Abbrechen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "toast": {
+        "updatedSuccessfully": "Anmeldeseite erfolgreich aktualisiert!",
+        "updateFailed": "Anmeldeseite konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "titleMinLength": "Titel muss mindestens 5 Zeichen lang sein",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein"
+      },
+      "loading": "Wird geladen...",
+      "error": {
+        "title": "Fehler beim Laden der Anmeldeseite",
+        "description": "Beim Laden der Anmeldeseite ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "retry": "Erneut versuchen"
+      }
+    },
+    "paymentPage": {
+      "heading": "Zahlungsseite",
+      "edit": "Bearbeiten",
+      "editPaymentPage": "Zahlungsseite bearbeiten",
+      "editPaymentPageButton": "Zahlungsseite bearbeiten",
+      "lastUpdated": "Zuletzt aktualisiert",
+      "unknown": "Unbekannt",
+      "form": {
+        "title": "Zahlungsseite-Details",
+        "subheader": "Aktualisieren Sie den Inhalt und die Metadaten der Zahlungsseite",
+        "titleLabel": "Titel",
+        "content": "Inhalt",
+        "tip": "💡 Tipp: Klicken Sie auf das Bildsymbol in der Symbolleiste, um Bilder hochzuladen oder Bild-URLs hinzuzufügen"
+      },
+      "actions": {
+        "preview": "Vorschau",
+        "cancel": "Abbrechen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "toast": {
+        "updatedSuccessfully": "Zahlungsseite erfolgreich aktualisiert!",
+        "updateFailed": "Zahlungsseite konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "titleMinLength": "Titel muss mindestens 5 Zeichen lang sein",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein"
+      },
+      "loading": "Wird geladen...",
+      "error": {
+        "title": "Fehler beim Laden der Zahlungsseite",
+        "description": "Beim Laden der Zahlungsseite ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "retry": "Erneut versuchen"
+      }
+    },
+    "termsConditions": {
+      "heading": "Allgemeine Geschäftsbedingungen",
+      "edit": "Bearbeiten",
+      "editTermsConditions": "Allgemeine Geschäftsbedingungen bearbeiten",
+      "editTermsConditionsButton": "Allgemeine Geschäftsbedingungen bearbeiten",
+      "lastUpdated": "Zuletzt aktualisiert",
+      "unknown": "Unbekannt",
+      "form": {
+        "title": "Details der Allgemeinen Geschäftsbedingungen",
+        "subheader": "Aktualisieren Sie den Inhalt und die Metadaten der Allgemeinen Geschäftsbedingungen",
+        "titleLabel": "Titel",
+        "content": "Inhalt",
+        "tip": "💡 Tipp: Klicken Sie auf das Bildsymbol in der Symbolleiste, um Bilder hochzuladen oder Bild-URLs hinzuzufügen"
+      },
+      "actions": {
+        "preview": "Vorschau",
+        "cancel": "Abbrechen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "toast": {
+        "updatedSuccessfully": "Allgemeine Geschäftsbedingungen erfolgreich aktualisiert!",
+        "updateFailed": "Allgemeine Geschäftsbedingungen konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "titleMinLength": "Titel muss mindestens 5 Zeichen lang sein",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein"
+      },
+      "loading": "Laden...",
+      "error": {
+        "title": "Fehler beim Laden der Allgemeinen Geschäftsbedingungen",
+        "description": "Beim Laden der Allgemeinen Geschäftsbedingungen ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "retry": "Erneut versuchen"
+      }
+    },
+    "support": {
+      "heading": "Support",
+      "edit": "Bearbeiten",
+      "editSupport": "Support bearbeiten",
+      "editSupportButton": "Support bearbeiten",
+      "lastUpdated": "Zuletzt aktualisiert",
+      "unknown": "Unbekannt",
+      "form": {
+        "title": "Supportdetails",
+        "subheader": "Aktualisieren Sie den Support-Inhalt und die Metadaten",
+        "titleLabel": "Titel",
+        "content": "Inhalt",
+        "tip": "💡 Tipp: Klicken Sie auf das Bildsymbol in der Symbolleiste, um Bilder hochzuladen oder Bild-URLs hinzuzufügen"
+      },
+      "actions": {
+        "preview": "Vorschau",
+        "cancel": "Abbrechen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "toast": {
+        "updatedSuccessfully": "Support erfolgreich aktualisiert!",
+        "updateFailed": "Support konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+      },
+      "errors": {
+        "titleMinLength": "Titel muss mindestens 5 Zeichen lang sein",
+        "contentMinLength": "Inhalt muss mindestens 20 Zeichen lang sein"
+      },
+      "loading": "Laden...",
+      "error": {
+        "title": "Fehler beim Laden des Supports",
+        "description": "Beim Laden des Support-Inhalts ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "retry": "Erneut versuchen"
+      }
+    },
+    "themeConfiguration": {
+      "heading": "Theme-Konfiguration",
+      "resetAll": "Alle zurücksetzen",
+      "basicSettings": {
+        "title": "Grundeinstellungen",
+        "description": "Grundlegende Theme-Einstellungen konfigurieren",
+        "mode": "Modus",
+        "contrast": "Kontrast",
+        "rightToLeft": "Rechts nach links",
+        "compact": "Kompakt",
+        "compactTooltip": "Nur Dashboard und verfügbar bei großen Auflösungen > 1600px (xl)",
+        "system": "System"
+      },
+      "colorSettings": {
+        "title": "Farbeinstellungen",
+        "description": "Passen Sie das Farbschema Ihrer Anwendung an",
+        "colorPresets": "Farbvorlagen"
+      },
+      "layoutSettings": {
+        "title": "Layout-Einstellungen",
+        "description": "Navigations- und Layout-Einstellungen konfigurieren",
+        "navigationLayout": {
+          "title": "Navigationslayout",
+          "description": "Wählen Sie, wie das Navigationsmenü angezeigt wird"
+        },
+        "navigationColor": {
+          "title": "Navigationsfarbe",
+          "description": "Wählen Sie das Navigationsfarbschema",
+          "integrate": "Integrieren",
+          "apparent": "Offensichtlich"
+        }
+      },
+      "typographySettings": {
+        "title": "Typografie-Einstellungen",
+        "description": "Schriftarten und Texteinstellungen anpassen",
+        "typography": "Typografie",
+        "family": "Familie",
+        "size": "Größe"
+      }
+    },
+    "emailTemplate": {
+      "heading": "E-Mail-Vorlagen",
+      "list": "Liste",
+      "createNewEmailTemplate": "E-Mail-Vorlage erstellen",
+      "editEmailTemplate": "E-Mail-Vorlage bearbeiten",
+      "addEmailTemplate": "E-Mail-Vorlage hinzufügen",
+      "tableHead": {
+        "templateName": "Vorlagenname",
+        "subject": "Betreff",
+        "language": "Sprache",
+        "status": "Status",
+        "createdAt": "Erstellt am"
+      },
+      "tabs": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "toolbar": {
+        "status": "Status",
+        "searchPlaceholder": "E-Mail-Vorlagen suchen..."
+      },
+      "menuActions": {
+        "print": "Drucken",
+        "import": "Importieren",
+        "export": "Exportieren",
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+      },
+      "confirmDialog": {
+        "deleteTitle": "Löschen",
+        "deleteContent": "Möchten Sie wirklich <strong> {count} </strong> E-Mail-Vorlagen löschen?",
+        "deleteSingleContent": "Möchten Sie diese E-Mail-Vorlage wirklich löschen?"
+      },
+      "toast": {
+        "deleteSuccess": "E-Mail-Vorlage erfolgreich gelöscht!",
+        "deleteMultipleSuccess": "E-Mail-Vorlagen erfolgreich gelöscht!",
+        "createSuccess": "E-Mail-Vorlage erfolgreich erstellt!",
+        "updateSuccess": "E-Mail-Vorlage erfolgreich aktualisiert!",
+        "deleteError": "E-Mail-Vorlage konnte nicht gelöscht werden",
+        "deleteMultipleError": "E-Mail-Vorlagen konnten nicht gelöscht werden",
+        "createError": "E-Mail-Vorlage konnte nicht erstellt werden",
+        "updateError": "E-Mail-Vorlage konnte nicht aktualisiert werden"
+      },
+      "form": {
+        "templateName": "Vorlagenname",
+        "subject": "Betreff",
+        "language": "Sprache",
+        "status": "Status",
+        "selectStatus": "Status auswählen",
+        "content": "Inhalt",
+        "placeholderVariables": "Platzhalter-Variablen",
+        "placeholderExample": "z.B. {{name}}, {{email}}, {{date}}",
+        "placeholderHelperText": "Geben Sie Platzhalter-Variablen ein, die in der E-Mail-Vorlage verwendet werden können",
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "loading": "Laden..."
+      },
+      "languageOptions": {
+        "en": "Englisch",
+        "sv": "Schwedisch",
+        "no": "Norwegisch",
+        "da": "Dänisch",
+        "fi": "Finnisch",
+        "fr": "Französisch",
+        "de": "Deutsch"
+      },
+      "statusOptions": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "validation": {
+        "templateNameRequired": "Vorlagenname ist erforderlich",
+        "subjectRequired": "Betreff ist erforderlich",
+        "contentRequired": "Inhalt ist erforderlich",
+        "languageRequired": "Sprache ist erforderlich",
+        "statusRequired": "Status ist erforderlich"
+      }
+    },
+    "stripeConfiguration": {
+      "heading": "Stripe-Konfiguration",
+      "breadcrumb": "Stripe-Konfiguration",
+      "form": {
+        "clientId": "Stripe Client ID (Veröffentlichungsschlüssel)",
+        "clientIdPlaceholder": "Geben Sie Ihre Stripe Client ID ein",
+        "clientIdHelperText": "Ihr Stripe-Veröffentlichungsschlüssel (z.B. pk_test_...)",
+        "secretKey": "Stripe Secret Key",
+        "secretKeyPlaceholder": "Geben Sie Ihren Stripe Secret Key ein",
+        "secretKeyHelperText": "Ihr Stripe-Geheimschlüssel (z.B. sk_test_...)",
+        "webhookSecret": "Stripe Webhook Secret",
+        "webhookSecretPlaceholder": "Geben Sie Ihr Stripe Webhook Secret ein",
+        "webhookSecretHelperText": "Ihr Stripe Webhook-Geheimnis (z.B. whsec_...)",
+        "saveConfiguration": "Konfiguration speichern",
+        "cancel": "Abbrechen",
+        "testConnection": "Verbindung testen",
+        "securityNote": "Sicherheitshinweis:",
+        "securityNoteText": "Ihre Stripe-Anmeldedaten werden sicher in der Datenbank gespeichert. Stellen Sie sicher, dass Sie Testschlüssel (pk_test_ und sk_test_) für die Entwicklung und Live-Schlüssel (pk_live_ und sk_live_) nur für Produktionsumgebungen verwenden."
+      },
+      "toast": {
+        "saveSuccess": "Stripe-Konfiguration gespeichert!",
+        "saveError": "Konfiguration konnte nicht gespeichert werden",
+        "testSuccess": "Stripe-Verbindungstest erfolgreich!",
+        "testError": "Stripe-Verbindungstest fehlgeschlagen. Bitte überprüfen Sie Ihre Anmeldedaten.",
+        "testConnectionError": "Verbindung konnte nicht getestet werden"
+      },
+      "alert": {
+        "testSuccess": "Stripe-Verbindungstest erfolgreich! Ihre Anmeldedaten sind gültig.",
+        "testError": "Stripe-Verbindungstest fehlgeschlagen. Bitte überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut."
+      },
+      "validation": {
+        "clientIdRequired": "Client ID erforderlich",
+        "secretKeyRequired": "Secret Key erforderlich",
+        "webhookSecretRequired": "Webhook Secret erforderlich"
+      }
+    },
+    "bankDetails": {
+      "heading": "Bankverbindung",
+      "breadcrumb": "Bankverbindung",
+      "form": {
+        "iban": "IBAN",
+        "ibanPlaceholder": "Geben Sie Ihre IBAN ein",
+        "ibanHelperText": "Internationale Bankkontonummer",
+        "bic": "BIC (Bank Identifier Code)",
+        "bicPlaceholder": "Geben Sie Ihre BIC ein",
+        "bicHelperText": "Bank Identifier Code (SWIFT-Code)",
+        "bankAccount": "Bankkontonummer",
+        "bankAccountPlaceholder": "Geben Sie Ihre Bankkontonummer ein",
+        "bankAccountHelperText": "Ihre Bankkontonummer",
+        "saveBankDetails": "Bankverbindung speichern",
+        "cancel": "Abbrechen",
+        "securityNote": "Sicherheitshinweis:",
+        "securityNoteText": "Ihre Bankverbindung wird sicher im lokalen Speicher Ihres Browsers gespeichert. Verwenden Sie Testdaten für die Entwicklung und echte Daten nur für Produktionsumgebungen."
+      },
+      "toast": {
+        "saveSuccess": "Bankverbindung gespeichert!",
+        "saveError": "Bankverbindung konnte nicht gespeichert werden"
+      },
+      "validation": {
+        "ibanRequired": "IBAN erforderlich",
+        "ibanInvalid": "Ungültiges IBAN-Format",
+        "bicRequired": "BIC erforderlich",
+        "bicInvalid": "Ungültiges BIC-Format",
+        "bankAccountRequired": "Bankkonto erforderlich",
+        "bankAccountInvalid": "Bankkonto darf Buchstaben, Zahlen, Leerzeichen und Bindestriche enthalten"
+      }
+    },
+    "basicConfiguration": {
+      "heading": "Grundkonfiguration",
+      "breadcrumb": "Grundkonfiguration",
+      "form": {
+        "companyLogo": "Firmenlogo",
+        "smallCompanyLogo": "Kleines Firmenlogo",
+        "uploadLogo": "Logo hochladen",
+        "changeLogo": "Logo ändern",
+        "remove": "Entfernen",
+        "defaultOpenStateDeadline": "Standard-Deadline für offenen Status (Tage)",
+        "defaultClosedStateDeadline": "Standard-Deadline für geschlossenen Status (Tage)",
+        "vat": "MwSt (%)",
+        "defaultPrice": "Standardpreis",
+        "phoneHoursFrom": "Telefonzeiten von",
+        "phoneHoursTo": "Telefonzeiten bis",
+        "invoiceNote": "Rechnungsnotiz",
+        "invoiceNoteHelperText": "Optionale Notiz, die auf Rechnungen enthalten sein soll",
+        "deleteClosedCases": "Geschlossene Fälle löschen",
+        "deleteClosedCasesHelperText": "Automatisches Löschen geschlossener Fälle nach einem bestimmten Zeitraum aktivieren",
+        "saveConfiguration": "Konfiguration speichern",
+        "cancel": "Abbrechen",
+        "note": "Hinweis:",
+        "noteText": "Konfigurationsänderungen wirken sich auf alle neuen Fälle und das Systemverhalten aus. Überprüfen Sie alle Einstellungen vor dem Speichern."
+      },
+      "toast": {
+        "saveSuccess": "Grundkonfiguration gespeichert!",
+        "saveError": "Konfiguration konnte nicht gespeichert werden"
+      },
+      "validation": {
+        "fileSizeError": "Dateigröße muss weniger als 5MB betragen",
+        "fileTypeError": "Datei muss ein Bild sein",
+        "deadlineMin": "Muss mindestens 1 Tag betragen",
+        "deadlineMax": "Darf 365 Tage nicht überschreiten",
+        "vatMin": "MwSt muss mindestens 0% betragen",
+        "vatMax": "MwSt darf 100% nicht überschreiten",
+        "priceMin": "Preis muss mindestens 0 betragen",
+        "timeFormatError": "Ungültiges Zeitformat (HH:MM)",
+        "invoiceNoteMax": "Rechnungsnotiz darf 500 Zeichen nicht überschreiten"
+      }
+    },
+    "user": {
+      "heading": "Benutzer",
+      "editUser": "Benutzer bearbeiten",
+      "edit": "Bearbeiten",
+      "userNotFound": "Benutzer nicht gefunden",
+      "loading": "Laden...",
+      "form": {
+        "fullName": "Vollständiger Name",
+        "emailAddress": "E-Mail-Adresse",
+        "phoneNumber": "Telefonnummer",
+        "country": "Land",
+        "chooseCountry": "Land auswählen",
+        "stateRegion": "Bundesland/Region",
+        "city": "Stadt",
+        "address": "Adresse",
+        "physicalAddress": "Physische Adresse",
+        "phoneHoursFrom": "Telefonzeiten von",
+        "phoneHoursTo": "Telefonzeiten bis",
+        "zipCode": "Postleitzahl",
+        "company": "Unternehmen",
+        "companyNumber": "Handelsregisternummer",
+        "role": "Rolle",
+        "avatarAllowed": "Erlaubt *.jpeg, *.jpg, *.png, *.gif",
+        "avatarMaxSize": "maximale Größe von",
+        "companyLogo": "Firmenlogo",
+        "createUser": "Benutzer erstellen",
+        "saveChanges": "Änderungen speichern"
+      },
+      "validation": {
+        "nameRequired": "Name ist erforderlich!",
+        "emailRequired": "E-Mail ist erforderlich!",
+        "countryRequired": "Land ist erforderlich!",
+        "addressRequired": "Adresse ist erforderlich!",
+        "stateRequired": "Bundesland ist erforderlich!",
+        "cityRequired": "Stadt ist erforderlich!",
+        "zipCodeRequired": "Postleitzahl ist erforderlich!",
+        "companyRequired": "Unternehmen ist erforderlich!",
+        "roleRequired": "Rolle ist erforderlich!"
+      },
+      "toast": {
+        "updateSuccess": "Benutzer aktualisiert",
+        "createSuccess": "Erstellung erfolgreich!",
+        "saveError": "Speichern fehlgeschlagen"
+      }
+    }
+  }
+}
+

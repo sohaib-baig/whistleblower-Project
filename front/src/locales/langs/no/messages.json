@@ -1,0 +1,129 @@
+{
+  "languageSwitch": {
+    "success": "Språket er endret!",
+    "error": "Feil ved endring av språk!",
+    "loading": "Laster..."
+  },
+  "signIn": {
+    "title": "Logg inn på din konto",
+    "description": "Har du ikke en konto?",
+    "getStarted": "Kom i gang",
+    "emailAddress": "E-postadresse",
+    "emailPlaceholder": "Skriv inn din e-postadresse",
+    "password": "Passord",
+    "passwordPlaceholder": "8+ tegn",
+    "forgotPassword": "Glemt passord?",
+    "signInButton": "Logg inn",
+    "signingIn": "Logger inn...",
+    "emailVerified": "Kontoen din har blitt bekreftet. Du kan nå logge inn.",
+    "emailVerificationFailed": "E-postbekreftelse mislyktes. Lenken kan ha utløpt eller er ugyldig.",
+    "validation": {
+      "passwordRequired": "Passord kreves!",
+      "passwordMinLength": "Passordet må være minst 8 tegn!"
+    }
+  },
+  "signUp": {
+    "title": "Opprett din konto",
+    "description": "Bli medlem av vår varslingsplattform og begynn å bygge en tryggere arbeidsplass.",
+    "steps": {
+      "personalDetails": "Personlige detaljer",
+      "companyDetails": "Bedriftsdetaljer",
+      "paymentSummary": "Betalingsammendrag"
+    },
+    "stepOne": {
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "email": "E-post",
+      "phone": "Telefon",
+      "agreeToTerms": "Jeg godtar",
+      "privacyPolicy": "Personvernregler",
+      "and": "og",
+      "termsOfService": "Vilkår for tjenesten"
+    },
+    "stepTwo": {
+      "companyName": "Bedriftsnavn",
+      "companyNumber": "Organisasjonsnummer",
+      "companyNumberTooltip": "Dette er bedriftens registrerings- eller identifikasjonsnummer.",
+      "address": "Adresse",
+      "city": "By",
+      "country": "Land",
+      "vatNumber": "MVA-nummer",
+      "website": "Nettsted",
+      "websiteTooltip": "Angi bedriftens offisielle nettsted (f.eks. http://www.example.com)."
+    },
+    "stepThree": {
+      "subscribeTitle": "Abonner på varslingshåndterings tjenester",
+      "subscribeDescription": "Varsling tilbyr en sikker plattform for ansatte til å rapportere forhold, og fremmer en trygg og åpen arbeidsplass.",
+      "whyChooseUs": "Hvorfor velge oss?",
+      "confidentialReporting": "Konfidensiell rapportering",
+      "confidentialReportingDesc": "Sikre anonymitet og sikkerhet for varslere.",
+      "userFriendlyInterface": "Brukervennlig grensesnitt",
+      "userFriendlyInterfaceDesc": "Naviger enkelt for sømløs rapportering.",
+      "securePlatform": "Sikker plattform",
+      "securePlatformDesc": "Beskytt sensitive data med avansert kryptering.",
+      "comprehensiveReporting": "Omfattende rapportering",
+      "comprehensiveReportingDesc": "Rapporter forhold, inkludert svindel og trakassering.",
+      "keyFeatures": "Viktige funksjoner:",
+      "userAuthentication": "Brukerautentisering: Sikker innlogging for autorisert tilgang.",
+      "orderSummary": "Ordresammendrag",
+      "subscription": "Wisling - Ett års abonnement",
+      "vat": "MVA",
+      "total": "Totalt",
+      "payWithCard": "Betal med kort",
+      "bankTransfer": "Bankoverføring",
+      "uploadPaymentScreenshot": "Last opp betalingsskjermbilde",
+      "uploadPaymentDescription": "Vennligst last opp et skjermbilde eller kvittering av bankoverføringen din. Godkjente formater: JPG, PNG, PDF (Maks 5MB)",
+      "chooseFile": "Velg fil",
+      "fileSelected": "Fil valgt:",
+      "cancel": "Avbryt",
+      "submitPayment": "Send betaling",
+      "paymentConfirmation": "Betalingsbekreftelse",
+      "bankTransferDetails": "Bankoverførings detaljer",
+      "cardPaymentMessage": "Faktura sendt til din e-post.",
+      "bankTransferMessage": "Bankdetaljer sendes i vedlegg med e-post. Vennligst betal på det for å aktivere kontoen din på Wisling.",
+      "thankYou": "Takk for at du valgte oss!",
+      "backToHome": "Tilbake til hjem",
+      "uploadScreenshotRequired": "Vennligst last opp betalingsskjermbilde"
+    },
+    "buttons": {
+      "back": "Tilbake",
+      "next": "Neste",
+      "close": "Lukk"
+    },
+    "validation": {
+      "firstNameRequired": "Fornavn kreves!",
+      "lastNameRequired": "Etternavn kreves!",
+      "phoneRequired": "Telefonnummer kreves!",
+      "agreeToTermsRequired": "Du må godta vilkårene!",
+      "companyNameRequired": "Bedriftsnavn kreves!",
+      "companyNumberRequired": "Organisasjonsnummer kreves!",
+      "addressRequired": "Adresse kreves!",
+      "cityRequired": "By kreves!",
+      "countryRequired": "Land kreves!",
+      "vatNumberRequired": "MVA-nummer kreves!",
+      "vatNumberFormatInvalid": "Ugyldig format for MVA-nummer. Kontroller formatet og prøv igjen.",
+      "websiteInvalid": "Vennligst angi en gyldig nettsted-URL (f.eks. https://example.com)!",
+      "paymentMethodRequired": "Vennligst velg en betalingsmetode!"
+    },
+    "errors": {
+      "emailExists": "E-post finnes allerede.",
+      "phoneExists": "Telefon finnes allerede.",
+      "unableToValidateEmail": "Kan ikke validere e-post akkurat nå.",
+      "unableToValidatePhone": "Kan ikke validere telefon akkurat nå.",
+      "signupFailed": "Registrering mislyktes. Prøv igjen.",
+      "paymentFailed": "Kunne ikke behandle betaling. Prøv igjen."
+    }
+  },
+  "forgotPassword": {
+    "title": "Glemt passord",
+    "pageTitle": "Glemt passordet?",
+    "description": "Vennligst skriv inn e-postadressen som er knyttet til kontoen din, så sender vi deg en lenke på e-post for å tilbakestille passordet ditt.",
+    "emailAddress": "E-postadresse",
+    "emailPlaceholder": "eksempel@gmail.com",
+    "sendResetLink": "Send tilbakestillingslenke",
+    "sendRequest": "Send forespørsel",
+    "returnToSignIn": "Tilbake til innlogging",
+    "successMessage": "Hvis e-postadressen finnes, ble en lenke sendt.",
+    "errorMessage": "Kunne ikke sende tilbakestillingslenke"
+  }
+}

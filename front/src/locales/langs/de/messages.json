@@ -1,0 +1,129 @@
+{
+  "languageSwitch": {
+    "success": "Sprache wurde geändert!",
+    "error": "Fehler beim Ändern der Sprache!",
+    "loading": "Lädt..."
+  },
+  "signIn": {
+    "title": "Bei Ihrem Konto anmelden",
+    "description": "Haben Sie noch kein Konto?",
+    "getStarted": "Loslegen",
+    "emailAddress": "E-Mail-Adresse",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "password": "Passwort",
+    "passwordPlaceholder": "8+ Zeichen",
+    "forgotPassword": "Passwort vergessen?",
+    "signInButton": "Anmelden",
+    "signingIn": "Wird angemeldet...",
+    "emailVerified": "Ihr Konto wurde erfolgreich verifiziert. Sie können sich jetzt anmelden.",
+    "emailVerificationFailed": "E-Mail-Verifizierung fehlgeschlagen. Der Link ist möglicherweise abgelaufen oder ungültig.",
+    "validation": {
+      "passwordRequired": "Passwort ist erforderlich!",
+      "passwordMinLength": "Das Passwort muss mindestens 8 Zeichen lang sein!"
+    }
+  },
+  "signUp": {
+    "title": "Erstellen Sie Ihr Konto",
+    "description": "Werden Sie Teil unserer Whistleblowing-Management-Plattform und beginnen Sie, einen sichereren Arbeitsplatz aufzubauen.",
+    "steps": {
+      "personalDetails": "Persönliche Daten",
+      "companyDetails": "Firmendaten",
+      "paymentSummary": "Zahlungsübersicht"
+    },
+    "stepOne": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "agreeToTerms": "Ich stimme zu",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "and": "und",
+      "termsOfService": "Nutzungsbedingungen"
+    },
+    "stepTwo": {
+      "companyName": "Firmenname",
+      "companyNumber": "Handelsregisternummer",
+      "companyNumberTooltip": "Dies ist die Registrierungs- oder Identifikationsnummer Ihres Unternehmens.",
+      "address": "Adresse",
+      "city": "Stadt",
+      "country": "Land",
+      "vatNumber": "Umsatzsteuer-Identifikationsnummer",
+      "website": "Webseite",
+      "websiteTooltip": "Geben Sie die offizielle Webseite Ihres Unternehmens ein (z.B. http://www.example.com)."
+    },
+    "stepThree": {
+      "subscribeTitle": "Abonnieren Sie Whistleblowing-Management-Dienste",
+      "subscribeDescription": "Whistleblowing bietet eine sichere Plattform für Mitarbeiter, um Fehlverhalten zu melden und fördert einen sicheren und transparenten Arbeitsplatz.",
+      "whyChooseUs": "Warum uns wählen?",
+      "confidentialReporting": "Vertrauliche Meldung",
+      "confidentialReportingDesc": "Gewährleisten Sie Anonymität und Sicherheit für Whistleblower.",
+      "userFriendlyInterface": "Benutzerfreundliche Oberfläche",
+      "userFriendlyInterfaceDesc": "Navigieren Sie mühelos für nahtlose Meldungen.",
+      "securePlatform": "Sichere Plattform",
+      "securePlatformDesc": "Schützen Sie sensible Daten mit fortschrittlicher Verschlüsselung.",
+      "comprehensiveReporting": "Umfassende Meldung",
+      "comprehensiveReportingDesc": "Melden Sie Fehlverhalten, einschließlich Betrug und Belästigung.",
+      "keyFeatures": "Wichtige Funktionen:",
+      "userAuthentication": "Benutzerauthentifizierung: Sicherer Login für autorisierten Zugriff.",
+      "orderSummary": "Bestellübersicht",
+      "subscription": "Wisling - Einjahres-Abonnement",
+      "vat": "MwSt",
+      "total": "Gesamt",
+      "payWithCard": "Mit Karte bezahlen",
+      "bankTransfer": "Überweisung",
+      "uploadPaymentScreenshot": "Zahlungsscreenshot hochladen",
+      "uploadPaymentDescription": "Bitte laden Sie einen Screenshot oder Beleg Ihrer Überweisung hoch. Akzeptierte Formate: JPG, PNG, PDF (Max. 5MB)",
+      "chooseFile": "Datei auswählen",
+      "fileSelected": "Datei ausgewählt:",
+      "cancel": "Abbrechen",
+      "submitPayment": "Zahlung absenden",
+      "paymentConfirmation": "Zahlungsbestätigung",
+      "bankTransferDetails": "Überweisungsdetails",
+      "cardPaymentMessage": "Rechnung wurde an Ihre E-Mail-Adresse gesendet.",
+      "bankTransferMessage": "Bankdaten werden als Anhang per E-Mail gesendet. Bitte zahlen Sie darauf, um Ihr Konto auf Wisling zu aktivieren.",
+      "thankYou": "Vielen Dank, dass Sie uns gewählt haben!",
+      "backToHome": "Zurück zur Startseite",
+      "uploadScreenshotRequired": "Bitte laden Sie einen Zahlungsscreenshot hoch"
+    },
+    "buttons": {
+      "back": "Zurück",
+      "next": "Weiter",
+      "close": "Schließen"
+    },
+    "validation": {
+      "firstNameRequired": "Vorname ist erforderlich!",
+      "lastNameRequired": "Nachname ist erforderlich!",
+      "phoneRequired": "Telefonnummer ist erforderlich!",
+      "agreeToTermsRequired": "Sie müssen den Bedingungen zustimmen!",
+      "companyNameRequired": "Firmenname ist erforderlich!",
+      "companyNumberRequired": "Handelsregisternummer ist erforderlich!",
+      "addressRequired": "Adresse ist erforderlich!",
+      "cityRequired": "Stadt ist erforderlich!",
+      "countryRequired": "Land ist erforderlich!",
+      "vatNumberRequired": "Umsatzsteuer-Identifikationsnummer ist erforderlich!",
+      "vatNumberFormatInvalid": "Ungültiges Format für Umsatzsteuer-Identifikationsnummer. Bitte überprüfen Sie das Format und versuchen Sie es erneut.",
+      "websiteInvalid": "Bitte geben Sie eine gültige Webseiten-URL ein (z.B. https://example.com)!",
+      "paymentMethodRequired": "Bitte wählen Sie eine Zahlungsmethode!"
+    },
+    "errors": {
+      "emailExists": "E-Mail existiert bereits.",
+      "phoneExists": "Telefon existiert bereits.",
+      "unableToValidateEmail": "E-Mail kann derzeit nicht überprüft werden.",
+      "unableToValidatePhone": "Telefon kann derzeit nicht überprüft werden.",
+      "signupFailed": "Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "paymentFailed": "Zahlung konnte nicht verarbeitet werden. Bitte versuchen Sie es erneut."
+    }
+  },
+  "forgotPassword": {
+    "title": "Passwort vergessen",
+    "pageTitle": "Passwort vergessen?",
+    "description": "Bitte geben Sie die E-Mail-Adresse ein, die mit Ihrem Konto verknüpft ist, und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts per E-Mail.",
+    "emailAddress": "E-Mail-Adresse",
+    "emailPlaceholder": "beispiel@gmail.com",
+    "sendResetLink": "Zurücksetzen-Link senden",
+    "sendRequest": "Anfrage senden",
+    "returnToSignIn": "Zurück zur Anmeldung",
+    "successMessage": "Falls die E-Mail-Adresse existiert, wurde ein Link gesendet.",
+    "errorMessage": "Zurücksetzen-Link konnte nicht gesendet werden"
+  }
+}
