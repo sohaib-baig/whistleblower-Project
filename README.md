@@ -9,7 +9,7 @@ Availability Zone: eu north 1a
 
 ## 🏗️ Infrastructure Overview
 
-![Infrastructure Diagram](./infra.jpg)
+![Infrastructure Diagram](./infra.png)
 
 ## Architecture Summary
 
