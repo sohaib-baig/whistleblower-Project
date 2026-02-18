@@ -7,6 +7,10 @@ This document describes the production infrastructure used for the Wisling platf
 Region: eu north 1  
 Availability Zone: eu north 1a
 
+## 🏗️ Infrastructure Overview
+
+![Infrastructure Diagram](./infra.jpg)
+
 ## Architecture Summary
 
 The production system consists of the following core components:
